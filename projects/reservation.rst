@@ -11,7 +11,7 @@ Email: nattibohn@gmail.com
 
 Problem
 
-The major problem in this project is learn how to program and access the cloud from python.
+The major problem in this project is to learn how to program and access the cloud from python.
 
 ----------------------------------------------------------------------
 
