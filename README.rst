@@ -83,6 +83,19 @@ Goals:
 References
 ======================================================================
 
+.. list-table:: Frozen Delights!
+   :widths: 15 10 30
+   :header-rows: 1
+
+   * - Django
+     - https://www.djangoproject.com
+   * - Git
+     - http://git-scm.com/docs/gittutorial
+   * - Python Idioms
+     - http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+   * - Hitchhiker's Guide to Python
+     - http://docs.python-guide.org/en/latest/
+
 Please add to this once you have access to git 
 
 :Django:
@@ -106,3 +119,10 @@ We use
 * virtualenv
 * pep8
 * Celery
+
+We are working with you together on a simple python tutorial that is
+maintained here:
+
+* https://github.com/cloudmesh/introduction_to_python
+
+It would be good if you can contribute to the tutorial.
