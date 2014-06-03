@@ -80,6 +80,13 @@ Goals:
 * get an account on portal.futuregrid.org
 * learn RST in an hour or less
 
+References
+======================================================================
 
+Please add to this once you have access to git 
 
+:Django:
+   https://www.djangoproject.com
 
+:Git: 
+   http://git-scm.com/docs/gittutorial
