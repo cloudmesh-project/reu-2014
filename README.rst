@@ -86,9 +86,10 @@ References
 Please add to this once you have access to git 
 
 :Django:
-
    https://www.djangoproject.com
 
 :Git: 
-
    http://git-scm.com/docs/gittutorial
+
+:Python:
+   http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
