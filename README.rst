@@ -28,9 +28,9 @@ The following participants work on the REU this Summer
 +------------+------------------------------------------------------+
 | **Name**   | **Project**                                          |
 +------------+------------------------------------------------------+
-| Ifeanyi    | Cloud User and Project Management with Cloudmesh     |
+| Ifeanyi    | `Cloud User and Project Management with Cloudmesh    |
 +------------+------------------------------------------------------+
-| Natiele    | Cloud Reservation Interface for Cloudmesh            |
+| Natiele    | `Cloud Reservation Interface for Cloudmesh  <projects/reservation.rst>`_ |
 +------------+------------------------------------------------------+
 | Jeff       |                                                      |
 +------------+------------------------------------------------------+
@@ -41,7 +41,7 @@ The following participants work on the REU this Summer
 | Nigel      |                                                      |
 +------------+------------------------------------------------------+
 
-`Test <projects/reservation.rst>`_
+Test
 
 Agile Project Management
 ======================================================================
