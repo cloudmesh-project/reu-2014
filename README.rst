@@ -97,6 +97,9 @@ Please add to this once you have access to git
 :Hitchhiker's Guide to Python:
    http://docs.python-guide.org/en/latest/
 
+:Software Carpentry:
+   http://ivory.idyll.org/articles/advanced-swc/
+
 Python
 ======================================================================
 
