@@ -4,6 +4,7 @@ Django for CLoudmesh
 Team
 ----------------------------------------------------------------------
 Name: Jeff Ridgeway
+
 Email: jdridgeway4@gmail.com
 
 Problem
