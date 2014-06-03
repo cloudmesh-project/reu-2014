@@ -38,9 +38,10 @@ The following participants work on the REU this Summer
 :iPython:
    ???
 
+:Big Data:
+   Tatyana 'Apache Big Data Stack <projects/bigdata.rst>'   
 
 * Tori
-* Tatyana 
 * Nigel   
 
 
