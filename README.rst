@@ -41,6 +41,7 @@ The following participants work on the REU this Summer
 | Nigel      |                                                      |
 +------------+------------------------------------------------------+
 
+`<projects/reservation.rst>'
 
 Agile Project Management
 ======================================================================
