@@ -26,11 +26,11 @@ Participants
 The following participants work on the REU this Summer
 
 
-:Management:
-   Ifeanyi `Cloud User and Project Management with Cloudmesh <projects/accounts.rst>`_
-
 :Reservation:
-   Natiele `Cloud Reservation Interface for Cloudmesh <projects/reservation.rst>`_
+   Natiele, `Cloud Reservation Interface for Cloudmesh <projects/reservation.rst>`_
+
+:Management:
+   Ifeanyi, `Cloud User and Project Management with Cloudmesh <projects/accounts.rst>`_
 
 :django:
    ??? `Django Framework for  Cloudmesh <projects/django.rst>`_
