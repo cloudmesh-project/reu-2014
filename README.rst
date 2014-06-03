@@ -33,13 +33,12 @@ The following participants work on the REU this Summer
    Ifeanyi, `Cloud User and Project Management with Cloudmesh <projects/accounts.rst>`_
 
 :django:
-   ??? `Django Framework for  Cloudmesh <projects/django.rst>`_
+   Jeff `Django Framework for  Cloudmesh <projects/django.rst>`_
 
 :iPython:
    ???
 
 
-* Jeff
 * Tori
 * Tatyana 
 * Nigel   
