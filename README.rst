@@ -77,6 +77,7 @@ Goals:
 * **draft** an initial project description
 * **draft** an initial presentation to be given Friday in a group meeting
 * add pages to this RST
+* get an account on portal.futuregrid.org
 
 
 
