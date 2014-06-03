@@ -83,19 +83,6 @@ Goals:
 References
 ======================================================================
 
-.. list-table:: Frozen Delights!
-   :widths: 15 10 30
-   :header-rows: 1
-
-   * - Django
-     - https://www.djangoproject.com
-   * - Git
-     - http://git-scm.com/docs/gittutorial
-   * - Python Idioms
-     - http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-   * - Hitchhiker's Guide to Python
-     - http://docs.python-guide.org/en/latest/
-
 Please add to this once you have access to git 
 
 :Django:
