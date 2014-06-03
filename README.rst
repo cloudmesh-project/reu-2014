@@ -13,6 +13,7 @@ Each student team will maintain a page in which the team reports:
 Additionally you may want to think and answer the following:
 
 * How did the work this week help achieve the overal goal?
+
   * How did it contribute to the ppt?
   * How did it contribute to the poster?
   * How did it contribute to the 2-4 page paper?
