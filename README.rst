@@ -106,6 +106,11 @@ Please add to this once you have access to git
 :Software Carpentry:
    http://ivory.idyll.org/articles/advanced-swc/
 
+:Oracle VirtaulBox:
+   https://www.virtualbox.org/wiki/Downloads
+   ftp://ftp.ussg.indiana.edu/linux/
+   http://virtualboxes.org/
+
 Python
 ======================================================================
 
