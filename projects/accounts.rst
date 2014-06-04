@@ -2,8 +2,6 @@ Project and Account Management Framework
 ======================================================================
 
 Team
-Name:    Ifeanyi Rowland Onyenweaku
-Email:   rowlandifeanyi17@gmail.com
 ----------------------------------------------------------------------
 
 
