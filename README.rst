@@ -106,12 +106,12 @@ Please add to this once you have access to git
 :Software Carpentry:
    http://ivory.idyll.org/articles/advanced-swc/
 
-:Oracle VirtaulBox:
-   https://www.virtualbox.org/wiki/Downloads
+:Oracle VirtualBox:
+   https://www.virtualbox.org/wiki/Downloads (download VirtualBox software)
    
-   ftp://ftp.ussg.indiana.edu/linux/
+   ftp://ftp.ussg.indiana.edu/linux/ (IU-hosted Linux Distrubution Mirror site)
    
-   http://virtualboxes.org/
+   http://virtualboxes.org/ (collection of preconfigured VirtualBox images)
 
 Python
 ======================================================================
