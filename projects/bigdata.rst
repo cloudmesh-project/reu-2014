@@ -26,3 +26,8 @@ This site provides an overview of the basic information regarding the Apache Sof
 http://hpc-abds.org/kaleidoscope/
 
 Kaleidoscope of Apache Big Data Stack
+
+http://docs.opscode.com/
+
+cloud infrastructure automation framework
+
