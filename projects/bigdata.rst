@@ -35,4 +35,6 @@ http://www.getchef.com/chef/
 
 cloud infrastructure automation framework
 
+http://hadoop.apache.org/#What+Is+Apache+Hadoop%3F
 
+Apache Hadoop
