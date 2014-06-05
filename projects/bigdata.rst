@@ -29,5 +29,8 @@ Kaleidoscope of Apache Big Data Stack
 
 http://docs.opscode.com/
 
+http://www.getchef.com/chef/
+
 cloud infrastructure automation framework
+
 
