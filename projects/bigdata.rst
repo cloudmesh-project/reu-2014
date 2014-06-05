@@ -9,7 +9,7 @@ Problem
 ----------------------------------------------------------------------
 
 How can a substantial amount of open source software packages successfully be installed and tested on FutureGrid machines
-and later made attainable utilizing the beneficial platform product named Chef?
+and later made attainable utilizing the beneficial platform named Chef?
 
 Design
 ----------------------------------------------------------------------
