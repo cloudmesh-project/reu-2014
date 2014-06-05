@@ -17,6 +17,8 @@ The major problem in this project is to learn how to program and access the clou
 
 Design
 
+Hello world!
+
 Algorithms in Python
 ----------------------------------------------------------------------
 
