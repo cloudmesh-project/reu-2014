@@ -1,4 +1,4 @@
-Developing Sample Test programs for MPI Java in FutureGRID and BIG GRID2
+Developing Sample Test programs for MPI Java in FutureGRID and BIG RED2
 ======================================================================
 
 Team
