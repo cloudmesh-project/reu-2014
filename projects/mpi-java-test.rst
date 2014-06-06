@@ -3,20 +3,11 @@ Developing Sample Test programs for MPI Java in FutureGRID and BIG GRID2
 
 Team
 ----------------------------------------------------------------------
-Nigel Pugh
-______________________________________________________________________
-(email)
-
 Tori Wilbon
 toriwilbon@gmail
 
 Problem
 ----------------------------------------------------------------------
-
-a) Testing Performance
-
-
-b) 
 
 
 
