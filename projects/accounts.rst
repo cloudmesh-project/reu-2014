@@ -40,11 +40,13 @@ Week 1:
 	 (mongoDB). 
 		-Created a database to develop a data structure for 
 		 users based on what is on the Futuregrid portal.
+		 
 		-Started writing python codes that will help achieve.
 		 this task:
 			-Management.py:
 			-test.py
 			-form.py: Dictionary for sections in portal
+			
 	-Learnt and still learning how to use mongoengine to manage
 	 my database
 
