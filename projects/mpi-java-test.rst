@@ -9,12 +9,14 @@ toriwilbon@gmail.com
 
 Problem
 ----------------------------------------------------------------------
-
+In our project we want to run the performance of MPI Java.  Then put the
+results of the performance of MPI Java into an Excel sheet.  Lastly we 
+will create a graph to display our results.
 
 
 Design
 ----------------------------------------------------------------------
-
+Project done in Linux Command-Line and Java
 
 Implementation
 ----------------------------------------------------------------------
