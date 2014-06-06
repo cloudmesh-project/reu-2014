@@ -7,20 +7,19 @@ Nigel Pugh
 ______________________________________________________________________
 (email)
 
-Tori Wilbon
-toriwilbon@gmail
+nigel.pugh32@gmail.com
 
 Problem
+
 ----------------------------------------------------------------------
 
-a) Testing Performance
-
-
-b) Developing Sample test programs
+a) Testing Performance of MPI Program
 
 
 
-Design
+
+
+Design 
 ----------------------------------------------------------------------
 
 
