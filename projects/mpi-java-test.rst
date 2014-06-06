@@ -31,3 +31,11 @@ This week I learned:
   * Java
   * The purpose and importance of our projects
 
+My plans for next week are:
+ * To begin installing and running MPI program and other programs
+ 
+What have I not achieved this week:
+ * All goals and plans were met this week
+ 
+How did I contribute to my project this week:
+ * Got understanding over the material I need for the project
