@@ -46,7 +46,7 @@ Week 1:
 			-test.py
 			-form.py: Dictionary for sections in portal
 	-Learnt and still learning how to use mongoengine to manage
-	 my database.
+	 my database
 
    Next week Plans:
 	-Create a random user generator function.
