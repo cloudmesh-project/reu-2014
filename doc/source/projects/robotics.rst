@@ -24,19 +24,14 @@ Implementation
 
 Links
 ----------------------------------------------------------------------
-http://openkinect.org/wiki/Main_Page
 
-http://code.google.com/p/simple-openni/
-
-https://github.com/iotcloud/reu
-
-https://github.com/supunkamburugamuva/iotcloud2
-
-https://github.com/supunkamburugamuva/sensorstream
-
-http://www.processing.org/
-
-http://www.ros.org/
+* http://openkinect.org/wiki/Main_Page
+* http://code.google.com/p/simple-openni/
+* https://github.com/iotcloud/reu
+* https://github.com/supunkamburugamuva/iotcloud2
+* https://github.com/supunkamburugamuva/sensorstream
+* http://www.processing.org/
+* http://www.ros.org/
 
 
 Week 1
@@ -60,7 +55,7 @@ After explaining my difficulties with SimpleOpenNI2 to Supun he suggested that I
 What Has Not Been Achieved This Week?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* This week I was unable to install and build the SimpleOpenNI2 library and thus was unable to accomplish my task of recording the depth   image information from the sensor.
+* This week I was unable to install and build the SimpleOpenNI2 library and thus was unable to accomplish my task of recording the depth image information from the sensor.
 
 * I could not successfully connect the Kinect to Rviz.
 

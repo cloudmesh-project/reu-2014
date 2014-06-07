@@ -33,11 +33,12 @@ Links
 
 Week 1:
 ----------------------------------------------------------------------
- What I did this week:
+
+What I did this week:
  
- 1. Learned java programminf lanugae
- 2. Learned about Linux and command line terminal
- 3. Obtained an understanding of what my project is about.
+1. Learned java programminf lanugae
+2. Learned about Linux and command line terminal
+3. Obtained an understanding of what my project is about.
 
 What has not been acheived this week?
 
