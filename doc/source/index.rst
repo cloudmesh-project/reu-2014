@@ -7,13 +7,13 @@ FutureGrid REU
    :maxdepth: 2
    :numbered:
 
-   ../../README
+   README
 
 .. toctree::
    :glob: 
    :numbered:
 
-   ../../projects/*
+   projects/*
 
 
 

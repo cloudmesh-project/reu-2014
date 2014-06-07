@@ -70,8 +70,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Cloudmesh'
-copyright = u'2014, 2013, Gregor von Laszewski for  FutureGrid'
+project = u'Futuregrid REU'
+copyright = u'2014, FutureGrid'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -134,7 +134,7 @@ html_theme = 'bootstrap'
 # html_theme_options = {}
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Cloudmesh",
+    'navbar_title': "REU",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
@@ -242,7 +242,7 @@ html_show_sphinx = False
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Cloudmeshdoc'
+htmlhelp_basename = 'REUdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------
