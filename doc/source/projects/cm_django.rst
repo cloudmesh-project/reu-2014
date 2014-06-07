@@ -11,7 +11,7 @@ Problem
 ----------------------------------------------------------------------
 Cloudmesh uses flask. Want to make a django server that will have
 specific functions that will make cloudmesh easier to use for the 
-user 
+user.
 
 
 Design
