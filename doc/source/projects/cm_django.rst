@@ -3,9 +3,9 @@ Cloudmesh Django
 
 Team
 ----------------------------------------------------------------------
-Name: Jeff Ridgeway
 
-Email: jdridgeway4@gmail.com
+* Jeff Ridgeway, jdridgeway4@gmail.com
+* Gregor von Laszewski, laszewski@gimail.com
 
 Problem
 ----------------------------------------------------------------------

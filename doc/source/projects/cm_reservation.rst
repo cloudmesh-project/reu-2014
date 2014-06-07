@@ -4,12 +4,9 @@ Cloudmesh Resource Reservation
 Team
 ----------------------------------------------------------------------
 
-:Name: 
-   Natiele Bohn
-
-:Email: 
-   nattibohn@gmail.com
-
+* Natiele Bohn, nattibohn@gmail.com
+* Gregor von Laszewski, laszewski@gmail.com
+* Oliver Lewis
 
 
 Problem
