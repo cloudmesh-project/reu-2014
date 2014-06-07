@@ -7,7 +7,13 @@ Team
 * Ifeanyi Rowland Onyenweaku,    rowlandifeanyi17@gmail.com
 * Gregor von Laszewski, laszewski@gmail.com
 
+Links
+----------------------------------------------------------------------
 
+* Issues: https://github.com/cloudmesh/management/issues
+* Code: https://github.com/cloudmesh/management
+* Contributors:
+  https://github.com/cloudmesh/management/graphs/contributors
 
 Problem
 ----------------------------------------------------------------------
@@ -25,10 +31,6 @@ Create a database that will be used to manage the futuregrid portal.
 Implementation
 ----------------------------------------------------------------------
 
-
-
-Links
-----------------------------------------------------------------------
 
 
 Week 1:
