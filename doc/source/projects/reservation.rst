@@ -50,7 +50,7 @@ Links
 
 Some documentation that I read can be found at:
 
- - http://www.pythonforbeginners.com/
- - http://docs.mongoengine.org/
- - http://docopt.org/
+* http://www.pythonforbeginners.com/
+* http://docs.mongoengine.org/
+* http://docopt.org/
 

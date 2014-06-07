@@ -5,13 +5,15 @@ FutureGrid REU
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
    README
 
+######################################################################
+Projects
+######################################################################
+
 .. toctree::
    :glob: 
-   :numbered:
    :maxdepth: 1
 
    projects/*
