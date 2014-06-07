@@ -1,7 +1,9 @@
 PlotViz: A Visualization Tool
+
 Team
 
 Khaliq J. Satchell 
+
 ksatchel@indiana.edu
 
 Problem
