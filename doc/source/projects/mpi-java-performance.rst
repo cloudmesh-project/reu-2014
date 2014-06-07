@@ -22,7 +22,7 @@ a) Testing Performance of MPI Program
 Design 
 ----------------------------------------------------------------------
 
-The purpose of my project is to measure the preformance of MPI Java and record the results that are douns. We want to make sure that the programs are running in optimal fashion and giving the best results possible
+The purpose of my project is to measure the preformance of MPI Java and record the results. We want to make sure that the programs are running in optimal fashion and giving the best results possible
 
 Implementation
 ----------------------------------------------------------------------
