@@ -1,4 +1,4 @@
-BioInformatics: Genomic Sequence Analysis
+PlotViz: A Visualization Tool
 Team
 
 Khaliq J. Satchell 
