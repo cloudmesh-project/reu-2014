@@ -26,11 +26,13 @@ Week 1:
 
 Progress:
 
-During this week I was tasked with installing the PlotViz software onto my laptop and building the libraries used for it in my system.
+During this week I was tasked with installing the PlotViz software and building the libraries used for it into my system. I also
+made a futuregrid account and joined the project that I am currently in.
 
 Problems:
 
-
+I wasn't able to fully build the libraries this week because I didn't have salsadev svn access.
 
 Plans:
 
+Next week I plan on finishing up the building process for PlotViz and begin learning how to work the software.
