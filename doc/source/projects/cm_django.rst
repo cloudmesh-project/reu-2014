@@ -1,4 +1,4 @@
-Django for Cloudmesh
+Cloudmesh Django
 ======================================================================
 
 Team
