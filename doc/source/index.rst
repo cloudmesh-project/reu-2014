@@ -12,6 +12,7 @@ FutureGrid REU
 .. toctree::
    :glob: 
    :numbered:
+   :maxdepth: 1
 
    projects/*
 

@@ -40,12 +40,12 @@ http://www.ros.org/
 
 
 Week 1
-======================================================================
-
-What Has Been Done This Week
 ----------------------------------------------------------------------
 
-This week was spent on several tasks. Firstly, familiarizing myself with the Kinect sensor. This involved examining the hardware and current scientific applications involving the Kinect. In order to accomplish this task I utilized a variety of web sources detailing its construction and functioning. I also read several articles, links are included below, documenting research projects involving the Kinect. In doing so I gained a better understanding of the functioning of the Kinect's depth camera,  ie the measurements performed and data recorded, and its possible use in a research setting. 
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This week was spent on several tasks. Firstly, familiarizing myself with the Kinect sensor. This involved examining the hardware and current scientific applications involving the Kinect. In order to accomplish this task I utilized a variety of web sources detailing its construction and functioning. I also read several articles, links are included below, documenting research projects involving the Kinect. In doing so I gained a better understanding of the functioning of the Kinect's depth camera, ie the measurements performed and data recorded, and its possible use in a research setting.
 
 Secondly, I met frequently with Supun in order to fully grasp the goal and scope of his project. This also involved further reading on software that would be used. As of now, for the project we will utilize the Kinect driver provided from OpenKinect, the graphics software Processing, the java library SimpleOpenNI and ROS. I spent time scanning the documentation on these softwares and then began my third task, installing them.
 
@@ -58,11 +58,13 @@ I found a couple of other libraries that might be useful, one by Daniel Shifman 
 After explaining my difficulties with SimpleOpenNI2 to Supun he suggested that I devote my time to some other task and he would see if he could solve the problem. So I installed ROS along with two ROS software packages, Rviz for 3D visualization and the ROS freenect Kinect driver. I again ran into errors and have been unable to load the Kinect camera data into Rviz. I also spent some time working through ROS tutorials to familiarize myself with the software.
 
 What Has Not Been Achieved This Week?
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*	This week I was unable to install and build the SimpleOpenNI2 library and thus was unable to accomplish my task of recording the depth image information from the sensor.
+* This week I was unable to install and build the SimpleOpenNI2 library and thus was unable to accomplish my task of recording the depth   image information from the sensor.
+
 * I could not successfully connect the Kinect to Rviz.
 
 What is Planed For Next Week?
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Next week I plan on continuing to learn about the ROS software, build a library that will be used to write code for the Kinect (whether it be SimpleOpenNI2 or otherwise) and record depth image data from the Kinect.

@@ -1,7 +1,11 @@
-http://cloudmesh.github.io/reu
+
 
 Research Experience for Undergraduates
 ======================================================================
+
+This Web page is published at:
+
+* http://cloudmesh.github.io/reu
 
 This repository is for coordinating the activities done as part of the
 Summer REU 2014.
@@ -23,7 +27,7 @@ Additionally you may want to think and answer the following:
   * How did it contribute to the code documentation?
 
 Participants
-======================================================================
+----------------------------------------------------------------------
 
 The following participants work on the REU this Summer
 
@@ -51,7 +55,7 @@ The following participants work on the REU this Summer
 Test
 
 Agile Project Management
-======================================================================
+----------------------------------------------------------------------
 
 Although you have a general topic assigned to you, we will be
 practicing some agile project management. We will be meeting early in
@@ -60,7 +64,7 @@ are unclear what needs to be done. The meeting will last not more than
 10 minutes for the entire team.
 
 Technical Skills
-======================================================================
+----------------------------------------------------------------------
 
 You will have to learn a number of technical and general skills
 quickly to effectively collaborate in a group. This includes the
@@ -75,7 +79,7 @@ following:
   Gregor so he adds you to this github directory
 
 Week 1
-======================================================================
+----------------------------------------------------------------------
 
 Goals:
 
@@ -89,7 +93,7 @@ Goals:
 * learn RST in an hour or less
 
 References
-======================================================================
+----------------------------------------------------------------------
 
 Please add to this once you have access to git 
 
@@ -116,7 +120,7 @@ Please add to this once you have access to git
    http://virtualboxes.org/ (collection of preconfigured VirtualBox images)
 
 Python
-======================================================================
+----------------------------------------------------------------------
 
 We use 
 
