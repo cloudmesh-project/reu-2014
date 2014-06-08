@@ -36,7 +36,7 @@ Week 1:
 
 What I did this week:
  
-1. Learned java programminf lanugae
+1. Learned java programming language
 2. Learned about Linux and command line terminal
 3. Obtained an understanding of what my project is about.
 
