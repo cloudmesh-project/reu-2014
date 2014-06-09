@@ -3,7 +3,7 @@ IoTCloud2
 
 Team
 ----------------------------------------------------------------------
-Leif Christiansen
+Leif Christiansen grindvald@gmail.com
 
 Problem
 ----------------------------------------------------------------------
