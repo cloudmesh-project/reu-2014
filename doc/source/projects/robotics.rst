@@ -32,6 +32,7 @@ Links
 * https://github.com/supunkamburugamuva/sensorstream
 * http://www.processing.org/
 * http://www.ros.org/
+* http://shiffman.net/p5/kinect/reference/org/openkinect/processing/Kinect.html
 
 
 Week 1
@@ -63,3 +64,10 @@ What is Planed For Next Week?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Next week I plan on continuing to learn about the ROS software, build a library that will be used to write code for the Kinect (whether it be SimpleOpenNI2 or otherwise) and record depth image data from the Kinect.
+
+Links to Articles
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+www.cs.washington.edu/robotics/postscripts/3d-mapping-iser-10-final.pdf
+http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
+http://research.microsoft.com/pubs/155378/ismar2011.pdf
+http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
