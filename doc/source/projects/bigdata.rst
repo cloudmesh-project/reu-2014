@@ -38,7 +38,7 @@ Kaleidoscope of Apache Big Data Stack
 
 * http://www.getchef.com/chef/
 
-cloud infrastructure automation framework
+Cloud infrastructure automation framework
 
 * http://hbase.apache.org/
 
