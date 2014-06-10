@@ -67,7 +67,7 @@ Next week I plan on continuing to learn about the ROS software, build a library 
 
 Links to Articles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-www.cs.washington.edu/robotics/postscripts/3d-mapping-iser-10-final.pdf
-http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
-http://research.microsoft.com/pubs/155378/ismar2011.pdf
-http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
+* www.cs.washington.edu/robotics/postscripts/3d-mapping-iser-10-final.pdf
+* http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
+* http://research.microsoft.com/pubs/155378/ismar2011.pdf
+* http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
