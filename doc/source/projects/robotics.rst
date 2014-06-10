@@ -46,26 +46,26 @@ What Has Been Done This Week
 * discussed with Supun Kamburugamuva at length to discern the goal and scope of his project
 * examined documentation of software and libraries pertinent to the project
 
-   * OpenKinect 
-   * Processing
-   * ROS (Robot Operating System)
-   * OpenNI
-   * SimpleOpenNI
+  * OpenKinect 
+  * Processing
+  * ROS (Robot Operating System)
+  * OpenNI
+  * SimpleOpenNI
    
 * installed OpenKinect and the corresponding Java wrapper
 
-   * explored the capabilities of said wrapper to interact with the Kinect
+  * explored the capabilities of said wrapper to interact with the Kinect
    
 * installed and built the OpenNI library
 * found potential alternative libraries to SimpleOpenNI
 
-   * Daniel Shifman's Kinect library
-   * PCL (Point Cloud Library)
+  * Daniel Shifman's Kinect library
+  * PCL (Point Cloud Library)
 
 * installed ROS
 
-   * installed Rviz (3D graphics visualization software) ROS package
-   * installed freenect_stack ROS package (freenect based Kinect driver)
+  * installed Rviz (3D graphics visualization software) ROS package
+  * installed freenect_stack ROS package (freenect based Kinect driver)
    
 * worked through a number of ROS tutorials to learn about ROS fundamentals such as Nodes, Topics, how to manage subcriptions and publications, and ROS filesystem commands among others
 
