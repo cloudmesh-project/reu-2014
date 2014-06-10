@@ -41,6 +41,7 @@ Week 1
 What Has Been Done This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* learned github and corresponding commands
 * familiarized myself with the Kinect sensor, both in terms of hardware and scientific applications (links included below)
 * discussed with Supun Kamburugamuva at length to discern the goal and scope of his project
 * examined documentation of software and libraries pertinent to the project
