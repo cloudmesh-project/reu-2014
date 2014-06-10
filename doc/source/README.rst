@@ -47,9 +47,9 @@ The following participants work on the REU this Summer
 :Big Data:
    Tatyana `Apache Big Data Stack <projects/bigdata.rst>`_
   
-:Robotics
-   Leif 'IoTCloud2 <projects/robotics.rst>' _
-   
+:Robotics:
+   Leif `IoTCloud2 <projects/robotics.rst>`_
+    
 * Tori
 * Nigel   
 
