@@ -38,20 +38,17 @@ Links
 
 Week 1
 ----------------------------------------------------------------------
-This week I learned:
+Progress:
 
-* Linux command-line
-* Java
-* The purpose and importance of our projects
+* Learned Linux command-line
+* Learned Java
+* Learned the purpose and importance of our projects
 
-My plans for next week are:
+Problems:
 
-* To begin installing and running MPI program and other programs
+* No problems
+
+Plans:
+
+* To begin installing and running the MPI program and other programs
  
-What have I not achieved this week:
-
-* All goals and plans were met this week
- 
-How did I contribute to my project this week:
-
-* Got understanding over the material I need for the project
