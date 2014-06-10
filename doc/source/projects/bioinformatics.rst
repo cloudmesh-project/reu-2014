@@ -49,7 +49,7 @@ Done This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Determined what project I will be working on:
-	-Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
+	Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
 
 - Studied up on using PlotViz, a visualization tool
 - Studied Map-Reduce, MPI (Message Passing Interface), phylogenetic trees, multi-dimensional scaling, and clustering. 
