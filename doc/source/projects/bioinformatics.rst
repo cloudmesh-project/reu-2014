@@ -48,7 +48,7 @@ Week 1: 6/6/2014
 Done This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Determined what project I will be working on:
+- Determined what project I will be working on
 	Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
 
 - Studied up on using PlotViz, a visualization tool
