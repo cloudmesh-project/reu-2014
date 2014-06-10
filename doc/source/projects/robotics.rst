@@ -4,6 +4,7 @@ IoTCloud2
 Team
 ----------------------------------------------------------------------
 Leif Christiansen grindvald@gmail.com
+Supun Kamburugamuva supun06@gmail.com
 
 Problem
 ----------------------------------------------------------------------
@@ -25,6 +26,8 @@ Implementation
 Links
 ----------------------------------------------------------------------
 
+* https://github.com/supunkamburugamuva/iotcloud2
+* https://github.com/iotcloud/reu
 * http://openkinect.org/wiki/Main_Page
 * http://code.google.com/p/simple-openni/
 * https://github.com/iotcloud/reu
