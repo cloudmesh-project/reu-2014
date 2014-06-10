@@ -49,53 +49,34 @@ Done This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Determined what project I will be working on:
-	-Studying and processing genomics data, specifically fungi 
-		genome sequences, and trying to create an accurate 
-		visualization of the relationship between the 
-		different sequences.
+	-Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
 
 - Studied up on using PlotViz, a visualization tool
-- Studied Map-Reduce, MPI (Message Passing Interface), 
-	phylogenetic trees, multi-dimensional scaling, and
-	clustering. 
-- Spent time studying the past results and documents produced by 
-	Dr. Fox and his team on genomics analysis.
+- Studied Map-Reduce, MPI (Message Passing Interface), phylogenetic trees, multi-dimensional scaling, and clustering. 
+- Spent time studying the past results and documents produced by Dr. Fox and his team on genomics analysis.
 
-- Worked with Saliya Ekenayake to set up and deploy the Pairwise
-	Clustering tool on the “R2” genomic data.
+- Worked with Saliya Ekenayake to set up and deploy the Pairwise Clustering tool on the “R2” genomic data.
 
-- Began setting up accounts in order to work with Yang Ruan
-	in processing new genomic “D1” data through the Twister 
-	pipeline.
+- Began setting up accounts in order to work with Yang Ruan in processing new genomic “D1” data through the Twister pipeline.
 
-- Spoke with Saliya about a potential shift in the scope of my 
-	project	towards developing a system that would allow users
-	to enter data through the internet and submit that data 
-	appropriately to the computer clusters that would process
-	it.
+- Spoke with Saliya about a potential shift in the scope of my project	towards developing a system that would allow users to enter data through the internet and submit that data appropriately to the computer clusters that would process it.
 
-- Began moving forward with the "Twister" pipeline after establishing
-	a FutureGrid account.
+- Began moving forward with the "Twister" pipeline after establishing a FutureGrid account.
 
 Uncompleted This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Run the Smith-Waterman algorithm on the new “D1” data in
-	order to create a genomic distance matrix.
+- Run the Smith-Waterman algorithm on the new “D1” data in order to create a genomic distance matrix.
 
-- Need to finish applying for and creating accounts for computer
-	cluster access in order to run the algorithm mentioned above.
+- Need to finish applying for and creating accounts for computer cluster access in order to run the algorithm mentioned above.
 
-- Solidify end goals of project in terms of what IU-SROC program
-	expects.
+- Solidify end goals of project in terms of what IU-SROC program expects.
 
 Next Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Complete account creation/general setup if any remains.  
-- Begin processing genomic data through Twister Pipeline. I need to document
-	the process! Or at least maintain notes of the steps involved.
+- Begin processing genomic data through Twister Pipeline. I need to document the process! Or at least maintain notes of the steps involved.
 
-- Update goals and next steps for project. Determine what I will
-actually be doing.
+- Update goals and next steps for project. Determine what I will actually be doing.
 
