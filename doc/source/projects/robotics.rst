@@ -61,6 +61,7 @@ What Has Been Done This Week
 
    * Daniel Shifman's Kinect library
    * PCL (Point Cloud Library)
+
 * installed ROS
 
    * installed Rviz (3D graphics visualization software) ROS package
