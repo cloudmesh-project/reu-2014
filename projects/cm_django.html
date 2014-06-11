@@ -303,9 +303,53 @@
 </div>
 <div class="section" id="problem">
 <h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
-<p>Cloudmesh uses flask. Want to make a django server that will have
-specific functions that will make cloudmesh easier to use for the
-user.</p>
+<p>Cloudmesh contains a webserver that uses flask as a backend. Although
+flask is very powerful and easy to use, django is more comonly used in
+the cloud community. This also includes Openstack Horizon that uses
+flask. This project will explore how to use django instead of flask
+for the development of cloudmesh. As such we need an easy install and
+usage documentation that will be developed as part of this
+project. The django documentation is quite extensive and the main task
+will include the development of simple guides and examples that can be
+reused by the cloudmesh team to transition or clone the flask
+framework to django. The examples will develop concrete views and
+models utilizing mongodb to visualize contents form the
+database. Simple guides will be developed that tell others ow to do
+this.</p>
+<p>Plan of Action:</p>
+<ul class="simple">
+<li>Week 1: Learn basic tools: python, git , django</li>
+<li>Week 2: Set up various simple django web servers includining the
+simple server and one that uses the bootstrap theme. Evaluate if we
+can interact with mongo or mongo engine. assess at the end of the
+week changes to the project based on what we find out</li>
+<li>Week 3: Develop views and models and templates that display some
+data, while the initial test could use sqllite, we want out views
+and models to interact with mongo db. Save and document each case in
+its own directory</li>
+<li>Week4: put some real data into the database, such as the reservation
+data from Natiele or the user data from Ifeanyi and create views for
+them. Create a view that displays the ploticus image that Gregor
+creats from the reservation information. Develop views for projects
+and roles.</li>
+<li>Week 5: inspect a real cloudmesh db and create views for some of teh
+data. Examples are profile, images, flavors, inventory.</li>
+<li>Week 6-7: complete the implementation and documentation</li>
+<li>Week 8: complete the 2 page paper and complete the documentation for
+the cloudmesh team, make sure that the code is documented.</li>
+</ul>
+<p>Tip:</p>
+<ul class="simple">
+<li>pylint, autopep8</li>
+<li>read documentation, identify useful documentation, create useful
+links</li>
+<li>interact with Ifeanyi that works on a similar project</li>
+</ul>
+<p>Mitigation strategy:</p>
+<ul class="simple">
+<li>in case it turns out that django is not the right tool, we will use
+flask and change our deliverables slightly.</li>
+</ul>
 </div>
 <div class="section" id="design">
 <h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
@@ -338,12 +382,19 @@ user.</p>
 <li>[done, Week 1] learned virtualenv</li>
 <li>[done, Week 1] learned pip</li>
 <li>[in progress, Week1] read a portion of django documentation</li>
+<li>[done, Week 2] the simple django server is checke into github</li>
+<li>[done, Week 2] the bootstrap based simple server is in github</li>
 </ul>
 </td>
 </tr>
 <tr class="field-even field"><th class="field-name">Problems:</th><td class="field-body"><ul class="first simple">
-<li>[Week 1] could not complete django deployent and commit all of this to
-github</li>
+<li>[Week 2] cloud not get the mongo base django to work, existing
+tutorials were buggy according to gregor, possible too difficult
+task. Reasignment of next task, instead of using mongo for
+authentication we just use it for visualization of an existing
+dataset via django.  users are managed through sql we will in wee
+3 use the reservation database and than test how to develop views
+and templates. we start with reading up on views and templates.</li>
 </ul>
 </td>
 </tr>
