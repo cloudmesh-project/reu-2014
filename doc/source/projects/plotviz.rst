@@ -1,13 +1,16 @@
-BioInformatics: Genomic Sequence Analysis
+Bioinformatics and PlotViz
 ======================================================================
 
 Team
 ----------------------------------------------------------------------
-Khaliq J. Satchell
+Khaliq Satchell
 ksatchel@indiana.edu
 
-Loran S. Saggu
+Loran Saggu
 lsaggu@indiana.edu
+
+Geoffrey Fox
+gcfexchange@gmail.com
 
 Yang Ruan
 yangruan@indiana.edu
