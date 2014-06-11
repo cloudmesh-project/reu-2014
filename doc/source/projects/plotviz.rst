@@ -29,7 +29,8 @@ Team
 Problem
 ----------------------------------------------------------------------
 
-I will be working with my team to create 
+I will be working with my team to create a 3D scatterplot of a vast amount of genomic sequence data from Indiana University's
+biology department using a visualization tool called PlotViz.
 
 
 Design
@@ -40,7 +41,7 @@ Design
 Implementation
 ----------------------------------------------------------------------
 
-PlotViz
+PlotViz3
 	
 
 Links
