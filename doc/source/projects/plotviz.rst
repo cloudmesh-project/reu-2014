@@ -48,6 +48,12 @@ Links
 
 http://salsahpc.indiana.edu/pviz3/#developers
 
+- Where you can learn how to build the libraries for PltViz3
+
+http://salsahpc.indiana.edu/pviz3/#downloads
+
+- Where you can download PlotViz3
+
 Progress Report
 ----------------------------------------------------------------------
 
