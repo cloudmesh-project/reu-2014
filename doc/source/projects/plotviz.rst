@@ -4,24 +4,32 @@ Bioinformatics and PlotViz
 Team
 ----------------------------------------------------------------------
 Khaliq Satchell
+
 ksatchel@indiana.edu
 
+
 Loran Saggu
+
 lsaggu@indiana.edu
 
-Geoffrey Fox
+Geoffrey Fox (Mentor)
+
 gcfexchange@gmail.com
 
-Yang Ruan
+
+Yang Ruan (Mentor)
+
 yangruan@indiana.edu
 
-Saliya Ekanayake
+
+Saliya Ekanayake (Mentor)
+
 esaliya@gmail.com
 
 Problem
 ----------------------------------------------------------------------
 
-
+I will be working with my team to create 
 
 
 Design
