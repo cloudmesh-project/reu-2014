@@ -6,7 +6,7 @@ Team
 
 * Natiele Bohn, nattibohn@gmail.com
 * Gregor von Laszewski, laszewski@gmail.com
-* Oliver Lewis
+* Oliver Lewis (Grad student)
 
 
 Problem
@@ -33,6 +33,31 @@ as the GUI framework is already included in the project developed by
 von Laszewski. 
 
 Plan of Action:
+
+* Week 1: Learn the basics: python, git, mongo, get familair with the
+  ol reservation code developed by oliver
+* Week 2: develop a mongo db to generate random reservations and
+  dispaly them in an image via ploticus
+* Week 3: complete the database design while using mongoengine and
+  create commandline tools useing docopts to interact withe the
+  database (reqrite Olivers code)
+* Week 4: Improve the flask interface von Laszewski developed and
+  create better views, work with Fugang on this in case help is
+  needed.
+* Week 5: develop a mechnism that restricts access in various ways
+  through policies. For example use is time limited on all or some
+  machines, she has not access to all machines, she has restrictions
+  based on project memberships
+* Week 6: write command line tools to manage policies, write gui forms
+  and use forms to manage policies in mongo. USe mongoengine for all
+  of thsi
+* Week 7: continue development and code cleanup
+* Week 8: complete the 2 page paper that you worked on till now,
+  complete the documentation, code and transition ownereship to Gregor
+  and Fugang. Discuss the possibility if this code can be introduced
+  into the production code of cloudmesh.
+
+
 
 
 
