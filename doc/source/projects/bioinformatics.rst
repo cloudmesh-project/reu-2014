@@ -1,10 +1,12 @@
-BioInformatics: Genomic Sequence Analysis
+BioInformatics: Genomic Sequence Analysis Automation
 ======================================================================
 
 Team
 ----------------------------------------------------------------------
 Lorander S. Saggu
 lsaggu@indiana.edu
+
+Mentors: Saliya Ekenayake, Yang Ruan
 
 Problem
 ----------------------------------------------------------------------
@@ -16,7 +18,7 @@ received new data which needs to be processed and analyzed.
 However, these processes and methods are incredibly heuristic and
 prone to error. There methods in place are constantly subject to
 tweaking and fine tuning. Also, the tools and processes in place are
-currently understood only by a few.
+currently understood only by a few making it difficult for other groups or scientists to be able to access and use them.
 
 
 Design
@@ -24,18 +26,22 @@ Design
 
 Essentially, I will work with Saliya Ekenayake, Yang Ruan, and
 Dr. Geoffrey Fox in order to analyze and process the new data and
-develop a 3D relational-mapping of the data.
+develop a 3D relational-mapping of the data so that I may develop an understanding of the tools and of the process.
 
-Furthermore, I will seek to develop a system which would allow users
+Then, pimarily, I will seek to develop a system which would allow users
 to communicate their data to tools which would more efficiently
 process the data on computer clusters and produce useful output for
 the users.
 
 Implementation
 ----------------------------------------------------------------------
-
+I will seek to create a portal with a front and back end will be designed in Java. The front end will accept user information via the web, while the back end will take the information and run the sequence analysis software before returning the results. A central server will host this program which will remotely access computer clusters as necessary.
 
 Visualization Tools:	PlotViz
+
+Keywords
+----------------------------------------------------------------------
+Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree, Twister
 	
 
 Links
