@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; Futuregrid REU 0.1 documentation</title>
+    <title>PlotViz: Bioinformatic Genomic Sequence Data &mdash; Futuregrid REU 0.1 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -84,7 +84,7 @@
 </ul>
 </li>
 </ul>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="bigdata.html">Apache Big Data Stack</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="bigdata.html#team">Team</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bigdata.html#problem">Problem</a></li>
@@ -99,11 +99,13 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis Automation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#abstract">Abstract</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#problem">Problem</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#design">Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#keywords">Keywords</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#links">Links</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#week-1-6-6-2014">Week 1: 6/6/2014</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#done-this-week">Done This Week:</a></li>
@@ -117,6 +119,7 @@
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#team">Team</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#links">Links</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#tip">Tip:</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#design">Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#implementation">Implementation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#week-1">Week 1:</a><ul>
@@ -163,6 +166,20 @@
 <li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-1">Week 1</a></li>
 </ul>
 </li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">PlotViz: Bioinformatic Genomic Sequence Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#progress-report">Progress Report</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#progress">Progress:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#problems">Problems:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plans">Plans:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="robotics.html">IoTCloud2</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="robotics.html#team">Team</a></li>
 <li class="toctree-l2"><a class="reference internal" href="robotics.html#problem">Problem</a></li>
@@ -190,7 +207,21 @@
      href="#">Page <b class="caret"></b></a>
   <ul class="dropdown-menu localtoc"
       role="menu"
-      aria-labelledby="dLabelLocalToc"><ul class="simple">
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">PlotViz: Bioinformatic Genomic Sequence Data</a><ul>
+<li><a class="reference internal" href="#team">Team</a></li>
+<li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#design">Design</a></li>
+<li><a class="reference internal" href="#implementation">Implementation</a></li>
+<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#progress-report">Progress Report</a><ul>
+<li><a class="reference internal" href="#progress">Progress:</a></li>
+<li><a class="reference internal" href="#problems">Problems:</a></li>
+<li><a class="reference internal" href="#plans">Plans:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -241,14 +272,15 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../README.html">Research Experience for Undergraduates</a></li>
 </ul>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="bigdata.html">Apache Big Data Stack</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis Automation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cm_accounts.html">Cloudmesh Project and Account Management Framework</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cm_django.html">Cloudmesh Django</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cm_reservation.html">Cloudmesh Resource Reservation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mpi-java-performance.html">Evaluating the Performance of MPI Java in FutureGrid and Big Red2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mpi-java-test.html">Developing Sample Test programs for MPI Java in FutureGRID and BIG RED2</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">PlotViz: Bioinformatic Genomic Sequence Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="robotics.html">IoTCloud2</a></li>
 </ul>
 
@@ -265,26 +297,79 @@
       </div>
     <div class="col-md-9">
       
-  <p>PlotViz: A Visualization Tool</p>
-<p>Team</p>
-<p>Khaliq J. Satchell
-<a class="reference external" href="mailto:ksatchel&#37;&#52;&#48;indiana&#46;edu">ksatchel<span>&#64;</span>indiana<span>&#46;</span>edu</a></p>
-<p>Problem</p>
-<p>We will be using a software called PlotViz, a visualization tool, to plot a vast amount of data from the biology department into a 3D
-visual scatterplot.</p>
-<p>Design</p>
-<p>Implementation</p>
-<p>PlotViz</p>
-<p>Links</p>
+  <div class="section" id="plotviz-bioinformatic-genomic-sequence-data">
+<h1>PlotViz: Bioinformatic Genomic Sequence Data<a class="headerlink" href="#plotviz-bioinformatic-genomic-sequence-data" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="team">
+<h2>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Khaliq Satchell (Me)</p>
+<p><a class="reference external" href="mailto:ksatchel&#37;&#52;&#48;indiana&#46;edu">ksatchel<span>&#64;</span>indiana<span>&#46;</span>edu</a></p>
+</li>
+<li><p class="first">Loran Saggu</p>
+<p><a class="reference external" href="mailto:lsaggu&#37;&#52;&#48;indiana&#46;edu">lsaggu<span>&#64;</span>indiana<span>&#46;</span>edu</a></p>
+</li>
+<li><p class="first">Geoffrey Fox (Mentor)</p>
+<p><a class="reference external" href="mailto:gcfexchange&#37;&#52;&#48;gmail&#46;com">gcfexchange<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
+</li>
+<li><p class="first">Yang Ruan (Mentor)</p>
+<p><a class="reference external" href="mailto:yangruan&#37;&#52;&#48;indiana&#46;edu">yangruan<span>&#64;</span>indiana<span>&#46;</span>edu</a></p>
+</li>
+<li><p class="first">Saliya Ekanayake (Mentor)</p>
+<p><a class="reference external" href="mailto:esaliya&#37;&#52;&#48;gmail&#46;com">esaliya<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
+<p>I will be working with my team to create a 3D scatterplot of a vast amount of genomic sequence data from Indiana University&#8217;s
+biology department using a visualization tool called PlotViz.</p>
+</div>
+<div class="section" id="design">
+<h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="implementation">
+<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
+<p>PlotViz3</p>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://salsahpc.indiana.edu/pviz3/#developers">http://salsahpc.indiana.edu/pviz3/#developers</a></p>
-<p>Week 1:</p>
-<p>Progress:</p>
-<p>During this week I was tasked with installing the PlotViz software and building the libraries used for it into my system. I also
-made a futuregrid account and joined the project that I am currently in.</p>
-<p>Problems:</p>
-<p>I wasn&#8217;t able to fully build the libraries this week because I didn&#8217;t have salsadev svn access.</p>
-<p>Plans:</p>
-<p>Next week I plan on finishing up the building process for PlotViz and begin learning how to work the software.</p>
+<ul class="simple">
+<li>Where you can learn how to build the libraries for PltViz3</li>
+</ul>
+<p><a class="reference external" href="http://salsahpc.indiana.edu/pviz3/#downloads">http://salsahpc.indiana.edu/pviz3/#downloads</a></p>
+<ul class="simple">
+<li>Where you can download PlotViz3</li>
+</ul>
+</div>
+<div class="section" id="progress-report">
+<h2>Progress Report<a class="headerlink" href="#progress-report" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="progress">
+<h3>Progress:<a class="headerlink" href="#progress" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[done, Week 1] Chose a research project</li>
+<li>[done, Week 1] Learned about the functions of PlotViz3</li>
+<li>[done, Week 1] Read previous research papers</li>
+<li>[done, Week 1] Downloaded PlotViz3</li>
+<li>[in progress, Week 2] Built the libraries for PlotViz3</li>
+</ul>
+</div>
+<div class="section" id="problems">
+<h3>Problems:<a class="headerlink" href="#problems" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[Week 1] Couldn&#8217;t access salsadev svn repository</li>
+<li>[Week 2] Constantly getting errors while trying to build libraries for PlotViz3</li>
+</ul>
+</div>
+<div class="section" id="plans">
+<h3>Plans:<a class="headerlink" href="#plans" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[Week 2] Finish building libraries for PlotViz3</li>
+<li>[Week 2] Learn how to use PlotViz3</li>
+</ul>
+</div>
+</div>
+</div>
 
 
     </div>

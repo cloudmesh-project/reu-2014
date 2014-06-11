@@ -1,10 +1,16 @@
-BioInformatics: Genomic Sequence Analysis
+BioInformatics: Genomic Sequence Analysis Automation
 ======================================================================
 
 Team
 ----------------------------------------------------------------------
 Lorander S. Saggu
 lsaggu@indiana.edu
+
+Mentors: Saliya Ekanayake, Yang Ruan
+
+Abstract
+----------------------------------------------------------------------
+An organisms genetic code determines everything about that organism: it determines what species the organism will become, how big it will grow, whether or not it will have gills or will be able to convert light into energy. The genetic code of many organisms is quite similar, but of course there are differences which allow for every unique individual. If the similarity between genetic sequences could be mapped, deriving and understanding the relationships between organisms could be done efficiently and effectively. Dr. Geoffrey Fox and his lab are trying to do exactly that: map the similarity between genomic sequences. They seek to do this using complex algorithms within computer programs they have designed that essentially define "distances" between genomic sequences, and these distances can be scaled and used to create a plot. There is, of course, some work to be done. These processes developed by Dr. Fox and his lab are heuristic and only understood and accessable by a few. Also they aren't automated. However, by setting up a server to run a Java based portal designed to accept user input via the web and run these algorithms on computer clusters, these issues could be dealt with. Being able to efficiently map the differences in genomic sequences will vastly improve people's understanding of where the organisms of today arose. This may also have vast implications in the realms of geneology, and medecine as a result of the improved understanding of the relationships between various organisms.
 
 Problem
 ----------------------------------------------------------------------
@@ -16,7 +22,7 @@ received new data which needs to be processed and analyzed.
 However, these processes and methods are incredibly heuristic and
 prone to error. There methods in place are constantly subject to
 tweaking and fine tuning. Also, the tools and processes in place are
-currently understood only by a few.
+currently understood only by a few making it difficult for other groups or scientists to be able to access and use them.
 
 
 Design
@@ -24,18 +30,22 @@ Design
 
 Essentially, I will work with Saliya Ekenayake, Yang Ruan, and
 Dr. Geoffrey Fox in order to analyze and process the new data and
-develop a 3D relational-mapping of the data.
+develop a 3D relational-mapping of the data so that I may develop an understanding of the tools and of the process.
 
-Furthermore, I will seek to develop a system which would allow users
+Then, pimarily, I will seek to develop a system which would allow users
 to communicate their data to tools which would more efficiently
 process the data on computer clusters and produce useful output for
 the users.
 
 Implementation
 ----------------------------------------------------------------------
-
+I will seek to create a portal with a front and back end will be designed in Java. The front end will accept user information via the web, while the back end will take the information and run the sequence analysis software before returning the results. A central server will host this program which will remotely access computer clusters as necessary.
 
 Visualization Tools:	PlotViz
+
+Keywords
+----------------------------------------------------------------------
+Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree, Twister
 	
 
 Links
@@ -48,50 +58,34 @@ Week 1: 6/6/2014
 Done This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Thus far, I have determined what project I will be working on: I will
-be studying and processing genomics data, specifically fungi genome
-sequences, and trying to create an accurate visualization of the
-relationship between the different sequences.
+- Determined what project I will be working on: Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
 
-Over the past few days, I have been studying up on using PlotViz, a
-visualization tool, understanding Map-Reduce, MPI (Message Passing
-Interface), phylogenetic trees, multi-dimensional scaling, and
-clustering. Also, I have been spending time studying the past results
-and documents produced by Dr. Fox and his team on genomics analysis.
+- Studied up on using PlotViz, a visualization tool
+- Studied Map-Reduce, MPI (Message Passing Interface), phylogenetic trees, multi-dimensional scaling, and clustering. 
+- Spent time studying the past results and documents produced by Dr. Fox and his team on genomics analysis.
 
-I have worked with Saliya Ekenayake to set up and deploy the Pairwise
-Clustering tool on the “R2” genomic data.
+- Worked with Saliya Ekenayake to set up and deploy the Pairwise Clustering tool on the “R2” genomic data.
 
-Also, I have begun setting up accounts in order to work with Yang Ruan
-in processing new genomic “D1” data through the Twister pipeline.
+- Began setting up accounts in order to work with Yang Ruan in processing new genomic “D1” data through the Twister pipeline.
 
-I spoke with Saliya about a potential shift in the scope of my project
-towards developing a system that would allow users to enter data
-through the internet and submit that data appropriately to the
-computer clusters that would process it.
+- Spoke with Saliya about a potential shift in the scope of my project	towards developing a system that would allow users to enter data through the internet and submit that data appropriately to the computer clusters that would process it.
 
-I begun moving forward with the "Twister" pipeline after establishing
-a FutureGrid account.
+- Began moving forward with the "Twister" pipeline after establishing a FutureGrid account.
 
 Uncompleted This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-I have yet to run the Smith-Waterman algorithm on the new “D1” data in
-order to create a genomic distance matrix.
+- Run the Smith-Waterman algorithm on the new “D1” data in order to create a genomic distance matrix.
 
-Also, I need to finish applying for and creating accounts for computer
-cluster access in order to run the algorithm mentioned above.
+- Need to finish applying for and creating accounts for computer cluster access in order to run the algorithm mentioned above.
 
-Solidify end goals of project in terms of what IU-SROC program
-expects.
+- Solidify end goals of project in terms of what IU-SROC program expects.
 
 Next Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Complete account creation/general setup if any remains.  Begin
-processing genomic data through Twister Pipeline. I need to document
-the process! Or at least maintain notes of the steps involved.
+- Complete account creation/general setup if any remains.  
+- Begin processing genomic data through Twister Pipeline. I need to document the process! Or at least maintain notes of the steps involved.
 
-Update goals and next steps for project. Determine what I will
-actually be doing.
+- Update goals and next steps for project. Determine what I will actually be doing.
 

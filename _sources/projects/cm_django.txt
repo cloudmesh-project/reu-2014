@@ -24,24 +24,38 @@ Work through Django server
 
 Links
 ----------------------------------------------------------------------
-Django: https://www.djangoproject.com
 
-Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-
-Git: http://git-scm.com/docs/gittutorial
-
-Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
-
-Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
+* Django: https://www.djangoproject.com
+* Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+* Git: http://git-scm.com/docs/gittutorial
+* Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+* Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
 
 
 Progress & Plans
 ------------------------------------------------------------------------
-Week 1: learned python language and syntax, installed django & python on 
-a ubuntu machine, read a portion of django documentation, and create and 
-connect successfully to the django screen
 
-	Plan for next week: read full django documentation and implement 
-	django server on cloudmesh 
+
+:Progress: 
+  * [done, Week 1] learned python language and syntax, 
+  * [done, Week 1] installed django & python on a ubuntu machine
+  * [done, Week 1] learned git
+  * [done, Week 1] learned virtualenv
+  * [done, Week 1] learned pip
+  * [in progress, Week1] read a portion of django documentation
+
+:Problems: 
+  * [Week 1] could not complete django deployent and commit all of this to
+    github
+
+:Plan: 
+  * [Week2] read more django documentation and implement django server 
+  * [Week2] develop a django sever with mongodb as backend
+  * [Week2] develop a django server using bootstrap theme
+  * [Week 4] 1 page paper
+  * [Week 7] 2 page paper
+  * [Week 8] poster
+
+ 
 
 
