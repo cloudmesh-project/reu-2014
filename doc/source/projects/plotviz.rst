@@ -1,4 +1,4 @@
-Bioinformatics and PlotViz
+PLotViz: Bioinformatic Genomic Sequence Data
 ======================================================================
 
 Team
