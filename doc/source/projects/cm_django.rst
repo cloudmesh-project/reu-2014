@@ -24,23 +24,17 @@ Work through Django server
 
 Links
 ----------------------------------------------------------------------
-Django: https://www.djangoproject.com
 
-Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-
-Git: http://git-scm.com/docs/gittutorial
-
-Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
-
-Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
+* Django: https://www.djangoproject.com
+* Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+* Git: http://git-scm.com/docs/gittutorial
+* Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+* Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
 
 
 Progress & Plans
 ------------------------------------------------------------------------
-Week 1: Jun 2, 2014 - June 8, 2014
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Progress report
-^^^^^^^^^^^^^^^^^^^^^^^
+
 
 :Progress: 
   * [done, Week 1] learned python language and syntax, 
