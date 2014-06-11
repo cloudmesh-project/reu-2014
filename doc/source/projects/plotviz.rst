@@ -1,38 +1,62 @@
-PlotViz: A Visualization Tool
+BioInformatics: Genomic Sequence Analysis
+======================================================================
 
 Team
-
-Khaliq J. Satchell 
+----------------------------------------------------------------------
+Khaliq J. Satchell
 ksatchel@indiana.edu
 
-Problem
+Loran S. Saggu
+lsaggu@indiana.edu
 
-We will be using a software called PlotViz, a visualization tool, to plot a vast amount of data from the biology department into a 3D
-visual scatterplot.
+Yang Ruan
+yangruan@indiana.edu
+
+Saliya Ekanayake
+esaliya@gmail.com
+
+Problem
+----------------------------------------------------------------------
+
+
+
 
 Design
+----------------------------------------------------------------------
 
 
 
 Implementation
+----------------------------------------------------------------------
 
 PlotViz
+	
 
 Links
+----------------------------------------------------------------------
 
 http://salsahpc.indiana.edu/pviz3/#developers
 
-Week 1:
+Progress Report
+----------------------------------------------------------------------
 
 Progress:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-During this week I was tasked with installing the PlotViz software and building the libraries used for it into my system. I also
-made a futuregrid account and joined the project that I am currently in.
+- [done, Week 1] Chose a research project
+- [done, Week 1] Learned about the functions of PlotViz3
+- [done, Week 1] Read previous research papers
+- [done, Week 1] Downloaded PlotViz3
+- [in progress, Week 2] Built the libraries for PlotViz3
 
 Problems:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-I wasn't able to fully build the libraries this week because I didn't have salsadev svn access.
+- [Week 1] Couldn't access salsadev svn repository
+- [Week 2] Constantly getting errors while trying to build libraries for PlotViz3
 
 Plans:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Next week I plan on finishing up the building process for PlotViz and begin learning how to work the software.
+- [Week 2] Finish building libraries for PlotViz3
+- [Week 2] Learn how to use PlotViz3
