@@ -50,21 +50,22 @@ Implementation
 Links
 ----------------------------------------------------------------------
 
-Week 1:
+
+Progress Report:
 ----------------------------------------------------------------------
 
-What I did this week:
- 
-1. Learned java programming language
-2. Learned about Linux and command line terminal
-3. Obtained an understanding of what my project is about.
 
-What has not been acheived this week?
+Progress:
+---------------------------------------------------------------------- 
+[done, Week 1] Learned java programming language
+[done, Week 1] Learned about Linux and command line terminal
+[done, Week 1]Obtained an understanding of what my project is about.
 
+Problems:
+----------------------------------------------------------------------
 All goals and plans were met.
 
-What are the plans for next week?
-
-1. Setup MPI framework in local machine
-2. Run a sample MPI program local machine
-3. Do 1 and 2 in a cluster instead of local machine
+Plan:
+[done, Week 1] Setup MPI framework in local machine
+[done, Week 1] Run a sample MPI program local machine
+[done, Week 1] Do 1 and 2 in a cluster instead of local machine
