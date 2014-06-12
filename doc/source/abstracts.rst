@@ -104,3 +104,34 @@ Project Abstracts
        Cloudmesh databases.  
 
        **Keywords:** Cloudmesh, django, bootstrap theme, flask
+       
+   * - 
+   
+       .. image:: images/photo_ifeanyi.png
+          :height: 100
+
+     - Leif Christiansen
+
+       Mentor: Supun Kamburugamuva
+     - **IoTCloud2**
+
+       Kinect sensors provide a cheap and effective tool for 3 dimensional
+       imageing. Currently, many open source project are being developed 
+       utilizing the Kinect sensor in a variety of areas. One such are is
+       robotics. The Kinect sensor may be used to create an accurate 3
+       dimensional model of an environment allowing a robot to navigate
+       effectively. Supun Kamburugamuva has worked previously with a Kinect
+       based robot and software suite, the Turtlebot and accompanying 
+       open-source software produced by Robot Operating Systems (ROS). 
+       Supun's previous work, IoTCloud, focused on performing all necessary
+       computations pertaining to object avoidance on the cloud. But the 
+       ROS software requires considerable overhead, lessening the efficiency
+       with which these calculations may be made. Our new project will 
+       utilize the OpenKinect Java library to perform more efficient 
+       retrieval and transmission of depth data from the Kinect. Faster
+       processing will allow for the operation of numerous robots 
+       simultaneously with real-time parallel computing deployed on the 
+       cloud.
+       
+       **Keywords:** depth camera, laser scanning, cloud computing, point cloud, real-time
+   
