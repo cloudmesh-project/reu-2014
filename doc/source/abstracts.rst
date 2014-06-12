@@ -152,7 +152,7 @@ Project Abstracts
 
 
    * -
-	.. image:: images/photo_nigel.jpg
+	.. image:: images/photo_nigel.png
           :height: 100
 
      - Nigel Pugh
