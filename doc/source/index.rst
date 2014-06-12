@@ -8,6 +8,7 @@ FutureGrid REU
 
    README
    bios
+   abstracts
 
 ######################################################################
 Projects
