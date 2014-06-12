@@ -7,6 +7,7 @@ FutureGrid REU
    :maxdepth: 2
 
    README
+   bios
 
 ######################################################################
 Projects
