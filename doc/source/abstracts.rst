@@ -135,3 +135,16 @@ Project Abstracts
        
        **Keywords:** depth camera, laser scanning, cloud computing, point cloud, real-time
    
+ .. image:: images/taty.png
+          :height: 100
+
+     - Tatyana Matthews
+
+       Mentor: Scott McCaulay
+     - **Apache Big Data Stack**
+
+      The Apache Big Data Stack is representative of a large spectrum of numerous open-source software programs provided through Apache projects. The term 	Apache refers to the Apache Software Foundation (ASF), which provides 		support for open-source software projects and attracts a large community of 	users. This mass group of users is what ultimately generates enormous amounts 	of data ---Big Data. Accordingly, this enormous digital volume consists of data that cannot be captured and organized by traditional tools, thus presenting an obstacle. It is vital to utilize computing power and storage in order to organize such data; however, this presents economical concerns due to costly affects. 
+
+The Apache Big Data Stack and the product Chef will be investigated and applied to resolve such an issue. Research will involve installing and testing as many open-source software packages as possible on FutureGrid machines and later making them accessible utilizing Chef. In order to accomplish this, software packages deriving from the Apache Big Data Stack spectrum will be installed on to a virtual machine to create application packages. These packages will be built into projects and Chef will be used to transform the infrastructure of a project’s code and bring it to life so that it can be made accessible through a network of servers. Finally, research will demonstrate how use of the Apache Big Data Stack and Chef can be applied to contribute to the evolution of innovation in the Big Data field.    
+
+       **Keywords:** Apache Big Data Stack, Chef, FutureGrid, Big Data
