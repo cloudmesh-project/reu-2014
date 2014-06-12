@@ -36,3 +36,10 @@ Bios
 
      - Loran Saggu
      - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running around. Currently, Loran is working to improve the bioinformatics genomic sequence analysis process with Saliya Ekanayake and Yang Ruan within Dr. Geoffrey Fox's lab at Indiana University.
+ * -
+   
+      .. image:: images/photo_nigel.png
+          :height: 100
+
+     - Nigel Pugh   nigel.pugh32@gmail.com
+     - Nigel is a student at Elizabith City State University majoting in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
