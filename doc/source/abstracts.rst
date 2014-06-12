@@ -107,7 +107,7 @@ Project Abstracts
        
    * - 
    
-       .. image:: images/photo_ifeanyi.png
+       .. image:: images/photo_leif.jpg
           :height: 100
 
      - Leif Christiansen
