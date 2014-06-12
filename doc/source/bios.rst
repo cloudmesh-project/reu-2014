@@ -17,6 +17,8 @@ Bios
      - Ifeanyi ...
      - Ifeanyi ... is a student at ... 
 
+   * -
+   
       .. image:: images/photo_leif.png
           :height: 100
 
