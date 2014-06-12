@@ -4,6 +4,9 @@ Cloudmesh Project and Account Management Framework
 Team
 ----------------------------------------------------------------------
 
+.. image:: ../images/photo_ifeanyi.png
+   :height: 200
+
 * Ifeanyi Rowland Onyenweaku,    rowlandifeanyi17@gmail.com
 * Gregor von Laszewski, laszewski@gmail.com
 
@@ -17,8 +20,6 @@ Links
 
 Problem
 ----------------------------------------------------------------------
-
-TODO: please conduct spell and grammer checking
 
 Cloudmesh is a project that allows the management of virtual machines
 in a federated fasion. It can be run in two modes. One is a standalone
