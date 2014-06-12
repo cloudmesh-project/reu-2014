@@ -28,4 +28,11 @@ Bios
        time student who also performs at local venues with his band. Leif is 
        currently working at Indiana University in Bloomington with Supun Kamburugamuva on Mr. Kamburugamuva's research
        project IoTCloud2.
-     
+
+   * -
+   
+      .. image:: images/saggu.png
+          :height: 100
+
+     - Loran Saggu
+     - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running around. Currently, Loran is working to improve the bioinformatics genomic sequence analysis process with Saliya Ekanayake and Yang Ruan within Dr. Geoffrey Fox's lab at Indiana University.
