@@ -4,6 +4,9 @@ Cloudmesh Project and Account Management Framework
 Team
 ----------------------------------------------------------------------
 
+.. image:: ../images/photo_ifeanyi.png
+   :height: 200
+
 * Ifeanyi Rowland Onyenweaku,    rowlandifeanyi17@gmail.com
 * Gregor von Laszewski, laszewski@gmail.com
 
