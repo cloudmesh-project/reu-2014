@@ -21,8 +21,6 @@ Links
 Problem
 ----------------------------------------------------------------------
 
-TODO: please conduct spell and grammer checking
-
 Cloudmesh is a project that allows the management of virtual machines
 in a federated fasion. It can be run in two modes. One is a standalone
 mode whare the users runs cloudmesh on the local machines. Another
