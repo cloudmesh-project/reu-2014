@@ -3,7 +3,7 @@ Project Abstracts
 
 
 .. list-table:: The FutureGrid REU Project List
-   :widths: 20 20 50
+   :widths: 10 30 50
    :header-rows: 1
 
    * - Image
@@ -17,7 +17,7 @@ Project Abstracts
      - Ifeanyi Rowland Onyenweaku
 
        Mentor: Gregor von Laszewski
-     - Cloudmesh Project and Account Management Framework
+     - **Cloudmesh Project and Account Management Framework**:
 
        Cloudmesh is a project that allows the management of virtual
        machines in a federated fasion. It can be run in two modes. One
@@ -45,6 +45,8 @@ Project Abstracts
        projects are queued and approved by a comittee. A simple
        backend system written in python will support this task provide
        an abstraction that is outside of the web interface.
+
+       **Keywords:** Cloudmesh; FutureGrid; Django; Mongoengine; Mongodb
    * - 
 
        .. image:: images/photo_ifeanyi.png
@@ -53,7 +55,7 @@ Project Abstracts
      - Natalie Bohn
 
        Mentor: Gregor von Laszewski
-     - Cloudmesh Resource Reservation 
+     - **Cloudmesh Resource Reservation**
 
        Cloudmesh Resource Reservation is being developed to create and
        manage reservations inside Cloudmesh. Cloudmesh is a project
@@ -79,8 +81,7 @@ Project Abstracts
        GUI framework is already included in the project developed by
        von Laszewski.  
 
-       Keywords: Python, Docopts, Mongodb, mongoengine, Ubuntu,
-       Cloudmesh, GitHub
+       **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
        .. image:: images/photo_ifeanyi.png
@@ -89,8 +90,7 @@ Project Abstracts
      - Jefferson Ridgeway
 
        Mentor: Gregor von Laszewski
-     - Django For Cloudmesh
-
+     - **Django For Cloudmesh**
 
        The cloud computing system Cloudmesh currently uses flask,
        however because of the low usage of the web
@@ -103,4 +103,4 @@ Project Abstracts
        list of virtual machines on various clouds that currently use
        Cloudmesh databases.  
 
-       Keywords: Cloudmesh, django, bootstrap theme, flask
+       **Keywords:** Cloudmesh, django, bootstrap theme, flask
