@@ -57,7 +57,9 @@ Progress Report:
 Progress:
 ---------------------------------------------------------------------- 
 [done, Week 1] Learned java programming language
+
 [done, Week 1] Learned about Linux and command line terminal
+
 [done, Week 1]Obtained an understanding of what my project is about.
 
 Problems:
@@ -65,6 +67,9 @@ Problems:
 All goals and plans were met.
 
 Plan:
+
 [done, Week 1] Setup MPI framework in local machine
+
 [done, Week 1] Run a sample MPI program local machine
+
 [done, Week 1] Do 1 and 2 in a cluster instead of local machine
