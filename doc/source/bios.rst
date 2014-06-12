@@ -17,14 +17,15 @@ Bios
      - Ifeanyi ...
      - Ifeanyi ... is a student at ... 
 
-<<<<<<< HEAD
+   * -
+   
 	.. image:: images/taty.png
 	  :height: 100
 
 	-Tatyana Matthews 
 	-Mentor: Scott McCaulay
 	-Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina.
-=======
+
    * -
    
       .. image:: images/photo_leif.jpg
