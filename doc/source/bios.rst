@@ -19,7 +19,7 @@ Bios
 
    * -
    
-      .. image:: images/photo_leif.png
+      .. image:: images/photo_leif.jpg
           :height: 100
 
      - Leif ...
