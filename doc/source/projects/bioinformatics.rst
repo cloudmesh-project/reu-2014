@@ -89,3 +89,30 @@ Next Week:
 
 - Update goals and next steps for project. Determine what I will actually be doing.
 
+Week 2: 6/9 - 6/13
+----------------------------------------------------------------------
+
+Done This Week:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-Completed setting up the environment to run Twister in FutureGrid
+-Ran a sample data set through the Smith-Waterman, PWC, and MDS algorithms in FutureGrid in order to obtain a visualization viewed with PlotViz.
+-Began working on the portal framework which will ultimately be able to access clusters remotely and submit scripts that will run the algorithms.
+-Set up Twister environment in Quarry and requested nodes to work with.
+
+
+Uncompleted This Week:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Connecting to FutureGrid using jsch in Java portal
+- Completing PBS script to run on cluster.
+
+
+Next Week:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-Gain a better understanding of the arguments/commands necessary to run the Twister-Pipeline.
+-Continue developing the portal framework: be able to connect to cluster and submit a job.
+-Use allocated nodes in Quarry to run Twister-Pipeline on larger data set.
+
+
