@@ -1,14 +1,14 @@
 Community
-=====================================
+=====================================================================
 
-Assigned Tasks
--------------------------------------
 
-Leif Christiansen 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* REU git repository managment and coordinating
+.. list-table:: Assigned Tasks
+   :widths: 20 20 
+   :header-rows: 1
 
-Lorander Saggu
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* `SSH key presentation <https://github.com/cloudmesh/reu/blob/master/doc/source/ssh.rst>`_
+   * - Student
+     - Task(s)
+   * - 
 
+     - Leif Christiansen
+     - Git hub coordinator
