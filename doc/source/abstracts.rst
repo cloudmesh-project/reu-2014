@@ -127,7 +127,7 @@ Project Abstracts
  
    * -
   
-	.. image:: images/picture_tori.png
+	.. image:: images/photo_tori.png
           :height: 100
 
      - Tori Wilbon
