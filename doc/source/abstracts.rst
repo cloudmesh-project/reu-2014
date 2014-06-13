@@ -19,32 +19,8 @@ Project Abstracts
        Mentor: Gregor von Laszewski
      - **Cloudmesh Project and Account Management Framework**:
 
-       Cloudmesh is a project that allows the management of virtual
-       machines in a federated fasion. It can be run in two modes. One
-       is a standalone mode whare the users runs cloudmesh on the
-       local machines. Another mode is a hosted mode where multiple
-       users share a web server through which the virtual machines are
-       managed. One of the important tasks is to integrate users into
-       cloudmesh. As we work closely with FutureGrid we need to make
-       sure that users are imported into cloudmesh. This is currently
-       achieved with an integration to the FutureGrid LDAP
-       server. However it assumes that users and projects are already
-       in that server. The FuturGrid portal provides such an
-       interface. However it is based on an older version of drupal
-       and it is desirable to reimplement the user and project
-       management functionality in cloudmesh. This project will
-       explore (a) how we can design a data model in mongoengine to
-       represent users and projects, (b) identify how we can leverage
-       either django or flask to manage such projects. To address (b)
-       we will first evaluate if we can get a django web application
-       started and identify how to use it. If this turns out to be to
-       difficult, we will fall back to flask.
-
-       As part of the management we need to implement a queue in which
-       users are queued for approval, a project queue in which
-       projects are queued and approved by a comittee. A simple
-       backend system written in python will support this task provide
-       an abstraction that is outside of the web interface.
+       Cloudmesh is a project that allows the management of virtual 	   machines in a federated fashion. It can be run in two modes. 	   One is a standalone mode where the users run cloudmesh on the 	    local machines. The second mode is a hosted mode where multiple 	      users share a web server through which the virtual machines are 	      managed. One of the important tasks, on this project, is to 	  integrate users into cloudmesh. Hence, as we work closely with 	     FutureGrid, we need to make sure that users are imported into 	    cloudmesh. This is currently achieved via an integration to the 	      FutureGrid LDAP server. Nevertheless, it is assumed that the 	   users and projects are already in that server, as the 	    	   FutureGrid portal provides such an interface. However, it is 	   based on an older version of drupal and it is desirable to    	    re-implement the user and project management functionality in  	     cloudmesh.
+       This project will explore how we can design a data model in 	  mongoengine to represent users and projects, and, also, 	 	identify how we can leverage either django or flask to manage 	    such projects. To address the later, we will first evaluate if 	     we can get a django web application started and identify how to 	      use it. If this turns out to be too difficult, we will fall 	  back to flask. As part of the management, we need to implement 	     a queue in which users are queued for approval, and a project 	    queue whereby projects are queued and approved by a committee. 	     A simple backend system written in python will support this 	  task and provide an abstraction that is outside of the web 	 interface.
 
        **Keywords:** Cloudmesh; FutureGrid; Django; Mongoengine; Mongodb
    * - 
@@ -149,9 +125,9 @@ Project Abstracts
        
        **Keywords:** Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree, Twister
  
-  * -
+   * -
   
-	.. image:: images/picture_tori.png
+	.. image:: images/photo_tori.png
           :height: 100
 
      - Tori Wilbon
@@ -159,15 +135,15 @@ Project Abstracts
        Mentor: Saliya Ekanayake
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
 
-       Message Passing Interface (MPI) has become the de facto way of implementing High 
-       Performance Computing (HPC) applications as it provides library routines to satisfy 
-       virtually all communication patterns. The goal of our research is to understand 
-       performance characteristics of parallel programs written in Java versions of MPI. 
-       Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing 
-       performance of our applications based on both these frameworks. The algorithms that 
-       the team will be measuring are a complex and O(N^2) complexities. The team needs to 
-       make sure they run in an optimal fashion and give us the best results. The other aspect 
-       to our project is to develop some sample MPI Java programs.
+	Message Passing Interface (MPI) has become the de facto way of implementing High 
+	Performance Computing (HPC) applications as it provides library routines to satisfy 
+	virtually all communication patterns. The goal of our research is to understand 
+	performance characteristics of parallel programs written in Java versions of MPI. 
+	Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing 
+	performance of our applications based on both these frameworks. The algorithms that 
+	the team will be measuring are a complex and O(N^2) complexities. The team needs to 
+	make sure they run in an optimal fashion and give us the best results. The other aspect 
+	to our project is to develop some sample MPI Java programs.
 
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
