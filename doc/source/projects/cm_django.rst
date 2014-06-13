@@ -4,7 +4,7 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-..image:: image.jpg
+.. image:: ../Downloads/image.jpg
   :height: 200
 
 
