@@ -3,9 +3,12 @@ BASENAME=$(shell basename $(PATHNAME))
 
 TAG=`echo "print __version__" > v.py;  cat cloudmesh/__init__.py v.py > /tmp/v1.py; python /tmp/v1.py; rm /tmp/v1.py v.py`
 
-all:
+all: req
 	make -f Makefile sphinx
 
+
+view:
+	open doc/build/html/index.html
 
 ######################################################################
 # GIT INTERFACES

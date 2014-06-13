@@ -7,6 +7,24 @@ Tori Wilbon
 
 toriwilbon@gmail.com
 
+Abstract
+----------------------------------------------------------------------
+Message Passing Interface (MPI) has become the de facto way of 
+implementing High Performance Computing (HPC) applications as it 
+provides library routines to satisfy virtually all communication 
+patterns. The goal of our research is to understand performance 
+characteristics of parallel programs written in Java versions of MPI. 
+Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will 
+be testing performance of our applications based on both these frameworks. 
+The algorithms that the team will be measuring are a complex and O(N^2) 
+complexities. The team needs to make sure they run in an optimal fashion 
+and give us the best results. The other aspect to our project is to develop 
+some sample MPI Java programs.
+
+Keywords:
+-----------------------------------------------------------------------
+MPI, Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
+
 Problem
 ----------------------------------------------------------------------
 In our project we want to run the performance of MPI Java.  Then put the
@@ -38,20 +56,17 @@ Links
 
 Week 1
 ----------------------------------------------------------------------
-This week I learned:
+Progress:
 
-* Linux command-line
-* Java
-* The purpose and importance of our projects
+* Learned Linux command-line
+* Learned Java
+* Learned the purpose and importance of our projects
 
-My plans for next week are:
+Problems:
 
-* To begin installing and running MPI program and other programs
+* No problems
+
+Plans:
+
+* To begin installing and running the MPI program and other programs
  
-What have I not achieved this week:
-
-* All goals and plans were met this week
- 
-How did I contribute to my project this week:
-
-* Got understanding over the material I need for the project
