@@ -10,5 +10,5 @@ Leif Christiansen
 
 Lorander Saggu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* SSH key 'presentation <https://github.com/cloudmesh/reu/blob/master/doc/source/ssh.rst>'
+* `SSH key presentation <https://github.com/cloudmesh/reu/blob/master/doc/source/ssh.rst>`_
 
