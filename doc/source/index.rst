@@ -26,4 +26,5 @@ Community
 
 .. toctree::
    :maxdepth: 2
-   community.rst
+   
+   community
