@@ -97,6 +97,8 @@ Progress & Plans
   * [in progress, Week1] read a portion of django documentation
   * [done, Week 2] the simple django server is checke into github
   * [done, Week 2] the bootstrap based simple server is in github
+  * [done, Week 2] Successfully learned how to create a model and view in github
+  * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
 
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
@@ -110,7 +112,6 @@ Progress & Plans
 :Plan: 
   * [Week2] read more django documentation and implement django server 
   * [Week2] develop a django sever with mongodb as backend
-  * [Week2] develop a django server using bootstrap theme
   * [Week 4] 1 page paper
   * [Week 7] 2 page paper
   * [Week 8] poster
