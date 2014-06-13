@@ -33,7 +33,7 @@ Obtaining a key
 
 To generate the public/private key pair, enter the following command in your local Linux/Unix machine:
 
-::
+	::
 	ssh-keygen -t rsa
 
 The command will ask you where to save your keys. The default is USER_HOME/.ssh
