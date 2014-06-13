@@ -4,6 +4,10 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
+..image:: /home/jeff01/Downloads/image.jpg
+  :height: 200
+
+
 * Jeff Ridgeway, jdridgeway4@gmail.com
 * Gregor von Laszewski, laszewski@gimail.com
 
