@@ -5,7 +5,6 @@ Team
 ----------------------------------------------------------------------
 
 .. image:: ../Downloads/image.png
-  :height: 200
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
