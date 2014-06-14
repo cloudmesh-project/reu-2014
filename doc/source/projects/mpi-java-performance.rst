@@ -60,7 +60,15 @@ Progress:
 
 [done, Week 1] Learned about Linux and command line terminal
 
-[done, Week 1]Obtained an understanding of what my project is about.
+[done, Week 1] Obtained an understanding of what my project is about.
+
+[done, Week 2] Install MPI program on local machine.
+
+[done, Week 2] Ran a sample MPI program
+
+[done, Week 2] Updated abstracts and bios on github.
+
+[done, Week 2] Created ssh keys for FutureGrid.
 
 Problems:
 ----------------------------------------------------------------------
@@ -73,3 +81,7 @@ Plan:
 [done, Week 1] Run a sample MPI program local machine
 
 [done, Week 1] Do 1 and 2 in a cluster instead of local machine
+
+[       Week 2] Install MPI on FutureGrid.
+
+[       Week 2] Run program on MPI on FutureGrid
