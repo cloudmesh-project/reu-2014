@@ -70,3 +70,15 @@ Plans:
 
 * To begin installing and running the MPI program and other programs
  
+Week 2
+---------------------------------------------------------------------
+Progress:
+ * Installed MPI 
+ * Did MPI Sample
+ * Wrote Abstract
+ * Made FutureGRID account
+Problems:
+ * No problems, but didn't install MPI on FutureGRID
+Plans:
+ * Install and run MPI on FutureGRID
+ * Create Sample MPI program

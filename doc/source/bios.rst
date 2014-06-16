@@ -14,8 +14,8 @@ Bios
        .. image:: images/photo_ifeanyi.png
           :height: 100
 
-     - Ifeanyi ...
-     - Ifeanyi ... is a student at ... 
+     - Ifeanyi Rowland Onyenweaku
+     - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior, and is presently working in Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
       .. image:: images/taty.png
@@ -26,7 +26,7 @@ Bios
      
    * -
    
-      .. image:: images/photo_leif.jpg
+      .. image:: images/photo_leif.png
           :height: 100
 
      - Leif Christiansen
