@@ -18,11 +18,11 @@ Bios
      - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior, and is presently working in Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
-      .. image:: images/taty.png
+      .. image:: images/tatyfinal.png
           :height: 100
 
      - Tatyana Matthews
-     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina.
+     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
      
    * -
    
@@ -42,7 +42,7 @@ Bios
           :height: 100
 
      - Loran Saggu
-     - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running aro
+     - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running around.
      
    * -
    
@@ -51,3 +51,12 @@ Bios
 
      - Nigel Pugh   nigel.pugh32@gmail.com
      - Nigel is a student at Elizabith City State University majoting in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
+
+   * -
+   
+      .. image:: images/photo_tori.png
+          :height: 100
+
+     - Tori Wilbon   toriwilbon@gmail.com
+     - Tori is a Sophmore majoring in Computer Science at Elizabeth City State University.  She is from Monroe, Georgia, but now live in Maysville, North Carolina.  Tori enjoys programming and she know languages such as HTML, C++, Java and some Python. 
+       Tori is at Indiana University in Bloomington, Indiana working on research with Mr. Saliya Ekanayake, called "Evaluating the Performance of MPI Java in FutureGRID and BIG RED2".  

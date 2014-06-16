@@ -94,3 +94,69 @@ Links to Articles
 * http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
 * http://research.microsoft.com/pubs/155378/ismar2011.pdf
 * http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
+
+Week 2
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* succesfully visualized Kinect data using Rviz (camera, depth, and IR)
+
+  * installed openni_camera and openni_launcher packages (another Kinect driver)
+  * installed kinect_aux package (nodes facilitating the use of the Kinects tilt motor and LED status light)
+  * determined the correct message subcriptions and fixed frame in order to display the Kinect data
+  * determined that segmentation faults of Rviz are endemic to ros-hydro, seg.faults occur intermittently on startup and adding images
+
+* learned basic Python using Lynda tutorials
+* learned about additional ROS nodes
+
+  * image_view
+  * rqt_graph
+
+* researched the format of depth data transmissions from the Kinect
+
+  * found three algorithms for converting the 11-bit disparity data into distance data 
+
+* reinstalled SimpleOpenNI dependencies in the hopes of installing the older version of the library
+
+  * NiTE
+  * OpenNI
+  * Eigen3
+  * Swig
+  * Boost
+  
+* edited Supun's KinectTest.java to display depth data using JFrame 
+
+  * studied the libfreenect example using OpenGL, a much faster graphics visualizer
+  * points are colored red, yellow, or blue depending on the distance from the sensor
+
+* found two compression techniques shown to be useful in handling Kinect depth data, LZ4 and RLECodec
+  * found a Java library implementing LZ4 compression that has been shown to be useful with Kinect depth data  
+
+* wrote a program that recieves Kinect depth data, compresses the data using LZ4, prints the uncompressed and compressed data to two text files, decompresses the data, and displays the colored distance data in a JFrame
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* installing and building SimpleOpenNI2 library or SimpleOpenNI, this library will not be used for the project
+* successful compression of depth data
+
+  * the LZ4 library is invoked correctly (it seems) but the text files show no decrease in size
+
+* programming a smoother display for depth data, the JFrame lags considerably
+
+* programming a smooth gradient of colored distance data as opposed to color thresholds
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* implementation of an efficient compression algorithm along with useful data filters
+* programming a client to send depth information to the IoTCloud2 server
+* implementation of depth disparity to distance algorithms of higher accuracy
+* improving the program displaying colored depth data
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+http://thebytekitchen.com/2014/03/24/data-compression-for-the-kinect/
+https://github.com/jpountz/lz4-java

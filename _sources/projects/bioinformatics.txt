@@ -103,6 +103,10 @@ Done This Week:
 
 - Set up Twister environment in Quarry and requested nodes to work with.
 
+- Updated project goals: Develop a back-end system in Python that will connect to and submit jobs to a computer cluster and integrate with Cloudmesh
+
+- Set up Linux machine to work on with Saliya
+
 
 Uncompleted This Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -110,13 +114,17 @@ Uncompleted This Week:
 - Connecting to FutureGrid using jsch in Java portal
 - Completing PBS script to run on cluster.
 
+- Downloading appropriate Python libraries for ssh connection and PBS scripting.
+
 
 Next Week:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Gain a better understanding of the arguments/commands necessary to run the Twister-Pipeline.
 
-- Continue developing the portal framework: be able to connect to cluster and submit a job.
+- Continue developing the portal framework now in Python: be able to connect to cluster and submit a job.
+
+- Generate the PBS script to be sent by Python program.
 
 - Use allocated nodes in Quarry to run Twister-Pipeline on larger data set.
 

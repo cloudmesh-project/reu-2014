@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 
@@ -87,7 +88,7 @@
 <li class="toctree-l2"><a class="reference internal" href="bigdata.html#design">Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bigdata.html#implementation">Implementation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bigdata.html#links">Links</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bigdata.html#weekly-project-updates-week-1-june-2-6">Weekly Project Updates (Week 1 June 2-6)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bigdata.html#weekly-project-updates-week-2-june-9-13">Weekly Project Updates (Week 2 June 9-13)</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="bigdata.html#progress">Progress:</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bigdata.html#plans">Plans:</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bigdata.html#problems">Problems:</a></li>
@@ -144,9 +145,9 @@
 <li class="toctree-l2"><a class="reference internal" href="#team">Team</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#problem">Problem</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#first-week">First week</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#second-week">Second week</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#design">Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">First week</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
 </ul>
 </li>
@@ -170,6 +171,7 @@
 <li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#implementation">Implementation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#links">Links</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-1">Week 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-2">Week 2</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="plotviz.html">PlotViz: Bioinformatic Genomic Sequence Data</a><ul>
@@ -199,8 +201,18 @@
 <li class="toctree-l3"><a class="reference internal" href="robotics.html#links-to-articles">Links to Articles</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#week-2">Week 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id1">What Has Been Done This Week</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id2">What Has Not Been Achieved This Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id3">What is Planed For Next Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id4">Links</a></li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../community.html">Community</a></li>
 </ul>
 </ul>
 </li>
@@ -218,9 +230,9 @@
 <li><a class="reference internal" href="#team">Team</a></li>
 <li><a class="reference internal" href="#problem">Problem</a></li>
 <li><a class="reference internal" href="#first-week">First week</a></li>
+<li><a class="reference internal" href="#second-week">Second week</a></li>
 <li><a class="reference internal" href="#design">Design</a></li>
 <li><a class="reference internal" href="#implementation">Implementation</a></li>
-<li><a class="reference internal" href="#id1">First week</a></li>
 <li><a class="reference internal" href="#links">Links</a></li>
 </ul>
 </li>
@@ -289,6 +301,9 @@
 <li class="toctree-l1"><a class="reference internal" href="plotviz.html">PlotViz: Bioinformatic Genomic Sequence Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="robotics.html">IoTCloud2</a></li>
 </ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../community.html">Community</a></li>
+</ul>
 
 </ul>
 
@@ -310,79 +325,103 @@
 <ul class="simple">
 <li>Natiele Bohn, <a class="reference external" href="mailto:nattibohn&#37;&#52;&#48;gmail&#46;com">nattibohn<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
 <li>Gregor von Laszewski, <a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
-<li>Oliver Lewis (Grad student)</li>
+<li>Oliver Lewis, <a class="reference external" href="mailto:oliverlewis7&#37;&#52;&#48;gmail&#46;com">oliverlewis7<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
 </ul>
 </div>
 <div class="section" id="problem">
 <h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
-<p>Cloudmesh is a project that includes the ability to conduct bare metal
-provisioning. It is important that this is supported in a multiuser
-environment. We will be developing for this a time based reservation
-system in which users will have access to resources based on time
-slices. This project will develop such a reservation system as a
-commandline tool and also as a GUI (if time permits while leveraging
-the work done by von Laszewski for this project). As a result we will
-have a simple commandline tool that allows the administrator or user
-to chose a reservation or query the system to find a suitable
-reservation. Limits will be put in place so that users do not reserve
-too many resources and block the sytems while not allowing others to
-use it. The system will have an abstract plugin that allows the
-integration of a real bare metal provisioner. Howevre for this
-project, we will simulate it and focus only on the management of the
-reservation itself and not how they are used or how machines are
-leveraged for the actual bare metal provisioning. Convemient tables
-and views are developed as part of the GUI development which is doable
-as the GUI framework is already included in the project developed by
-von Laszewski.</p>
+<p>Cloudmesh Resource Reservation is being developed to
+create and manage reservations inside Cloudmesh.
+Cloudmesh is a project that includes the ability to conduct
+bare metal provisioning. It is important that this is supported
+in a multiuser environment. We will be developing for this a
+time based reservation system in which users will have
+access to resources based on time slices. This project will
+develop such a reservation system as a commandline tool and
+also as a GUI (if time permits while leveraging the work
+done by von Laszewski for this project). As a result we will
+have a simple commandline tool that allows the administrator
+or user to choose a reservation or query the system to find a
+suitable reservation. Limits will be put in place so that users
+do not reserve too many resources and block the systems
+while not allowing others to use it. The system will have an
+abstract plugin that allows the integration of a real bare metal
+provisioning. However, for this project, we will simulate it
+and focus only on the management of the reservation itself
+and not how they are used or how machines are leveraged for
+the actual bare metal provisioning. Convenient tables and
+views are developed as part of the GUI development which is
+doable as the GUI framework is already included in the
+project developed by von Laszewski.</p>
 <p>Plan of Action:</p>
-<ul class="simple">
-<li>Week 1: Learn the basics: python, git, mongo, get familair with the
-ol reservation code developed by oliver</li>
-<li>Week 2: develop a mongo db to generate random reservations and
-dispaly them in an image via ploticus</li>
-<li>Week 3: complete the database design while using mongoengine and
-create commandline tools useing docopts to interact withe the
-database (reqrite Olivers code)</li>
-<li>Week 4: Improve the flask interface von Laszewski developed and
-create better views, work with Fugang on this in case help is
-needed.</li>
-<li>Week 5: develop a mechnism that restricts access in various ways
-through policies. For example use is time limited on all or some
-machines, she has not access to all machines, she has restrictions
-based on project memberships</li>
-<li>Week 6: write command line tools to manage policies, write gui forms
-and use forms to manage policies in mongo. USe mongoengine for all
-of thsi</li>
-<li>Week 7: continue development and code cleanup</li>
-<li>Week 8: complete the 2 page paper that you worked on till now,
-complete the documentation, code and transition ownereship to Gregor
-and Fugang. Discuss the possibility if this code can be introduced
-into the production code of cloudmesh.</li>
-</ul>
+<p>The follow information is a temporary plan of actions that
+can bring more details about the daily lab activities proposed
+by von Laszewski:</p>
+<p>Week 1: Learn the basics: python, git, mongo, get
+familiar with the old reservation code developed by
+Oliver Lewis who is a grad student here at Indiana
+University
+Week 2: Develop a mongo database to generate
+random reservations and display them in an image
+via Ploticus
+Week 3: Complete the database design while using
+Mongoengine and create commandline tools using
+Docopts to interact with the database (rewrite
+Olivers code)
+Week 4: Improve the flask interface that von
+Laszewski developed and create better views, work
+with Fugang on this in case help is needed.
+Week 5: Develop a mechanism that restricts access
+in various ways through policies. For example: a
+user is time limited on all or some machines, the user has not access to all machines, the user has
+restrictions based on project memberships
+Week 6: Write commandline tools to manage
+policies, write GUI forms and use forms to manage
+policies in mongo. Use Mongoengine for all of this
+Week 7: Continue development and code cleanup
+Week 8: Complete the 2 page paper that you
+worked on until now, complete the documentation,
+code and transition ownership to Gregor von Laszewski and Fugang. Discuss the possibility of
+this code can be introduced into the production
+code of Cloudmesh.</p>
 </div>
 <div class="section" id="first-week">
 <h2>First week<a class="headerlink" href="#first-week" title="Permalink to this headline">¶</a></h2>
-<p>The challenges of the first week of the program was to learn Python in
-just some days and learn Linux commands to know how to use Ubuntu.
-Besides to learn Python and Linux commands I had to read and
-understand docopt and have a basic knowledge about mongodb/
-mongoengine.</p>
+<p>The follow information are some of the tasks already done on
+the first week of work:</p>
+<ul class="simple">
+<li>Install Ubuntu</li>
+<li>Learn commands on Linux shell</li>
+<li>Learn Python and its syntax</li>
+<li>Create account on GitHub</li>
+<li>Read the old code of Reservation</li>
+<li>Learn commands like git clone, git pull, git commit</li>
+</ul>
+<p>and git push to bring the code of reservation to my
+workstation and after make changes in the code
+push it back to GitHub to allows another users to
+see the changes in the code and work in parallel</p>
+</div>
+<div class="section" id="second-week">
+<h2>Second week<a class="headerlink" href="#second-week" title="Permalink to this headline">¶</a></h2>
+<p>The follow information are some of the tasks already done on
+the second week of work:</p>
+<ul class="simple">
+<li>Learn about how Mongodb works on the</li>
+</ul>
+<p>background of Mongoengine
+* Created a database to integrate and generate
+random reservations on Cloudmesh
+* Test the code on generate.py on reservations
+* Develop new functions inside model.py on reservations.
+The functions developed were responsible for find different information inside
+the random reservations that were created.</p>
 </div>
 <div class="section" id="design">
 <h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="id1">
-<h2>First week<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>This project I am working has being implemented in Python and using
-mongoengine as database management.  It&#8217;s function is to see what
-resources are avaliable to be used on cloud and make a reservation of
-this resource.  It has to validate if the time requested its avaliable
-and return if the reservation is possible or not. And if not, it has
-to say what is the next time this particular resource will be
-avaliable for the solicited amout of time.</p>
 </div>
 <div class="section" id="links">
 <h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
@@ -408,7 +447,7 @@ avaliable for the solicited amout of time.</p>
     </p>
     <p>
         &copy; Copyright 2014, FutureGrid.<br/>
-      Last updated on Jun 13, 2014 at 11:57:41 ET.<br/>
+      Last updated on Jun 16, 2014 at 11:28:22 ET.<br/>
     </p>
   </div>
 </footer>
