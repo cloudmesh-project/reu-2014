@@ -51,3 +51,12 @@ Bios
 
      - Nigel Pugh   nigel.pugh32@gmail.com
      - Nigel is a student at Elizabith City State University majoting in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
+
+ * -
+   
+      .. image:: images/photo_tori.png
+          :height: 100
+
+     - Tori Wilbon   toriwilbon@gmail.com
+     - Tori is a Sophmore majoring in Computer Science at Elizabeth City State University.  She is from Monroe, Georgia, but now live in Maysville, North Carolina.  Tori enjoys programming and she know languages such as HTML, C++, Java and some Python. 
+       Tori is at Indiana University in Bloomington, Indiana working on research with Mr. Saliya Ekanayake, called "Evaluating the Performance of MPI Java in FutureGRID and BIG RED2".  
