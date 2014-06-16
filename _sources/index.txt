@@ -28,3 +28,4 @@ Community
    :maxdepth: 2
    
    community
+   ssh
