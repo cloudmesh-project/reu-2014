@@ -22,7 +22,7 @@ Bios
           :height: 100
 
      - Tatyana Matthews
-     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
+     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore and Computer Information Science major with a scientific concentration at Elizabeth City State University, located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
      
    * -
    
