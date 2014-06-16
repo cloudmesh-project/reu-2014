@@ -60,7 +60,7 @@ Project Abstracts
        **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
-       .. image:: images/photo_ifeanyi.png
+       .. image:: images/photo_jeff.png
           :height: 100
 
      - Jefferson Ridgeway
