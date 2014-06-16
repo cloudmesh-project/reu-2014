@@ -42,7 +42,7 @@ Bios
           :height: 100
 
      - Loran Saggu
-     - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running aro
+     - Loran is currently a Computer Science B.S. student studying at Indiana University. Loran has just completed his sophomore year at I.U. Besides coding with Python and Java and working with HTML, Loran enjoys being outside, travelling, and running around.
      
    * -
    
