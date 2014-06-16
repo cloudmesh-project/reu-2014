@@ -18,11 +18,11 @@ Bios
      - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior, and is presently working in Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
-      .. image:: images/taty.png
+      .. image:: images/tatyfinal.png
           :height: 100
 
      - Tatyana Matthews
-     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina.
+     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
      
    * -
    
