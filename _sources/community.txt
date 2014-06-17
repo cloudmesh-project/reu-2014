@@ -9,9 +9,9 @@ Community
    * - Student
      - Task(s)
    * - Leif Christiansen
-     - REU git repository managment and coordination
+     - REU git repository managment and coordination
    * - Lorander Saggu
-     - `SSH key presentation <https://github.com/cloudmesh/reu/blob/master/doc/source/ssh.rst>`_
+     - `SSH key presentation <http://cloudmesh.futuregrid.org/reu/ssh.html>`_
    * - Tori Wilbon
      - event co-coordinator for weekly update sessions
    * - Khaliq Satchell

@@ -21,8 +21,8 @@ Bios
       .. image:: images/tatyfinal.png
           :height: 100
 
-     - Tatyana Matthews
-     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore Computer Information Science major with a scientific concentration at Elizabeth City State University (ECSU) located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
+     - Tatyana Matthews    matthews.tatyana17@gmail.com
+     - Tatyana Matthews is from Charlotte, North Carolina. She is a rising sophomore and Computer Information Science major with a scientific concentration at Elizabeth City State University, located in Elizabeth City, North Carolina. At this time she is researching the Apache Big Data Stack, a project led by Scott McCaulay at Indiana University, Bloomington.
      
    * -
    
@@ -60,3 +60,4 @@ Bios
      - Tori Wilbon   toriwilbon@gmail.com
      - Tori is a Sophmore majoring in Computer Science at Elizabeth City State University.  She is from Monroe, Georgia, but now live in Maysville, North Carolina.  Tori enjoys programming and she know languages such as HTML, C++, Java and some Python. 
        Tori is at Indiana University in Bloomington, Indiana working on research with Mr. Saliya Ekanayake, called "Evaluating the Performance of MPI Java in FutureGRID and BIG RED2".  
+       
