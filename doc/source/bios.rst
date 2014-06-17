@@ -67,3 +67,4 @@ Bios
       - Jeff Ridgeway  jdridgeway4@gmail.com 
       - Jeff is a Sophomore majoring in Computer Sciene at Elizabeth City State University.  He is originally from Spring Lake, North Carolina. Jeff is currently working on using the Django web framwork for the Cloudmesh
         databases. 
+   * -
