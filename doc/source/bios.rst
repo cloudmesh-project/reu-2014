@@ -61,10 +61,3 @@ Bios
      - Tori is a Sophmore majoring in Computer Science at Elizabeth City State University.  She is from Monroe, Georgia, but now live in Maysville, North Carolina.  Tori enjoys programming and she know languages such as HTML, C++, Java and some Python. 
        Tori is at Indiana University in Bloomington, Indiana working on research with Mr. Saliya Ekanayake, called "Evaluating the Performance of MPI Java in FutureGRID and BIG RED2".  
        
-   * -
-      .. image:: images/rsz_1rsz_photo_jeff1.png
-      
-      - Jeff Ridgeway  jdridgeway4@gmail.com 
-      - Jeff is a Sophomore majoring in Computer Sciene at Elizabeth City State University.  He is originally from Spring Lake, North Carolina. Jeff is currently working on using the Django web framwork for the Cloudmesh
-        databases. 
-   * -
