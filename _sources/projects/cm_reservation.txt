@@ -100,13 +100,10 @@ Second week
 The follow information are some of the tasks already done on
 the second week of work:
 
-* Learn about how Mongodb works on the
-background of Mongoengine
-* Created a database to integrate and generate
-random reservations on Cloudmesh
-* Test the code on generate.py on reservations
-* Develop new functions inside model.py on reservations. 
-The functions developed were responsible for find different information inside
+* Learn about how Mongodb works on the background of Mongoengine
+* Created a database to integrate and generate random reservations on Cloudmesh
+* Test the code on generate.py on reservations 
+* Develop new functions inside model.py on reservations. The functions developed were responsible for find different information inside
 the random reservations that were created.
 
 Third week
