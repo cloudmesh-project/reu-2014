@@ -128,4 +128,32 @@ Next Week:
 
 - Use allocated nodes in Quarry to run Twister-Pipeline on larger data set.
 
+Week 3 6/16 - 6/20
+----------------------------------------------------------------------
+Done This Week:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Began designing clusterLink.py: uses sh library to connect to grid via command line and submit a PBS script to be run on the cluster
 
+- Began working on a test PBS script to be submitted to cluster.
+
+- Successfully sent testPBS script to run on cluster using python program: clusterLink.py
+
+- Completed file modification functions in Bash script (twisterScript)
+- Completed simple script to run Twister.
+
+- Developed python function to dynamically create Twister script which will run SWG and PWC algorithms on given data
+	
+
+
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Getting TwisterScript to successfully submit a TWISTER job on FutureGrid
+- Still have some development left to do on python program and script.
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Need to meet with Yang and go over script and over Quarry Jobs!
+- Successfully run script REMOTELY on FutureGrid.
+- RUN MDS on QUARRY on 56k + 1k data
