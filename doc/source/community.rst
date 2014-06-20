@@ -16,3 +16,5 @@ Community
      - event co-coordinator for weekly update sessions
    * - Khaliq Satchell
      - event co-coordinator for weekly update sessions
+   * - Tatyana Matthews
+     - `Mendeley Presentation <http://cloudmesh.futuregrid.org/reu/mendeley.html>`_
