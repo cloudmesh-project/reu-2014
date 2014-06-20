@@ -39,7 +39,7 @@ Information courtesy of:
 
 How do I get started with Mendeley?
 ----------------------------------------------------------------------
-Follow the links below to get started:
+Follow the links below to begin:
 
 * http://vimeo.com/89704710 (“Getting Started with Mendeley” video)
 * http://www.mendeley.com/features/ (Get started guide)
