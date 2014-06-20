@@ -23,10 +23,8 @@ Design
 Implementation
 ----------------------------------------------------------------------
 
-* Robot Operating System (ROS)
-  * http://www.ros.org/
-* OpenKinect driver
-  * http://openkinect.org/wiki/Main_Page
+* `Robot Operating System (ROS) <http://www.ros.org/>`_
+* `OpenKinect driver <http://openkinect.org/wiki/Main_Page>`_
 
 Links
 ----------------------------------------------------------------------
