@@ -173,7 +173,7 @@ What Has Been Done This Week
   * Jzlib, a Java implementation of Zlib; Jzlib offers greater compression and will be used
   
 * improved my depth display program to color depth points with a smooth gradient ranging through several colors
- .. image:: images/photo_ifeanyi.png
+ .. image:: ../images/ScrnShot.png
 * implemented a more accurate depth calculation algorithm as a table look-up
 * wrote a program that performs basic object detection using the kinect
 
