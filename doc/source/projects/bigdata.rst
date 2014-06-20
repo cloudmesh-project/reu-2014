@@ -52,7 +52,11 @@ Overview of Apache HBase
 
 Chef Webinar Series: Informative Tutorials
 
-Weekly Project Updates (Week 2 June 9-13)
+*http://www.mendeley.com/
+
+Mendeley free reference manager
+
+Weekly Project Updates (Week 3 June 16-20)
 ----------------------------------------------------------------------
 
 Progress:
@@ -79,30 +83,38 @@ Progress:
 
 * [done, Week 2] Accessed root permissions in Ubuntu terminal
 
-* [in progress, Week 1] Learned basics of Chef through Webinars
+* [done, Week 3] Learned basics of Chef through Webinars
 
-* [in progress, Week 2] Learned basic syntax & shortcuts for Ruby
+* [done, Week 3] Created account/downloaded Mendeley
+
+* [done, Week 3] Created file repository for Mendeley "Get Started Guide"
+
+* [done, Week 3] Completed Chef Webinar series
+
+* [in progress, Week 3] Learning basic syntax & shortcuts for Ruby
 
 Plans:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 3] Reproduce all installations in Windows 7
-
-* [Week 3] Install Ruby programming software
-
-* [Week 3] Practice programming in Ruby
-
-* [Week 3] Complete Chef Webinars
+* [Week 4] Reproduce all installations in Windows 7
 
 * [Week 4] Install Chef in Ubuntu and Windows 7
 
-* [Week 4] Test HBase through commands in the Ubuntu terminal
+* [Week 4] Successfully create a cookbook, recipe, and *possible web server (*discuss with mentor) using Chef
 
-* [Week 4] Install and test two additional open source software packages in Ubuntu and Windows 7
+* [Week 4] Create procedural list of Chef installation guide according to personal installation experience
+
+* [Week 4] Update GitHub
+
+* [Week 4] Meet with Apache Big Data Stack team to discuss progress, timeline, team member roles, and team goals
+
+* [Week 4] Discuss and develop with mentor a personal goal for the project, design, and implementation
 
 Problems:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 2] What will be required in order for all installations thus far to be reproduced in Windows 7?
+* [Week 3] What will be required in order for all installations thus far to be reproduced in Windows 7?
 
-* [Week 2] Particularly, how will Apache Maven function as building a project out of the open-source software packages installed?
+* [Week 3] In what ways can I create an efficient, understandable, and relatable procedure for installing Chef?
+
+* [Week 3] How can I make such a procedure accessible, so that it can be utilized and searchable?
