@@ -103,8 +103,7 @@ the second week of work:
 * Learn about how Mongodb works on the background of Mongoengine
 * Created a database to integrate and generate random reservations on Cloudmesh
 * Test the code on generate.py on reservations 
-* Develop new functions inside model.py on reservations. The functions developed were responsible for find different information inside
-the random reservations that were created.
+* Develop new functions inside model.py on reservations. The functions developed were responsible for find different information inside the random reservations that were created.
 
 Third week
 ----------------------------------------------------------------------
@@ -112,13 +111,17 @@ Third week
 * Create functions add, update and delete to model.py
 * Create commandlines using DOCOPTS
 * Start to look how the flask works to update the flask already developed by Gregor von Laszewski
+* Added function list on flask interface
 
 Links
 ----------------------------------------------------------------------
 
 Some documentation that I read can be found at:
 
-* http://www.pythonforbeginners.com/
-* http://docs.mongoengine.org/
+* http://mongoengine.org/
+* https://www.python.org/
+* http://flask.pocoo.org/docs/tutorial/
 * http://docopt.org/
+* http://www.w3.org/TR/html-aapi/
+
 
