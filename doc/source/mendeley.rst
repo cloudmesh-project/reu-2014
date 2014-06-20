@@ -13,6 +13,7 @@ What is Mendeley to begin with?
 * Mendeley is an open and “free reference manager” as well as “social network” that allows you to “organize research”, work collectively with others, and uncover the latest research as well.
 
 * Menedely has many great features for its users:
+
   - Drag & Drop option for research papers
     * Mendeley will extract vital information from papers for you to further your organization i.e. title, journal, author, and keywords
     
