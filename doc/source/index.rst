@@ -29,3 +29,4 @@ Community
    
    community
    ssh
+   mendeley
