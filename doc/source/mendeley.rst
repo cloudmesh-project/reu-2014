@@ -15,17 +15,23 @@ What is Mendeley to begin with?
 * Menedely has many great features for its users:
 
   - Drag & Drop option for research papers
+  
     * Mendeley will extract vital information from papers for you to further your organization i.e. title, journal, author, and keywords
     
   - Sync option
+  
     * Use your mobile device and other computing devices to sync your research
+    
     * Do everything on the go!
     
   - Groups option
+  
     * You can create private groups in which you can share papers only within that private circle
+    
     * You can also join public groups to link yourself with research from around the globe
     
   - Personal Recommendations option
+  
     * Mendeley will recommend papers for you based on your recent searches, interests and contacts
 
 Information courtesy of: 
