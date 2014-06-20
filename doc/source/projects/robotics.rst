@@ -160,3 +160,47 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 http://thebytekitchen.com/2014/03/24/data-compression-for-the-kinect/
 https://github.com/jpountz/lz4-java
+
+Week 3
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* implemented two Java compression libraries
+
+  * Snappy, a Run Length Encoder by Google
+  * Jzlib, a Java implementation of Zlib; Jzlib offers greater compression and will be used
+  
+* improved my depth display program to color depth points with a smooth gradient ranging through several colors
+* implemented a more accurate depth calculation algorithm as a table look-up
+* wrote a program that performs basic object detection using the kinect
+
+  * ObjDetect.java
+  
+* completed several RabbitMQ tutorials
+* wrote programs using RabbitMQ that send kinect data over computer networks 
+  
+  * SendFrame.java
+  * RecvFrame.java
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* compression per frame of less than 100 kB
+* an optimized program for the transmission of kinect depth data
+  * current program has a delay of ~1 second
+* implementation of useful filters on depth data (e.x. DiscreteMedianFilter from TheByteKitchen)
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* collaborate with Supun to integrate my code into the IoTCloud project proper
+* write program to perform real time processing on depth data on the cloud
+* hook up the kinect to robots and test my programs
+* optimize depth transmission 
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* http://www.jcraft.com/jzlib/
+* http://www.rabbitmq.com/
