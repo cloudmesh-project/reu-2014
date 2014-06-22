@@ -66,6 +66,10 @@ Project Abstracts
      - Jefferson Ridgeway
 
        Mentor: Gregor von Laszewski
+       
+       University: Elizabeth City State University 
+       
+       .. image:: images/elizabeth_city_logo.png
      - **Django For Cloudmesh**
 
        The cloud computing system Cloudmesh currently uses flask,
