@@ -72,11 +72,11 @@ Project Abstracts
        .. image:: images/elizabeth_city_logo.png
      - **Django For Cloudmesh**
 
-       The cloud computing system Cloudmesh currently uses flask,
-       however because of the low usage of the web
-       framework. Installation of django, a similar framework has
-       proven to be more productive, efficient, and easier to use and
-       apply than flask. The purpose of this project is to develop a
+       The cloud computing system Cloudmesh currently uses flask
+       as a backend. Even though flask is easier to use than django, 
+       django has become very favored in the cloud computing community as 
+       of recently. 
+       The purpose of this project is to develop a
        prototype django server that will have sets of functions that
        will make Cloudmesh easier for user to interact with. This
        includes attaching bootstrap theme to the django server and
