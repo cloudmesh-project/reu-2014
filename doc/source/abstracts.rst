@@ -25,10 +25,10 @@ Project Abstracts
        **Keywords:** Cloudmesh; FutureGrid; Django; Mongoengine; Mongodb
    * - 
 
-       .. image:: images/photo_ifeanyi.png
+       .. image:: images/photo_natiele.png
           :height: 100
 
-     - Natalie Bohn
+     - Natiele Bohn
 
        Mentor: Gregor von Laszewski
      - **Cloudmesh Resource Reservation**
