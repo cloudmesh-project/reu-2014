@@ -25,10 +25,10 @@ Project Abstracts
        **Keywords:** Cloudmesh; FutureGrid; Django; Mongoengine; Mongodb
    * - 
 
-       .. image:: images/photo_ifeanyi.png
+       .. image:: images/photo_natiele.png
           :height: 100
 
-     - Natalie Bohn
+     - Natiele Bohn
 
        Mentor: Gregor von Laszewski
      - **Cloudmesh Resource Reservation**
@@ -60,7 +60,7 @@ Project Abstracts
        **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
-       .. image:: images/photo_jeff.png
+       .. image:: images/rsz_1rsz_photo_jeff1.png
           :height: 100
 
      - Jefferson Ridgeway
@@ -87,7 +87,7 @@ Project Abstracts
        
    * - 
    
-       .. image:: images/photo_leif.jpg
+       .. image:: images/photo_leif.png
           :height: 100
 
      - Leif Christiansen

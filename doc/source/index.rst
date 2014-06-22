@@ -5,6 +5,7 @@ FutureGrid REU
 
 .. toctree::
    :maxdepth: 2
+   
 
    README
    bios
@@ -29,3 +30,4 @@ Community
    
    community
    ssh
+   mendeley

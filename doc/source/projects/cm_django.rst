@@ -4,7 +4,7 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-.. image:: ../Downloads/image.png
+.. image:: ..image/rsz_1rsz_photo_jeff1.png
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com

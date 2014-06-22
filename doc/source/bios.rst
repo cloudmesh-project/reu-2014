@@ -60,3 +60,11 @@ Bios
      - Tori Wilbon   toriwilbon@gmail.com
      - Tori is a Sophmore majoring in Computer Science at Elizabeth City State University.  She is from Monroe, Georgia, but now live in Maysville, North Carolina.  Tori enjoys programming and she know languages such as HTML, C++, Java and some Python. 
        Tori is at Indiana University in Bloomington, Indiana working on research with Mr. Saliya Ekanayake, called "Evaluating the Performance of MPI Java in FutureGRID and BIG RED2".  
+       
+   * -
+
+      .. image:: images/photo_natiele.png
+          :height: 100
+
+     - Natiele Bohn    nattibohn@gmail.com
+     - Natiele Bohn is an international student from Brazil. She is a junior in Computer Science major currently studing at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently work programming in Python, developing a reservation application to reserve resources in cloud.

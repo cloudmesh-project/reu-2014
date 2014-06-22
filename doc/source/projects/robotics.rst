@@ -23,20 +23,16 @@ Design
 Implementation
 ----------------------------------------------------------------------
 
+* `Robot Operating System (ROS) <http://www.ros.org/>`_
+* `OpenKinect driver <http://openkinect.org/wiki/Main_Page>`_
 
 Links
 ----------------------------------------------------------------------
 
-* https://github.com/supunkamburugamuva/iotcloud2
-* https://github.com/iotcloud/reu
-* http://openkinect.org/wiki/Main_Page
-* http://code.google.com/p/simple-openni/
 * https://github.com/iotcloud/reu
 * https://github.com/supunkamburugamuva/iotcloud2
 * https://github.com/supunkamburugamuva/sensorstream
-* http://www.processing.org/
-* http://www.ros.org/
-* http://shiffman.net/p5/kinect/reference/org/openkinect/processing/Kinect.html
+* https://github.com/supunkamburugamuva/iotrobots
 
 
 Week 1
@@ -88,13 +84,18 @@ What is Planed For Next Week?
 * build a library that will be used to write code for the Kinect (whether it be SimpleOpenNI2 or otherwise) 
 * record depth image data from the Kinect.
 
-Links to Articles
+Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* www.cs.washington.edu/robotics/postscripts/3d-mapping-iser-10-final.pdf
-* http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
-* http://research.microsoft.com/pubs/155378/ismar2011.pdf
-* http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
+* Articles
 
+  * www.cs.washington.edu/robotics/postscripts/3d-mapping-iser-10-final.pdf
+  * http://scholar.google.com/scholar_url?hl=en&q=http://www.mdpi.com/1424-8220/12/2/1437/pdf&sa=X&scisig=AAGBfm0cShgyJ38PAqssax-iG5vzh88IIg&oi=scholarr
+  * http://research.microsoft.com/pubs/155378/ismar2011.pdf
+  * http://www.cs.washington.edu/robotics/postscripts/icra11-scene-differencing.pdf
+
+* http://www.processing.org/
+* http://shiffman.net/p5/kinect/reference/org/openkinect/processing/Kinect.html
+* http://code.google.com/p/simple-openni/
 Week 2
 ----------------------------------------------------------------------
 
@@ -160,3 +161,48 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 http://thebytekitchen.com/2014/03/24/data-compression-for-the-kinect/
 https://github.com/jpountz/lz4-java
+
+Week 3
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* implemented two Java compression libraries
+
+  * Snappy, a Run Length Encoder by Google
+  * Jzlib, a Java implementation of Zlib; Jzlib offers greater compression and will be used
+  
+* improved my depth display program to color depth points with a smooth gradient ranging through several colors
+ .. image:: ../images/ScrnShot.png
+* implemented a more accurate depth calculation algorithm as a table look-up
+* wrote a program that performs basic object detection using the kinect
+
+  * ObjDetect.java
+  
+* completed several RabbitMQ tutorials
+* wrote programs using RabbitMQ that send kinect data over computer networks 
+  
+  * SendFrame.java
+  * RecvFrame.java
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* compression per frame of less than 100 kB
+* an optimized program for the transmission of kinect depth data
+  * current program has a delay of ~1 second
+* implementation of useful filters on depth data (e.x. DiscreteMedianFilter from TheByteKitchen)
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* collaborate with Supun to integrate my code into the IoTCloud project proper
+* write program to perform real time processing on depth data on the cloud
+* hook up the kinect to robots and test my programs
+* optimize depth transmission 
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* http://www.jcraft.com/jzlib/
+* http://www.rabbitmq.com/
