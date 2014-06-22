@@ -6,7 +6,6 @@ FutureGrid REU
 .. toctree::
    :maxdepth: 2
    
-   <h1> http://cloudmesh.github.io/reu </h1>
 
    README
    bios
