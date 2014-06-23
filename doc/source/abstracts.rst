@@ -178,7 +178,8 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-     - **Apache Big Data Stack**
+       .. image:: images/ecsu_seal_gold.png
+     - **Apache Big Data Stack
 
        The Apache Big Data Stack is representative of a large spectrum of numerous open-source software programs provided through 
        Apache projects. The term Apache refers to the Apache Software Foundation (ASF), which provides support for open-source 
