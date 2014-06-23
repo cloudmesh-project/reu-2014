@@ -15,7 +15,7 @@ Bios
           :height: 100
 
      - Ifeanyi Rowland Onyenweaku
-     - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior, and is presently working in Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
+     - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior and is presently working at Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
       .. image:: images/tatyfinal.png
@@ -67,4 +67,4 @@ Bios
           :height: 100
 
      - Natiele Bohn    nattibohn@gmail.com
-     - Natiele Bohn is an international student from Brazil. She is a junior in Computer Science major currently studing at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently work programming in Python, developing a reservation application to reserve resources in cloud.
+     - Natiele Bohn is an international student from Brazil. She is a junior majoring in Computer Science currently studying at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently programming in Python, developing a reservation application to reserve resources in the cloud.
