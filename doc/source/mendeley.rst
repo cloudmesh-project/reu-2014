@@ -46,6 +46,6 @@ Follow the links below to begin:
 * Create an account, download Mendeley to your desktop, find out what awesome features they offer, and get started of course!
 
 But, I have more questions...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------------------------
 * http://resources.mendeley.com/ (Mendeley resources and guide)
 * http://www.mendeley.com/ (Mendeley website)
