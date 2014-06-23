@@ -89,11 +89,7 @@ the first week of work:
 * Learn Python and its syntax
 * Create account on GitHub
 * Read the old code of Reservation
-* Learn commands like git clone, git pull, git commit
-and git push to bring the code of reservation to my
-workstation and after make changes in the code
-push it back to GitHub to allows another users to
-see the changes in the code and work in parallel
+* Learn commands like git clone, git pull, git commit and git push to bring the code of reservation to my workstation and after make changes in the code push it back to GitHub to allows another users to see the changes in the code and work in parallel
 
 Second week
 ----------------------------------------------------------------------
