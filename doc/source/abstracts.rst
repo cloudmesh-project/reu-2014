@@ -134,6 +134,8 @@ Project Abstracts
 
      - Loran Saggu
        Indiana University
+       .. image:: images/iu.jpeg
+          :height: 100
 
        Mentor: Saliya Ekanayake, Yang Ruan, Geoffrey Fox
      - **BioInformatics: Genomic Sequence Analysis Automation**
