@@ -100,7 +100,7 @@ Plans:
 
 * [Week 4] Install Chef in Ubuntu and Windows 7
 
-* [Week 4] Successfully create a cookbook, recipe, and *possible web server using Chef (*discuss with mentor) 
+* [Week 4] Successfully create a cookbook, recipe, and possible web server using Chef (discuss with mentor) 
 
 * [Week 4] Create guide for installing Chef on Ubuntu based on personal installation experience
 
