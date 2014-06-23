@@ -76,7 +76,7 @@ Progress:
 
 * [done, Week 1] Crafted procedural list of how to install Apache Maven on Ubuntu
 
-* [done, Week 2] Successfully installed Apache HBase onto Ubuntu & Windows 7 on VMware Player
+* [done, Week 2] Successfully installed Apache HBase on Ubuntu
 
 * [done, Week 2] Crafted procedural list of how to install Apache HBase on Ubuntu
 
