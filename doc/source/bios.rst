@@ -68,3 +68,11 @@ Bios
 
      - Natiele Bohn    nattibohn@gmail.com
      - Natiele Bohn is an international student from Brazil. She is a junior majoring in Computer Science currently studying at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently programming in Python, developing a reservation application to reserve resources in the cloud.
+
+   * - 
+   
+      .. image:: images/rsz_1sz_photo_jeff1.png
+          :height: 100
+          
+      - Jefferson Ridgeway    jdridgeway4@gmail.com
+      - Jefferson is a student currently attending Elizabeth City State University in Elizabeth City, NC.  Jefferson has completed his freshman year at Elizabeth City State and is a Computer Science Major with a minor in Mathematics.  Jefferson is currently working on django for cloudmesh under Gregor von Laszewski at Indiana University. 
