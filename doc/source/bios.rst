@@ -71,7 +71,7 @@ Bios
 
    * - 
    
-      .. image:: images/rsz_1sz_photo_jeff1.png
+      .. image:: images/rsz_1rsz_photo_jeff1.png
           :height: 100
           
      - Jefferson Ridgeway    jdridgeway4@gmail.com
