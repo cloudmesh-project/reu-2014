@@ -100,6 +100,8 @@ Progress & Plans
   * [done, Week 2] the bootstrap based simple server is in github
   * [done, Week 2] Successfully learned how to create a model and view in github
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
+  * [done, Week 3] installation of models, views, and templates
+  * [done, Week 3] documentation of models, vies, and templates
 
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
@@ -109,6 +111,9 @@ Progress & Plans
     dataset via django.  users are managed through sql we will in wee
     3 use the reservation database and than test how to develop views
     and templates. we start with reading up on views and templates.
+  * [Week 3] had a difficult time understanding examples and documentation
+    about django and how to create successful models, views, and templates 
+    to be seen with django and had a hard time installing mongodb as a backend.
 
 :Plan: 
   * [Week2] read more django documentation and implement django server 
