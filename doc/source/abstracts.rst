@@ -175,6 +175,9 @@ Project Abstracts
      - Tatyana Matthews
 
        Mentor: Scott McCaulay
+       
+       University: Elizabeth City State University
+       
      - **Apache Big Data Stack**
 
        The Apache Big Data Stack is representative of a large spectrum of numerous open-source software programs provided through 
