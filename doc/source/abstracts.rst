@@ -31,6 +31,14 @@ Project Abstracts
      - Natiele Bohn
 
        Mentor: Gregor von Laszewski
+       
+       Dillard University / UNISINOS
+       
+       .. image:: images/dillard.png
+          :height: 100
+          
+       .. image:: images/unisinos.png
+          :height: 100
      - **Cloudmesh Resource Reservation**
 
        Cloudmesh Resource Reservation is being developed to create and
