@@ -133,11 +133,13 @@ Project Abstracts
           :height: 100
 
      - Loran Saggu
+       
        Indiana University
+       
        .. image:: images/iu.jpeg
           :height: 100
 
-       Mentor: Saliya Ekanayake, Yang Ruan, Geoffrey Fox
+       Mentors: Saliya Ekanayake, Yang Ruan, Geoffrey Fox
      - **BioInformatics: Genomic Sequence Analysis Automation**
 
        An organisms genetic code determines everything about that organism: it determines what species the organism will become, how big it will grow, whether or not it will have gills or will be able to convert light into energy. The genetic code of many organisms is quite similar, but of course there are differences which allow for every unique individual. If the similarity between genetic sequences could be mapped, deriving and understanding the relationships between organisms could be done efficiently and effectively. Dr. Geoffrey Fox and his lab are trying to do exactly that: map the similarity between genomic sequences. They seek to do this using complex algorithms within computer programs they have designed that essentially define "distances" between genomic sequences, and these distances can be scaled and used to create a plot. There is, of course, some work to be done. These processes developed by Dr. Fox and his lab are heuristic and only understood and accessable by a few. Also they aren't automated. However, by setting up a server to run a Java based portal designed to accept user input via the web and run these algorithms on computer clusters, these issues could be dealt with. Being able to efficiently map the differences in genomic sequences will vastly improve people's understanding of where the organisms of today arose. This may also have vast implications in the realms of geneology, and medecine as a result of the improved understanding of the relationships between various organisms.
