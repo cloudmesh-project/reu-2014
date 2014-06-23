@@ -7,6 +7,7 @@ Team
    :height: 200
 
 * Tatyana Matthews, matthews.tatyana17@gmail.com
+
 * Advisor: Scott McCaulay, scottmccaulay@gmail.com
 
 Problem
