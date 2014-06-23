@@ -4,7 +4,7 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-.. image:: ../image/rsz_1rsz_photo_jeff1.png
+.. image:: ../images/rsz_1rsz_photo_jeff1.png
    :height:: 100
 
 
