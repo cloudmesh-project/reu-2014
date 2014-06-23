@@ -129,7 +129,7 @@ Project Abstracts
        Mentor: Saliya Ekanayake, Yang Ruan, Geoffrey Fox
      - **BioInformatics: Genomic Sequence Analysis Automation**
 
-	An organisms genetic code determines everything about that organism: it determines what species the organism will become, how big it will grow, whether or not it will have gills or will be able to convert light into energy. The genetic code of many organisms is quite similar, but of course there are differences which allow for every unique individual. If the similarity between genetic sequences could be mapped, deriving and understanding the relationships between organisms could be done efficiently and effectively. Dr. Geoffrey Fox and his lab are trying to do exactly that: map the similarity between genomic sequences. They seek to do this using complex algorithms within computer programs they have designed that essentially define "distances" between genomic sequences, and these distances can be scaled and used to create a plot. There is, of course, some work to be done. These processes developed by Dr. Fox and his lab are heuristic and only understood and accessable by a few. Also they aren't automated. However, by setting up a server to run a Java based portal designed to accept user input via the web and run these algorithms on computer clusters, these issues could be dealt with. Being able to efficiently map the differences in genomic sequences will vastly improve people's understanding of where the organisms of today arose. This may also have vast implications in the realms of geneology, and medecine as a result of the improved understanding of the relationships between various organisms.
+       An organisms genetic code determines everything about that organism: it determines what species the organism will become, how big it will grow, whether or not it will have gills or will be able to convert light into energy. The genetic code of many organisms is quite similar, but of course there are differences which allow for every unique individual. If the similarity between genetic sequences could be mapped, deriving and understanding the relationships between organisms could be done efficiently and effectively. Dr. Geoffrey Fox and his lab are trying to do exactly that: map the similarity between genomic sequences. They seek to do this using complex algorithms within computer programs they have designed that essentially define "distances" between genomic sequences, and these distances can be scaled and used to create a plot. There is, of course, some work to be done. These processes developed by Dr. Fox and his lab are heuristic and only understood and accessable by a few. Also they aren't automated. However, by setting up a server to run a Java based portal designed to accept user input via the web and run these algorithms on computer clusters, these issues could be dealt with. Being able to efficiently map the differences in genomic sequences will vastly improve people's understanding of where the organisms of today arose. This may also have vast implications in the realms of geneology, and medecine as a result of the improved understanding of the relationships between various organisms.
        
        **Keywords:** Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree, Twister
  
@@ -143,15 +143,7 @@ Project Abstracts
        Mentor: Saliya Ekanayake
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
 
-	Message Passing Interface (MPI) has become the de facto way of implementing High 
-	Performance Computing (HPC) applications as it provides library routines to satisfy 
-	virtually all communication patterns. The goal of our research is to understand 
-	performance characteristics of parallel programs written in Java versions of MPI. 
-	Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing 
-	performance of our applications based on both these frameworks. The algorithms that 
-	the team will be measuring are a complex and O(N^2) complexities. The team needs to 
-	make sure they run in an optimal fashion and give us the best results. The other aspect 
-	to our project is to develop some sample MPI Java programs.
+       Message Passing Interface (MPI) has become the de facto way of implementing High Performance Computing (HPC) applications as it provides library routines to satisfy virtually all communication patterns. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing performance of our applications based on both these frameworks. The algorithms that the team will be measuring are a complex and O(N^2) complexities. The team needs to make sure they run in an optimal fashion and give us the best results. The other aspect to our project is to develop some sample MPI Java programs.
 
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
