@@ -4,7 +4,8 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-.. image:: ..image/rsz_1rsz_photo_jeff1.png
+.. image:: ../image/rsz_1rsz_photo_jeff1.png
+   :height:: 100
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
