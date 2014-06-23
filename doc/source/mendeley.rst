@@ -43,7 +43,7 @@ Follow the links below to begin:
 
 * http://vimeo.com/89704710 (“Getting Started with Mendeley” video)
 * http://www.mendeley.com/features/ (Get started guide)
-* Create an account, download Mendeley to your desktop, find out what awesome features they offer, and get started of course!
+* Create an account, download Mendeley to your desktop, find out what awesome features they have to offer, and get started of course!
 
 But, I have more questions...
 ----------------------------------------------------------------------
