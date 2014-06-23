@@ -52,6 +52,9 @@ Links
 
 [5] http://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html
 
+[6] http://www.java2s.com/Code/Java/Collections-Data-Structure/Multiplytwomatrices.htm
+
+[7] http://stackoverflow.com/questions/8779659/convert-a-number-to-2-decimal-places-in-java
 
 
 Week 1
@@ -82,3 +85,15 @@ Problems:
 Plans:
  * Install and run MPI on FutureGRID
  * Create Sample MPI program
+
+Week 3
+-------------------------------------------------------------------------
+Progress:
+ * Worked on Java programs 
+ * Programmed a MPI program
+Problem:
+ * MPI program does want to compile or run on Putty
+Plans:
+ * Continue the Java program like K-Means
+ * Make the K-Means program in  MPI
+ 

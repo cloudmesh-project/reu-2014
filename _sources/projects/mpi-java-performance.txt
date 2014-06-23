@@ -70,6 +70,14 @@ Progress:
 
 [done, Week 2] Created ssh keys for FutureGrid.
 
+[done, Week 3] Created Future Grid account.
+
+[done, Week 3] Created Big Red 2 account.
+
+[done, Week 3] Created a git repository for java programs.
+
+[done, Week 3] Working on FutureGrid and Big Red 2 tutorials.
+
 Problems:
 ----------------------------------------------------------------------
 All goals and plans were met.
