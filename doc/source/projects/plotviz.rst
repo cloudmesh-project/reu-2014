@@ -3,7 +3,7 @@ PlotViz: Bioinformatic Genomic Sequence Data
 
 Team
 ----------------------------------------------------------------------
-- Khaliq Satchell (Me)
+- Khaliq Satchell
 
   ksatchel@indiana.edu
 
