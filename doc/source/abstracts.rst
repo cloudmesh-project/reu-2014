@@ -137,6 +137,11 @@ Project Abstracts
      - Leif Christiansen
 
        Mentor: Supun Kamburugamuva
+       
+       Lewis & Clark College
+       
+       .. image:: images/LC.jpg
+       :height: 100
      - **IoTCloud2**
 
        Kinect sensors provide a cheap and effective tool for 3 dimensional
