@@ -127,14 +127,11 @@
 <li class="toctree-l2"><a class="reference internal" href="#team">Team</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plan-of-action">Plan of action:</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tip">Tip:</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#design">Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#week-1">Week 1:</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#progress">Progress:</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#next-week-plans">Next week Plans:</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#progree-problems-plans">Progree Problems Plans:</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="cm_django.html">Cloudmesh Django</a><ul>
@@ -259,14 +256,11 @@
 <li><a class="reference internal" href="#team">Team</a></li>
 <li><a class="reference internal" href="#links">Links</a></li>
 <li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#plan-of-action">Plan of action:</a></li>
 <li><a class="reference internal" href="#tip">Tip:</a></li>
 <li><a class="reference internal" href="#design">Design</a></li>
 <li><a class="reference internal" href="#implementation">Implementation</a></li>
-<li><a class="reference internal" href="#week-1">Week 1:</a><ul>
-<li><a class="reference internal" href="#progress">Progress:</a></li>
-<li><a class="reference internal" href="#next-week-plans">Next week Plans:</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#progree-problems-plans">Progree Problems Plans:</a></li>
 </ul>
 </li>
 </ul>
@@ -375,32 +369,33 @@
 <div class="section" id="problem">
 <h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
 <p>Cloudmesh is a project that allows the management of virtual machines
-in a federated fasion. It can be run in two modes. One is a standalone
-mode whare the users runs cloudmesh on the local machines. Another
+in a federated fashion. It can be run in two modes. One is a standalone
+mode where the users run cloudmesh on the local machines. The second
 mode is a hosted mode where multiple users share a web server through
-which the virtual machines are managed. One of the important tasks is
-to integrate users into cloudmesh. As we work closely with FutureGrid
-we need to make sure that users are imported into cloudmesh. This is
-currently achieved with an integration to the FutureGrid LDAP
-server. However it assumes that users and projects are already in that
-server. The FuturGrid portal provides such an interface. However it is
-based on an older version of drupal and it is desirable to reimplement
-the user and project management functionality in cloudmesh. This
-project will explore (a) how we can design a data model in mongoengine to
-represent users and projects, (b) identify how we can leverage either
-django or flask to manage such projects. To address (b) we will first
-evaluate if we can get a django web application started and identify
-how to use it. If this turns out to be to difficult, we will fall back
-to flask.</p>
-<p>As part of the management we need to implement a queue in which users
-are queued for approval, a project queue in which projects are queued
-and approved by a comittee. A simple backend system written in python
-will support this task provide an abstraction that is outside of the
-web interface.</p>
-<p>Plan of action:</p>
+which the virtual machines are managed. One of the important tasks,
+on this project, is to integrate users into cloudmesh. Hence, as we
+work closely with FutureGrid, we need to make sure that users are
+imported into cloudmesh. This is currently achieved via an integration
+to the FutureGrid LDAP server. Nevertheless, it is assumed that the
+users and projects are already in that server, as the FutureGrid portal
+provides such an interface. However, it is based on an older version of
+drupal and it is desirable to re-implement the user and project
+management functionality in cloudmesh.</p>
+<p>This project will explore how we can design a data model in mongoengine
+to represent users and projects, and, also, identify how we can leverage
+either django or flask to manage such projects. To address the later,
+we will first evaluate if we can get a django web application started
+and identify how to use it. If this turns out to be too difficult, we
+will fall back to flask. As part of the management, we need to implement
+a queue in which users are queued for approval, and a project queue whereby
+projects are queued and approved by a committee. A simple backend system
+written in python will support this task and provide an abstraction that
+is outside of the web interface.</p>
+</div>
+<div class="section" id="plan-of-action">
+<h2>Plan of action:<a class="headerlink" href="#plan-of-action" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Week 1: learn tools such as python, git, set up the computer, learn
-mongo</li>
+<li>Week 1: learn tools such as python, git, set up the computer, learn mongo</li>
 <li>Week 2: Evaluate if django is a viable technology for the project</li>
 <li>Week 3: Develop the data abstractions and create simple programs to
 interact with the database</li>
@@ -433,49 +428,60 @@ modules into sphinx.</li>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="week-1">
-<h2>Week 1:<a class="headerlink" href="#week-1" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="progress">
-<h3>Progress:<a class="headerlink" href="#progress" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>installed softwares needed:<ul>
-<li>ubuntu</li>
-<li>mongoDb</li>
-<li>mongoengine</li>
-<li>aptana</li>
+<div class="section" id="progree-problems-plans">
+<h2>Progree Problems Plans:<a class="headerlink" href="#progree-problems-plans" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Progress:</th><td class="field-body"><ul class="first simple">
+<li>[done, Week 1] Installed ubuntu, mongodb, mongoengine, pip and virtualenv to the machine.</li>
+<li>[done, Week 1] learned how to use github and its commands</li>
+<li>[done, Week 1] learned python</li>
+<li>[done, Week 1] created a &#8220;Users&#8221; database independent from but similar to that of futuregrid portal.</li>
+<li>[done, Week 1] created test, management and form python files to help complete the above task.</li>
+<li>[in progress, Week 1] acquiring more knowledge on how to access the database using mongoengine.</li>
+<li>[done, Week 2] learned and documented how to pull request</li>
+<li>[done, Week 2] created a random user generator on test.py</li>
+<li>[done, Week 2] created a delete function on test.py</li>
+<li>[done, Week 2] updated the cm_account.py file</li>
+<li>[done, Week 2] created the user_dict.py file that contains dict for the users attributes</li>
+<li>[done, Week 2] wrote a program that reads from the reservation database</li>
+<li>[in progress, Week 2] started studying how to use docopt to create commands</li>
+<li>[done, Week 3] uderstood a good deal of how to write docopt based commands</li>
+<li>[done, Week 3] created sample programs that uses docopt based commands.</li>
+<li>[done, Week 3] modified test.py to generate both random and specific number of users</li>
+<li>[done, Week 3] modified test.py to delete either all or specific users.</li>
+<li>[done, Week 3] modified test.py to find all or specific users</li>
+<li>[done, Week 3] used docopt based command to perform all functions in test.py</li>
+<li>[done, Week 3] updated the management.py to use the json table format</li>
+<li>[done, Week 3] updated the user_dict.py with lists with cities, institution and phone numbers</li>
+<li>[in progress, Week 3] trying the best way to refine and add more functions to test.py</li>
 </ul>
-</li>
-<li>Learnt how to use github and its&#8217; commands</li>
-<li>Learnt python</li>
-<li>Leant and stil learning how to access/create/use a database
-(mongoDB).<ul>
-<li>Created a database to develop a data structure for users based on
-what is on the Futuregrid portal.</li>
-<li>Started writing python codes that will help achieve.
-this task:<ul>
-<li>Management.py:</li>
-<li>test.py</li>
-<li>form.py: Dictionary for sections in portal</li>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Problems:</th><td class="field-body"><ul class="first simple">
+<li>[Week 1] took a while to install the different softwares need for this project. This
+is as many errors were made and some documentations found online were not up to date. Finally,
+I dould not understand most of the documentations found till after studying it for a while.</li>
+<li>[Week 2] could not figure out how to use django with mongodb.</li>
+<li>[Week 3] had to create different test and management python files in order to get the
+most efficient functions. Hence, the code continues to be refined
+if better ways come up.</li>
 </ul>
-</li>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Plans:</th><td class="field-body"><ul class="first last simple">
+<li>[Week 4] create another a web UI for projects to be linked to the users</li>
+<li>[Week 5] implement an approval mechnism for users and projects.</li>
+<li>[Week 6] evaluate what is missing and continue the implementation tasks</li>
+<li>[Week 8] complete the 2 page paper, cleanup the program, make sure the
+user documentation and code documentation are done.</li>
 </ul>
-</li>
-<li>Learnt and still learning how to use mongoengine to manage
-my database</li>
-</ul>
-</div>
-<div class="section" id="next-week-plans">
-<h3>Next week Plans:<a class="headerlink" href="#next-week-plans" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>Create a random user generator function.</li>
-<li>Update the program to be able to print a table of the users.</li>
-<li>Figure how to use doc_opt to perform different actions.</li>
-<li>Create a dump of all the address in a dictionary form.</li>
-<li>Create functions that will help analize different info.</li>
-<li>Read on flask, esp wtf forms</li>
-<li>Create a gui account for user account</li>
-</ul>
-</div>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -492,7 +498,7 @@ my database</li>
     </p>
     <p>
         &copy; Copyright 2014, FutureGrid.<br/>
-      Last updated on Jun 23, 2014 at 16:55:01 ET.<br/>
+      Last updated on Jun 24, 2014 at 10:57:29 ET.<br/>
     </p>
   </div>
 </footer>

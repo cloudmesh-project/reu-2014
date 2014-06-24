@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Apache Big Data Stack &mdash; Futuregrid REU 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.1.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.1.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Futuregrid REU 0.1 documentation" href="../index.html" />
+    <link rel="next" title="BioInformatics: Genomic Sequence Analysis Automation" href="bioinformatics.html" />
+    <link rel="prev" title="Project Abstracts" href="../abstracts.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+  
+
+   <!-- banner.html -->
+   
+
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><img src="../_static/fg-logo-white-24x36.png">
+          REU</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.1</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../README.html">Reporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#accounts">Accounts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#references">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bios.html">Bios</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abstracts.html">Project Abstracts</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Apache Big Data Stack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#weekly-project-updates-week-3-june-16-20">Weekly Project Updates (Week 3 June 16-20)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#progress">Progress:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plans">Plans:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#problems">Problems:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis Automation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#abstract">Abstract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#keywords">Keywords</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#week-1-6-6-2014">Week 1: 6/6/2014</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#done-this-week">Done This Week:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#uncompleted-this-week">Uncompleted This Week:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#next-week">Next Week:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#week-2-6-9-6-13">Week 2: 6/9 - 6/13</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id1">Done This Week:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id2">Uncompleted This Week:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id3">Next Week:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioinformatics.html#week-3-6-16-6-20">Week 3 6/16 - 6/20</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id4">Done This Week:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id5">Uncompleted This Week</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioinformatics.html#id6">Next Week</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cm_accounts.html">Cloudmesh Project and Account Management Framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#plan-of-action">Plan of action:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#tip">Tip:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_accounts.html#progree-problems-plans">Progree Problems Plans:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cm_django.html">Cloudmesh Django</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_django.html#progress-plans">Progress &amp; Plans</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cm_reservation.html">Cloudmesh Resource Reservation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#plan-of-action">Plan of Action</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#first-week">First week</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#second-week">Second week</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#third-week">Third week</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#fourth-week">Fourth week</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#links">Links</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mpi-java-performance.html">Evaluating the Performance of MPI Java in FutureGrid and Big Red2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#abstract">Abstract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#progress">Progress:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-performance.html#problems">Problems:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mpi-java-test.html">Developing Sample Test programs for MPI Java in FutureGRID and BIG RED2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#abstract">Abstract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#keywords">Keywords:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-1">Week 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-2">Week 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mpi-java-test.html#week-3">Week 3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plotviz.html">PlotViz: Bioinformatic Genomic Sequence Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotviz.html#progress-report">Progress Report</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plotviz.html#progress">Progress:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plotviz.html#problems">Problems:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plotviz.html#plans">Plans:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="robotics.html">IoTCloud2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#team">Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#implementation">Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#week-1">Week 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#what-has-been-done-this-week">What Has Been Done This Week</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#what-has-not-been-achieved-this-week">What Has Not Been Achieved This Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#what-is-planed-for-next-week">What is Planed For Next Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id1">Links</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#week-2">Week 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id2">What Has Been Done This Week</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id3">What Has Not Been Achieved This Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id4">What is Planed For Next Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id5">Links</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics.html#week-3">Week 3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id6">What Has Been Done This Week</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id7">What Has Not Been Achieved This Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id8">What is Planed For Next Week?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotics.html#id9">Links</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../community.html">Community</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ssh.html">SSH Keys</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ssh.html#what-is-ssh">What is SSH?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ssh.html#id1">SSH keys</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../ssh.html#how-they-work">How they work...</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ssh.html#obtaining-a-key">Obtaining a key</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../mendeley.html">Mendeley</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../mendeley.html#what-is-mendeley-to-begin-with">What is Mendeley to begin with?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mendeley.html#how-do-i-get-started-with-mendeley">How do I get started with Mendeley?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mendeley.html#but-i-have-more-questions">But, I have more questions...</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Apache Big Data Stack</a><ul>
+<li><a class="reference internal" href="#team">Team</a></li>
+<li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#design">Design</a></li>
+<li><a class="reference internal" href="#implementation">Implementation</a></li>
+<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#weekly-project-updates-week-3-june-16-20">Weekly Project Updates (Week 3 June 16-20)</a><ul>
+<li><a class="reference internal" href="#progress">Progress:</a></li>
+<li><a class="reference internal" href="#plans">Plans:</a></li>
+<li><a class="reference internal" href="#problems">Problems:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="../abstracts.html" title="Previous Chapter: Project Abstracts"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm">&laquo; Project Abstract...</span>
+    </a>
+  </li>
+  <li>
+    <a href="bioinformatics.html" title="Next Chapter: BioInformatics: Genomic Sequence Analysis Automation"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm">BioInformatics: ... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/projects/bigdata.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../README.html">Reporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#accounts">Accounts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#references">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bios.html">Bios</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abstracts.html">Project Abstracts</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Apache Big Data Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bioinformatics.html">BioInformatics: Genomic Sequence Analysis Automation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cm_accounts.html">Cloudmesh Project and Account Management Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cm_django.html">Cloudmesh Django</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cm_reservation.html">Cloudmesh Resource Reservation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mpi-java-performance.html">Evaluating the Performance of MPI Java in FutureGrid and Big Red2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mpi-java-test.html">Developing Sample Test programs for MPI Java in FutureGRID and BIG RED2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotviz.html">PlotViz: Bioinformatic Genomic Sequence Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="robotics.html">IoTCloud2</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../community.html">Community</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ssh.html">SSH Keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mendeley.html">Mendeley</a></li>
+</ul>
+
+</ul>
+
+<form action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9">
+      
+  <div class="section" id="apache-big-data-stack">
+<h1>Apache Big Data Stack<a class="headerlink" href="#apache-big-data-stack" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="team">
+<h2>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/tatyfinal1.png"><img alt="../_images/tatyfinal1.png" src="../_images/tatyfinal1.png" style="height: 200px;" /></a>
+<ul class="simple">
+<li>Tatyana Matthews, <a class="reference external" href="mailto:matthews&#46;tatyana17&#37;&#52;&#48;gmail&#46;com">matthews<span>&#46;</span>tatyana17<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
+<li>Advisor: Scott McCaulay, <a class="reference external" href="mailto:scottmccaulay&#37;&#52;&#48;gmail&#46;com">scottmccaulay<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
+<p>How can a substantial amount of open source software packages
+successfully be installed and tested on FutureGrid machines and later
+made attainable utilizing the beneficial platform named Chef?</p>
+<p>Ultimately, how can such a process and course of action contribute to
+the evolution of innovation in the big data field?</p>
+</div>
+<div class="section" id="design">
+<h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="implementation">
+<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.apache.org/foundation/">http://www.apache.org/foundation/</a></li>
+</ul>
+<p>Overview of the Apache Software Foundation</p>
+<ul class="simple">
+<li><a class="reference external" href="http://hpc-abds.org/kaleidoscope/">http://hpc-abds.org/kaleidoscope/</a></li>
+</ul>
+<p>Kaleidoscope of Apache Big Data Stack</p>
+<ul class="simple">
+<li><a class="reference external" href="http://docs.opscode.com/">http://docs.opscode.com/</a></li>
+<li><a class="reference external" href="http://www.getchef.com/chef/">http://www.getchef.com/chef/</a></li>
+</ul>
+<p>Cloud infrastructure automation framework</p>
+<ul class="simple">
+<li><a class="reference external" href="http://hbase.apache.org/">http://hbase.apache.org/</a></li>
+</ul>
+<p>Overview of Apache HBase</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.youtube.com/watch?v=yh9osPQA_-k">https://www.youtube.com/watch?v=yh9osPQA_-k</a></li>
+</ul>
+<p>Chef Webinar Series: Informative Tutorials</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.mendeley.com/">http://www.mendeley.com/</a></li>
+</ul>
+<p>Mendeley free reference manager</p>
+</div>
+<div class="section" id="weekly-project-updates-week-3-june-16-20">
+<h2>Weekly Project Updates (Week 3 June 16-20)<a class="headerlink" href="#weekly-project-updates-week-3-june-16-20" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="progress">
+<h3>Progress:<a class="headerlink" href="#progress" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[done, Week 1] Researched and comprehended information regarding Apache Big Data
+Stack, Apache Maven, Apache HBase, Chef, and GitHub</li>
+<li>[done, Week 1] Created and updated GitHub account</li>
+<li>[done, Week 1] Successfully installed Ubuntu on VMware Player</li>
+<li>[done, Week 1] Successfully installed Apache Maven on Ubuntu</li>
+<li>[done, Week 1] Determined project problem and developed project goal</li>
+<li>[done, Week 1] Crafted procedural list of how to install Apache Maven on Ubuntu</li>
+<li>[done, Week 2] Successfully installed Apache HBase on Ubuntu</li>
+<li>[done, Week 2] Crafted procedural list of how to install Apache HBase on Ubuntu</li>
+<li>[done, Week 2] Crafted a rough draft abstract</li>
+<li>[done, Week 2] Accessed root permissions in Ubuntu terminal</li>
+<li>[done, Week 3] Learned basics of Chef through Webinars</li>
+<li>[done, Week 3] Created account/downloaded Mendeley</li>
+<li>[done, Week 3] Created file repository for Mendeley &#8220;Get Started Guide&#8221;</li>
+<li>[done, Week 3] Completed Chef Webinar series</li>
+<li>[in progress, Week 3] Learning basic syntax &amp; shortcuts for Ruby</li>
+</ul>
+</div>
+<div class="section" id="plans">
+<h3>Plans:<a class="headerlink" href="#plans" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[Week 4] Reproduce all installations in Windows 7</li>
+<li>[Week 4] Install Chef in Ubuntu and Windows 7</li>
+<li>[Week 4] Successfully create a cookbook, recipe, and possible web server using Chef (discuss with mentor)</li>
+<li>[Week 4] Create guide for installing Chef on Ubuntu based on personal installation experience</li>
+<li>[Week 4] Update GitHub</li>
+<li>[Week 4] Meet with Apache Big Data Stack team to discuss progress, timeline, team member roles, and team goals</li>
+<li>[Week 4] Discuss and develop with mentor a personal goal for the project, design, and implementation</li>
+</ul>
+</div>
+<div class="section" id="problems">
+<h3>Problems:<a class="headerlink" href="#problems" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[Week 3] What will be required in order for all installations thus far to be reproduced in Windows 7?</li>
+<li>[Week 3] In what ways can I create an efficient, understandable, and relatable procedure for installing Chef?</li>
+<li>[Week 3] How can I make such a procedure accessible, so that it can be utilized and searchable?</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, FutureGrid.<br/>
+      Last updated on Jun 24, 2014 at 10:57:19 ET.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
