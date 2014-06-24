@@ -132,7 +132,7 @@ Project Abstracts
    * - 
    
        .. image:: images/photo_leif.png
-       :height: 100
+          :height: 100
 
      - Leif Christiansen
 
@@ -141,7 +141,7 @@ Project Abstracts
        Lewis & Clark College
        
        .. image:: images/LC.jpg
-       :height: 100
+       
      - **IoTCloud2**
 
        Kinect sensors provide a cheap and effective tool for 3 dimensional
