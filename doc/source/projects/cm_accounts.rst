@@ -21,7 +21,7 @@ Links
 Problem
 ----------------------------------------------------------------------
 
-	Cloudmesh is a project that allows the management of virtual machines 
+Cloudmesh is a project that allows the management of virtual machines 
 in a federated fashion. It can be run in two modes. One is a standalone 
 mode where the users run cloudmesh on the local machines. The second 
 mode is a hosted mode where multiple users share a web server through 
@@ -35,7 +35,7 @@ provides such an interface. However, it is based on an older version of
 drupal and it is desirable to re-implement the user and project 
 management functionality in cloudmesh.
 
-	This project will explore how we can design a data model in mongoengine 
+This project will explore how we can design a data model in mongoengine 
 to represent users and projects, and, also, identify how we can leverage 
 either django or flask to manage such projects. To address the later, 
 we will first evaluate if we can get a django web application started 
@@ -47,8 +47,8 @@ written in python will support this task and provide an abstraction that
 is outside of the web interface.
 
 Plan of action:
-* Week 1: learn tools such as python, git, set up the computer, learn
-  mongo
+----------------------------------------------------------------------
+* Week 1: learn tools such as python, git, set up the computer, learn mongo
 * Week 2: Evaluate if django is a viable technology for the project
 * Week 3: Develop the data abstractions and create simple programs to
   interact with the database
