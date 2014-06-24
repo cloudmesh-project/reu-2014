@@ -1,4 +1,4 @@
-PlotViz: Bioinformatic Genomic Sequence Data
+PlotViz: A Bioinformatic Visualization Tool
 ======================================================================
 
 Team
