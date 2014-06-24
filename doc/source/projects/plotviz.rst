@@ -8,10 +8,6 @@ Team
   ksatchel@indiana.edu
 
 
-- Loran Saggu
-
-  lsaggu@indiana.edu
-
 - Geoffrey Fox (Mentor)
 
   gcfexchange@gmail.com
