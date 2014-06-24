@@ -227,6 +227,9 @@ Project Abstracts
        
        University: Elizabeth City State University
        
+       .. image:: images/ECSUlogo.png
+          :height: 100
+       
        .. image:: images/ecsu_seal_gold.png
      - **Apache Big Data Stack**
 
