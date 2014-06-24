@@ -5,7 +5,7 @@ Team
 ----------------------------------------------------------------------
 
 .. image:: ../images/rsz_1rsz_photo_jeff1.png
-   :height:: 100
+   :height: 100
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
