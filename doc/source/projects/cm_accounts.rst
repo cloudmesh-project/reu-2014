@@ -47,7 +47,6 @@ written in python will support this task and provide an abstraction that
 is outside of the web interface.
 
 Plan of action:
-
 * Week 1: learn tools such as python, git, set up the computer, learn
   mongo
 * Week 2: Evaluate if django is a viable technology for the project
@@ -87,42 +86,41 @@ Progree	Problems Plans:
 ----------------------------------------------------------------------
 
 :Progress:
-*[done, Week 1] Installed ubuntu, mongodb, mongoengine, pip and virtualenv to the machine.
-*[done, Week 1] learned how to use github and its commands
-*[done, Week 1] learned python
-*[done, Week 1] created a "Users" database independent from but similar to that of futuregrid portal.
-*[done, Week 1] created test, management and form python files to help complete the above task.
-*[in progress, Week 1] acquiring more knowledge on how to access the database using mongoengine.
-*[done, Week 2] learned and documented how to pull request
-*[done, Week 2] created a random user generator on test.py
-*[done, Week 2] created a delete function on test.py
-*[done, Week 2] updated the cm_account.py file
-*[done, Week 2] created the user_dict.py file that contains dict for the users attributes
-*[done, Week 2] learned how to access the database using mongoengine
-*[done, Week 2] wrote a program that reads from the reservation database
-*[in progress, Week 2] started studying how to use docopt to create commands
-*[done, Week 3] uderstood a good deal of how to write docopt based commands
-*[done, Week 3] created sample programs that uses docopt based commands.
-*[done, Week 3] modified test.py to generate both random and specific number of users
-*[done, Week 3] modified test.py to delete either all or specific users.
-*[done, Week 3] modified test.py to find all or specific users
-*[done, Week 3] used docopt based command to perform all functions in test.py
-*[done, Week 3] updated the management.py to use the json table format
-*[done, Week 3] updated the user_dict.py with lists with cities, institution and phone numbers
-*[in progress, Week 3] trying the best way to refine and add more functions to test.py
+  * [done, Week 1] Installed ubuntu, mongodb, mongoengine, pip and virtualenv to the machine.
+  * [done, Week 1] learned how to use github and its commands
+  * [done, Week 1] learned python
+  * [done, Week 1] created a "Users" database independent from but similar to that of futuregrid portal.
+  * [done, Week 1] created test, management and form python files to help complete the above task.
+  * [in progress, Week 1] acquiring more knowledge on how to access the database using mongoengine.
+  * [done, Week 2] learned and documented how to pull request
+  * [done, Week 2] created a random user generator on test.py
+  * [done, Week 2] created a delete function on test.py
+  * [done, Week 2] updated the cm_account.py file
+  * [done, Week 2] created the user_dict.py file that contains dict for the users attributes
+  * [done, Week 2] wrote a program that reads from the reservation database
+  * [in progress, Week 2] started studying how to use docopt to create commands
+  * [done, Week 3] uderstood a good deal of how to write docopt based commands
+  * [done, Week 3] created sample programs that uses docopt based commands.
+  * [done, Week 3] modified test.py to generate both random and specific number of users
+  * [done, Week 3] modified test.py to delete either all or specific users.
+  * [done, Week 3] modified test.py to find all or specific users
+  * [done, Week 3] used docopt based command to perform all functions in test.py
+  * [done, Week 3] updated the management.py to use the json table format
+  * [done, Week 3] updated the user_dict.py with lists with cities, institution and phone numbers
+  * [in progress, Week 3] trying the best way to refine and add more functions to test.py
 
 :Problems:
-*[Week 1] took a while to install the different softwares need for this project. This 
-is as many errors were made and some documentations found online were not up to date. Finally,
-I dould not understand most of the documentations found till after studying it for a while.
-*[Week 2] could not figure out how to use django with mongodb.
-*[Week 3] had to create different test and management python files in order to get the 
-most efficient functions. Hence, the code continues to be refined
-if better ways come up.
+  * [Week 1] took a while to install the different softwares need for this project. This 
+    is as many errors were made and some documentations found online were not up to date. Finally,
+    I dould not understand most of the documentations found till after studying it for a while.
+  * [Week 2] could not figure out how to use django with mongodb.
+  * [Week 3] had to create different test and management python files in order to get the 
+    most efficient functions. Hence, the code continues to be refined
+    if better ways come up.
 
 :Plans:
-*[Week 4] create another a web UI for projects to be linked to the users
-*[Week 5] implement an approval mechnism for users and projects.
-*[Week 6] evaluate what is missing and continue the implementation tasks
-*[Week 8] complete the 2 page paper, cleanup the program, make sure the
-  user documentation and code documentation are done.
+  * [Week 4] create another a web UI for projects to be linked to the users
+  * [Week 5] implement an approval mechnism for users and projects.
+  * [Week 6] evaluate what is missing and continue the implementation tasks
+  * [Week 8] complete the 2 page paper, cleanup the program, make sure the
+    user documentation and code documentation are done.
