@@ -157,3 +157,26 @@ Next Week
 - Need to meet with Yang and go over script and over Quarry Jobs!
 - Successfully run script REMOTELY on FutureGrid.
 - RUN MDS on QUARRY on 56k + 1k data
+
+Week 4 6/23 - 6/27
+----------------------------------------------------------------------
+Done This Week:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Developed clusterLink.py program
+- Managed to successfully run a script on FutureGrid computer cluster
+- Completed get_status and transfer methods for clusterLink.py which print the status of a job and transfer files to the remote host respectively.
+- Discussed next steps regarding integration of clusterLink.py with Cloudmesh with mentors
+
+Uncompleted This week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- I left early this week for a leadership development program
+- Need to install Cloudmesh and CMD3
+- Read up on the documentation necessary for integration with Cloudmesh!
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Install Cloudmesh and CMD3 in order to integrate clusterLink.py into the Cloudmesh framework
+- Develop dynamic script generation with Saliya and Yang
+
+
+
