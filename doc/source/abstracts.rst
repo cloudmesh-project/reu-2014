@@ -211,7 +211,7 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/ECSULogo.jp
+       .. image:: images/elizabeth_city_logo.png
           :height: 100
           
        
@@ -231,7 +231,7 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/ECSULogo.jpg
+       .. image:: images/elizabeth_city_logo.png
           :height: 100
        
        .. image:: images/ecsu_seal_gold.png
