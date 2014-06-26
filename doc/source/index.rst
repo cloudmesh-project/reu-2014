@@ -34,4 +34,4 @@ Community
 
 This website is published at...
    
-* http://cloudmesh.github.io/reu>
+* http://cloudmesh.github.io/reu
