@@ -57,7 +57,11 @@ Chef Webinar Series: Informative Tutorials
 
 Mendeley free reference manager
 
-Weekly Project Updates (Week 3 June 16-20)
+* http://cloudshare.com 
+
+Used to launch node environment
+
+Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
 
 Progress:
@@ -92,30 +96,45 @@ Progress:
 
 * [done, Week 3] Completed Chef Webinar series
 
-* [in progress, Week 3] Learning basic syntax & shortcuts for Ruby
+* [done, Week 3] Learned basic syntax & shortcuts for Ruby
+
+* [done, Week 4] Installed Chef and Sublime Text 2 in Ubuntu
+
+* [done, Week 4] Successfully created a cookbook and recipe
+
+* [done, Week 4] Crafted guide for installing Chef on Ubuntu based on personal installation experience
+
+* [done, Week 4] Set up/managed a node
+
+* [done, Week 4] Set up a Chef Training Lab environment using cloudshare
+
+* [done, Week 4] Used ‘knife bootstrap’ to install all Chef dependencies via CentOS
 
 Plans:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 4] Reproduce all installations in Windows 7
+* [Week 5] Launch a web server using Chef
 
-* [Week 4] Install Chef in Ubuntu and Windows 7
+* [Week 5] Fix error regarding apache recipe, so that it can be uploaded to the Chef server
 
-* [Week 4] Successfully create a cookbook, recipe, and possible web server using Chef (discuss with mentor) 
+* [Week 5] Update GitHub
 
-* [Week 4] Create guide for installing Chef on Ubuntu based on personal installation experience
+* [Week 5] Meet with ABDS team to discuss progress, timeline, team member roles, and team goals
 
-* [Week 4] Update GitHub
+* [Week 5] Discuss and develop with mentor a personal goal for the project design and implementation
 
-* [Week 4] Meet with Apache Big Data Stack team to discuss progress, timeline, team member roles, and team goals
+* [Week 5] Begin process of writing research paper, 1-2 pages complete upon conclusion of week
 
-* [Week 4] Discuss and develop with mentor a personal goal for the project, design, and implementation
+* [Week 5] Search examples of computer science research papers
+
+* [Week 5] Continue documenting research journey through screenshots and properly citing sources
+
 
 Problems:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 3] What will be required in order for all installations thus far to be reproduced in Windows 7?
+* [Week 4] What in Sublime code for apache recipe must be changed in order for ‘sudo chef-client’ to run successfully with the Chef server?
 
-* [Week 3] In what ways can I create an efficient, understandable, and relatable procedure for installing Chef?
+* [Week 4] With the tasks completed thus far, what are the steps for writing a research paper?
 
-* [Week 3] How can I make such a procedure accessible, so that it can be utilized and searchable?
+* [Week 4] What aspects will be needed in addition to sources, screenshots, scholarly references, etc to write the research paper?
