@@ -36,7 +36,7 @@ views are developed as part of the GUI development which is
 doable as the GUI framework is already included in the
 project developed by von Laszewski.
 
-Plan of Action
+Plan of Action 
 ----------------------------------------------------------------------
 
 The follow information is a temporary plan of actions that
