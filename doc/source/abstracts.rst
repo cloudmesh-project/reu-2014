@@ -237,7 +237,6 @@ Project Abstracts
        .. image:: images/elizabeth_city_logo.png
           :height: 100
        
-       .. image:: images/ecsu_seal_gold.png
      - **Apache Big Data Stack**
 
        The Apache Big Data Stack is representative of a large spectrum of numerous
