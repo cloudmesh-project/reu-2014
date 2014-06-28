@@ -36,7 +36,7 @@ views are developed as part of the GUI development which is
 doable as the GUI framework is already included in the
 project developed by von Laszewski.
 
-Plan of Action
+Plan of Action 
 ----------------------------------------------------------------------
 
 The follow information is a temporary plan of actions that
@@ -78,7 +78,7 @@ code and transition ownership to Gregor von Laszewski and Fugang. Discuss the po
 this code can be introduced into the production
 code of Cloudmesh.
 
-First week
+Week I
 ----------------------------------------------------------------------
 
 The follow information are some of the tasks already done on
@@ -91,7 +91,7 @@ the first week of work:
 * Read the old code of Reservation
 * Learn commands like git clone, git pull, git commit and git push to bring the code of reservation to my workstation and after make changes in the code push it back to GitHub to allows another users to see the changes in the code and work in parallel
 
-Second week
+Week II
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
 the second week of work:
@@ -101,16 +101,25 @@ the second week of work:
 * Test the code on generate.py on reservations 
 * Develop new functions inside model.py on reservations. The functions developed were responsible for find different information inside the random reservations that were created.
 
-Third week
+Week III
 ----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+the second week of work:
 
 * Create functions add, update and delete to model.py
 * Create commandlines using DOCOPTS
 * Start to look how the flask works to update the flask already developed by Gregor von Laszewski
 * Added function list on flask interface
 
-Fourth week
+Week IV
 ----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+the second week of work:
+
+* Added functions on flask interface
+* Improve the flask to a better view
+* Created a form to add reservations using the flask interface
+* Still working to create a better function update on model.py (this function should update a reservation that is already created.)
 
 Links
 ----------------------------------------------------------------------

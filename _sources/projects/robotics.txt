@@ -209,3 +209,45 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * http://www.jcraft.com/jzlib/
 * http://www.rabbitmq.com/
+
+Week 4
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* had meetings with Supun to evaluate our current project and determine how best to move forward
+* fixed my computer, it was unusable for a day and a half
+* wrote code that Supun used in a bolt that detects whether there are any object in front of the turtlebot past a certian threshold
+* wrote a rough draft of a project abstract
+* resolved bug in RecvFrame.java program that was crashing the program
+* found code that allows the Kinect distance information to be converted into a point cloud
+* wrote a Bash script that allows the user to configure and run SendFrame.java and RecvFrame.java simultaneously
+* wrote new versions of SendFrame.java and RecvFrame.java implementing a new compression algorithm on top of JZlib (algorithm taken from paper below)
+
+  * increased compression time from ~19 ms to ~10 ms
+  * increased compression ration from ~5:1 to ~12:1
+  * achieved a compression of 50 kb per frame
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* resolution of bug in SendFrame.java that causes the program to crash and requires a full reset of hardware
+* a smooth color gradient in the new RecvFrame.java program
+* sending frames at 500 kb/s (currently at 750 kb/s)
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* continue to optimize depth transmission 
+* add color gradient to the new RecvFrame.java program
+* complete two turtlebot demo programs
+
+  * the turtlebot will follow a person at a set distance
+  * the turtlebot will recieve user input but refuse to drive past a certain closeness to detected objects
+
+* demo turtlebot functionality for Dr.Fox
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* http://research.microsoft.com/pubs/153971/depthcode-final.pdf
