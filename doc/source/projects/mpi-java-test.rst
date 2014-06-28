@@ -72,17 +72,17 @@ Week 1
 ----------------------------------------------------------------------
 Done This Week:
 
-* Learned Linux command-line
-* Learned Java
-* Learned the purpose and importance of our projects
+ * Learned Linux command-line
+ * Learned Java
+ * Learned the purpose and importance of our projects
 
 Incompleted This Week:
 
-* All Work was done
+ * All Work was done
 
 Next Week:
 
-* To begin installing and running the MPI program and other programs
+ * To begin installing and running the MPI program and other programs
  
 Week 2
 ---------------------------------------------------------------------
@@ -132,8 +132,5 @@ Next Week:
 
  * Finish the K-Means program at the beginning of the week
  * Start on the MPI verion of the K-Means progeam
- * MPI program does want to compile or run on Putty
-Plans:
- * Continue the Java program like K-Means
- * Make the K-Means program in  MPI
+ * K-Means program in  MPI
  
