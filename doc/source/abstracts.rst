@@ -220,11 +220,8 @@ Project Abstracts
        
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
      
-     Message Passage Interface
-     
      
 
-     
      
      
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
