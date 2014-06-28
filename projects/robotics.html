@@ -201,8 +201,7 @@
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">IoTCloud2</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#team">Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#problem">Problem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#design">Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#abstract">Abstract</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#week-1">Week 1</a><ul>
@@ -268,8 +267,7 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">IoTCloud2</a><ul>
 <li><a class="reference internal" href="#team">Team</a></li>
-<li><a class="reference internal" href="#problem">Problem</a></li>
-<li><a class="reference internal" href="#design">Design</a></li>
+<li><a class="reference internal" href="#abstract">Abstract</a></li>
 <li><a class="reference internal" href="#implementation">Implementation</a></li>
 <li><a class="reference internal" href="#links">Links</a></li>
 <li><a class="reference internal" href="#week-1">Week 1</a><ul>
@@ -393,16 +391,15 @@
 <p>Leif Christiansen <a class="reference external" href="mailto:grindvald&#37;&#52;&#48;gmail&#46;com">grindvald<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
 <p>Supun Kamburugamuva <a class="reference external" href="mailto:supun06&#37;&#52;&#48;gmail&#46;com">supun06<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
 </div>
-<div class="section" id="problem">
-<h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
-<p>Perform real time parallel computing on Kinect sensor data recieved from
-large numbers of simulated turtlebots so that they may avoid objects.
-The goal of the project is to improve upon the efficiency of Supun
-Kamburugamuva&#8217;s previous implementation so that a larger number of
-robots may be operated simultaneously.</p>
-</div>
-<div class="section" id="design">
-<h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h2>
+<p>Kinect sensors provide a cheap and effective tool for 3 dimensional imaging. Currently, many open source project are being developed utilizing the Kinect sensor in a variety of areas. One such area is robotics.
+The Kinect sensor may be used to create an accurate 3 dimensional model of an environment allowing a robot to navigate effectively.
+Supun Kamburugamuva has worked previously with a Kinect based robot and software suite, the Turtlebot and accompanying open-source software produced by Robot Operating Systems (ROS).
+Supun&#8217;s previous work, IoTCloud, focused on performing all necessary computations pertaining to object avoidance on the cloud.
+But the ROS software requires considerable overhead, lessening the efficiency with which these calculations may be made.
+Our new project will utilize the OpenKinect Java library to perform more efficient retrieval and transmission of depth data from the Kinect.
+Faster processing will allow for the operation of numerous robots simultaneously with real-time parallel computing deployed on the cloud.</p>
 </div>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
@@ -672,7 +669,7 @@ robots may be operated simultaneously.</p>
     </p>
     <p>
         &copy; Copyright 2014, FutureGrid.<br/>
-      Last updated on Jun 28, 2014 at 11:25:02 ET.<br/>
+      Last updated on Jun 28, 2014 at 11:43:42 ET.<br/>
     </p>
   </div>
 </footer>
