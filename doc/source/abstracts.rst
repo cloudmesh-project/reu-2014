@@ -214,11 +214,13 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/photo_nigel.png
+       .. image:: images/elizabeth_city_logo.png
           :height: 100
           
        
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
+     
+     	Message Passage
      
      
 
