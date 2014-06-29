@@ -85,6 +85,8 @@ Progress:
 
 [done, Week 3] Working on FutureGrid and Big Red 2 tutorials.
 
+[done, Week 4] Installed MPI on Future Grid
+
 Problems:
 ----------------------------------------------------------------------
 All goals and plans were met.
@@ -97,6 +99,6 @@ Plan:
 
 [done, Week 1] Do 1 and 2 in a cluster instead of local machine
 
-[       Week 2] Install MPI on FutureGrid.
+[done, Week 2] Install MPI on FutureGrid.
 
-[       Week 2] Run program on MPI on FutureGrid
+[done, Week 2] Run program on MPI on FutureGrid
