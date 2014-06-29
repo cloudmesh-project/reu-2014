@@ -214,7 +214,7 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/elizabeth_city_logo.png
+       .. image:: images/photo_nigel.png
           :height: 100
           
        
@@ -227,7 +227,8 @@ Project Abstracts
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
    * -
-	.. image:: images/tatyfinal.png
+	r.. image:: images/tatyfinal.png
+
           :height: 100
 
      - Tatyana Matthews
