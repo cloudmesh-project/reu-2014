@@ -7,17 +7,16 @@ Leif Christiansen grindvald@gmail.com
 
 Supun Kamburugamuva supun06@gmail.com
 
-Problem
+Abstract
 ----------------------------------------------------------------------
 
-Perform real time parallel computing on Kinect sensor data recieved from
-large numbers of simulated turtlebots so that they may avoid objects.
-The goal of the project is to improve upon the efficiency of Supun
-Kamburugamuva's previous implementation so that a larger number of 
-robots may be operated simultaneously.
-
-Design
-----------------------------------------------------------------------
+Kinect sensors provide a cheap and effective tool for 3 dimensional imaging. Currently, many open source project are being developed utilizing the Kinect sensor in a variety of areas. One such area is robotics. 
+The Kinect sensor may be used to create an accurate 3 dimensional model of an environment allowing a robot to navigate effectively. 
+Supun Kamburugamuva has worked previously with a Kinect based robot and software suite, the Turtlebot and accompanying open-source software produced by Robot Operating Systems (ROS). 
+Supun's previous work, IoTCloud, focused on performing all necessary computations pertaining to object avoidance on the cloud. 
+But the ROS software requires considerable overhead, lessening the efficiency with which these calculations may be made. 
+Our new project will utilize the OpenKinect Java library to perform more efficient retrieval and transmission of depth data from the Kinect. 
+Faster processing will allow for the operation of numerous robots simultaneously with real-time parallel computing deployed on the cloud.
 
 
 Implementation
@@ -209,3 +208,45 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * http://www.jcraft.com/jzlib/
 * http://www.rabbitmq.com/
+
+Week 4
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* had meetings with Supun to evaluate our current project and determine how best to move forward
+* fixed my computer, it was unusable for a day and a half
+* wrote code that Supun used in a bolt that detects whether there are any object in front of the turtlebot past a certian threshold
+* wrote a rough draft of a project abstract
+* resolved bug in RecvFrame.java program that was crashing the program
+* found code that allows the Kinect distance information to be converted into a point cloud
+* wrote a Bash script that allows the user to configure and run SendFrame.java and RecvFrame.java simultaneously
+* wrote new versions of SendFrame.java and RecvFrame.java implementing a new compression algorithm on top of JZlib (algorithm taken from paper below)
+
+  * increased compression time from ~19 ms to ~10 ms
+  * increased compression ration from ~5:1 to ~12:1
+  * achieved a compression of 50 kb per frame
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* resolution of bug in SendFrame.java that causes the program to crash and requires a full reset of hardware
+* a smooth color gradient in the new RecvFrame.java program
+* sending frames at 500 kb/s (currently at 750 kb/s)
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* continue to optimize depth transmission 
+* add color gradient to the new RecvFrame.java program
+* complete two turtlebot demo programs
+
+  * the turtlebot will follow a person at a set distance
+  * the turtlebot will recieve user input but refuse to drive past a certain closeness to detected objects
+
+* demo turtlebot functionality for Dr.Fox
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* http://research.microsoft.com/pubs/153971/depthcode-final.pdf

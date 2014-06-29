@@ -131,7 +131,7 @@ Project Abstracts
        
    * - 
    
-       .. image:: images/photo_leif.png
+       .. image:: images/photo.JPG
           :height: 100
 
      - Leif Christiansen
@@ -194,6 +194,9 @@ Project Abstracts
        
        University: Elizabeth City State University
        
+       .. image:: images/elizabeth_city_logo.png
+          :height: 100
+          
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
 
        Message Passing Interface (MPI) has become the de facto way of implementing High Performance Computing (HPC) applications as it provides library routines to satisfy virtually all communication patterns. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing performance of our applications based on both these frameworks. The algorithms that the team will be measuring are a complex and O(N^2) complexities. The team needs to make sure they run in an optimal fashion and give us the best results. The other aspect to our project is to develop some sample MPI Java programs.
@@ -211,10 +214,16 @@ Project Abstracts
        
        University: Elizabeth City State University
        
+       .. image:: images/elizabeth_city_logo.png
+          :height: 100
+          
+       
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
+     
+     
 
-       Message Passing Interface (MPI) has become the de facto way of implementing High Performance Computing (HPC) applications as it provides library routines to satisfy virtually all communication patterns. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing performance of our applications based on both these frameworks. The algorithms that the team will be measuring are a complex and O(N^2) complexities. The team needs to make sure they run in an optimal fashion and give us the best results. The other aspect to our project is to develop some sample MPI Java programs.
-
+     
+     
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
    * -
@@ -227,10 +236,9 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/ECSUlogo.png
+       .. image:: images/elizabeth_city_logo.png
           :height: 100
        
-       .. image:: images/ecsu_seal_gold.png
      - **Apache Big Data Stack**
 
        The Apache Big Data Stack is representative of a large spectrum of numerous
