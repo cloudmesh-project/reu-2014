@@ -234,8 +234,8 @@ Project Abstracts
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
    * -
+   
 	.. image:: images/taty_fixed.png
-
           :height: 100
 
      - Tatyana Matthews
