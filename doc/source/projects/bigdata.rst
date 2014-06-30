@@ -3,7 +3,7 @@ Apache Big Data Stack
 
 Team
 ----------------------------------------------------------------------
-.. image:: ../images/tatyfinal.png
+.. image:: ../images/taty_fixed.png
    :height: 200
 
 * Tatyana Matthews, matthews.tatyana17@gmail.com
