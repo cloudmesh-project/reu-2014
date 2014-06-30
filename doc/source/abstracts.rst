@@ -214,7 +214,7 @@ Project Abstracts
        
        University: Elizabeth City State University
        
-       .. image:: images/photo_nigel.png
+       .. image:: images/elizabeth_city_logo.png
           :height: 100
           
        
