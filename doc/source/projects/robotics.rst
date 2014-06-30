@@ -133,6 +133,7 @@ What Has Been Done This Week
   * points are colored red, yellow, or blue depending on the distance from the sensor
 
 * found two compression techniques shown to be useful in handling Kinect depth data, LZ4 and RLECodec
+
   * found a Java library implementing LZ4 compression that has been shown to be useful with Kinect depth data  
 
 * wrote a program that recieves Kinect depth data, compresses the data using LZ4, prints the uncompressed and compressed data to two text files, decompresses the data, and displays the colored distance data in a JFrame
