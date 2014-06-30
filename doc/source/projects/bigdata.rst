@@ -30,37 +30,40 @@ Implementation
 
 Links
 ----------------------------------------------------------------------
+**Open-Source Package Overviews and Descriptions & Additional Sources**
 
-* http://www.apache.org/foundation/
+* Overview of the Apache Software Foundation-http://www.apache.org/foundation/ 
 
-Overview of the Apache Software Foundation
+* Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
 
-* http://hpc-abds.org/kaleidoscope/
+* Cloud infrastructure automation framework-http://docs.opscode.com/
 
-Kaleidoscope of Apache Big Data Stack
+* Chef Introduction-http://www.getchef.com/chef/ 
 
-* http://docs.opscode.com/
+* Overview of Apache HBase-http://hbase.apache.org/ 
 
-* http://www.getchef.com/chef/
+* Mendeley free reference manager-http://www.mendeley.com/ 
 
-Cloud infrastructure automation framework
+* Used to launch node environment-http://cloudshare.com 
 
-* http://hbase.apache.org/
+**Documentation**
 
-Overview of Apache HBase
+* Apache Maven Installation-http://maven.apache.org/download.cgi
 
-* https://www.youtube.com/watch?v=yh9osPQA_-k
+* Apache HBase Installation-http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/
 
-Chef Webinar Series: Informative Tutorials
+* Sublime Text 2 Installation-http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu
 
-* http://www.mendeley.com/
+* Chef: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
 
-Mendeley free reference manager
+* Chef: Installation (Workstation Setup)-https://www.youtube.com/watch?v=r3mN2M9n51Y
 
-* http://cloudshare.com 
+**Personal Developed Documentation**
 
-Used to launch node environment
+The following documentation is crafted with the guide official documentation and personal encounters
+with Ubuntu Desktop 12.04.3
 
+* [Coming Soon]
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
 
