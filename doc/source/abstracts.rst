@@ -257,7 +257,7 @@ Project Abstracts
        this enormous digital volume consists of data that cannot be captured and organized by
        traditional tools, thus presenting an obstacle. It is vital to utilize computing power
        and storage in order to organize such data; however, this presents economical concerns
-       due to costly affects. The Apache Big Data Stack and the product Chef will be investigated
+       due to costly effects. The Apache Big Data Stack and the product Chef will be investigated
        and applied to resolve such an issue. Research will involve installing and testing as many
        open-source software packages as possible on FutureGrid machines and later making them accessible
        utilizing Chef. In order to accomplish this, software packages deriving from the Apache Big Data
