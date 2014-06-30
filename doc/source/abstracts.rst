@@ -234,7 +234,7 @@ Project Abstracts
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
    * -
-	.. image:: images/tatyfinal.png
+	.. image:: images/taty_fixed.png
 
           :height: 100
 
