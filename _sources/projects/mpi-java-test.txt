@@ -9,21 +9,18 @@ toriwilbon@gmail.com
 
 Abstract
 ----------------------------------------------------------------------
-Message Passing Interface (MPI) has become the de facto way of 
-implementing High Performance Computing (HPC) applications as it 
-provides library routines to satisfy virtually all communication 
-patterns. The goal of our research is to understand performance 
-characteristics of parallel programs written in Java versions of MPI. 
-Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will 
-be testing performance of our applications based on both these frameworks. 
-The algorithms that the team will be measuring are a complex and O(N^2) 
-complexities. The team needs to make sure they run in an optimal fashion 
-and give us the best results. The other aspect to our project is to develop 
-some sample MPI Java programs.
+Message Passage Interface (MPI) has been the common choice among 
+developers when developing tightly coupled parallel High Performance 
+Computing (HPC) applications. The goal of our research is to understand
+performance characteristics of parallel programs written in Java 
+versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ.
+We will evaluate the performance of two deterministically annealed 
+clustering programs. These algorithms are of O(N^2) complexity and part 
+of the study will be to understand configuration options that optimally 
+runs them. In addition to measuring the performance we also focus on 
+developing a set of sample applications, which will benefit the MPI Java
+community.
 
-Keywords:
------------------------------------------------------------------------
-MPI, Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
 Problem
 ----------------------------------------------------------------------
@@ -34,10 +31,17 @@ will create a graph to display our results.
 
 Design
 ----------------------------------------------------------------------
-Project done in Linux Command-Line and Java
+This project will be done in the Linux Command-Line and the sample
+programs will be done in MPI Java.  The results will be done in a 
+Microsoft Excel sheet to display the results and charts.
 
 Implementation
 ----------------------------------------------------------------------
+
+
+Keywords:
+-----------------------------------------------------------------------
+MPI, Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
 
 Links
@@ -56,44 +60,77 @@ Links
 
 [7] http://stackoverflow.com/questions/8779659/convert-a-number-to-2-decimal-places-in-java
 
+[8] http://www.java-samples.com/showtutorial.php?tutorialid=234
+
+[9] http://stackoverflow.com/questions/7436838/can-i-assign-java-values-from-an-arraylist-to-different-variables-without-hardco
+
+[10] http://www.dotnetperls.com/arraylist-java
+
+
 
 Week 1
 ----------------------------------------------------------------------
-Progress:
+Done This Week:
 
-* Learned Linux command-line
-* Learned Java
-* Learned the purpose and importance of our projects
+ * Learned Linux command-line
+ * Learned Java
+ * Learned the purpose and importance of our projects
 
-Problems:
+Incompleted This Week:
 
-* No problems
+ * All Work was done
 
-Plans:
+Next Week:
 
-* To begin installing and running the MPI program and other programs
+ * To begin installing and running the MPI program and other programs
  
 Week 2
 ---------------------------------------------------------------------
-Progress:
+Done This Week:
+
  * Installed MPI 
  * Did MPI Sample
  * Wrote Abstract
  * Made FutureGRID account
-Problems:
- * No problems, but didn't install MPI on FutureGRID
-Plans:
- * Install and run MPI on FutureGRID
+
+Incompleted This Week:
+
+ * All work was done
+ 
+Next Week:
+
  * Create Sample MPI program
 
 Week 3
 -------------------------------------------------------------------------
-Progress:
+Done This Week:
+
  * Worked on Java programs 
  * Programmed a MPI program
-Problem:
- * MPI program does want to compile or run on Putty
-Plans:
+ 
+Incompleted This Week:
+
+ * Could not compile and run MPI program on Putty
+ 
+Next Week:
+
  * Continue the Java program like K-Means
  * Make the K-Means program in  MPI
+ 
+Week 4
+---------------------------------------------------------------------------
+Done This Week:
+
+ * Got a full understanding of K-Means program while working on it
+ 
+Incompleted This Week:
+ 
+ * Finishing the K-Means program.
+ * Making a MPI program with it.
+ 
+Next Week:
+
+ * Finish the K-Means program at the beginning of the week
+ * Start on the MPI verion of the K-Means progeam
+ * K-Means program in  MPI
  
