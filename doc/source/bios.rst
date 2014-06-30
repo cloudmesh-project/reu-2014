@@ -18,7 +18,7 @@ Bios
      - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior and is presently working at Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
-      .. image:: images/tatyfinal.png
+      .. image:: images/taty_fixed.png
           :height: 100
 
      - Tatyana Matthews    matthews.tatyana17@gmail.com
