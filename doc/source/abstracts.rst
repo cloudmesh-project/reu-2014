@@ -199,7 +199,7 @@ Project Abstracts
           
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
 
-       Message Passing Interface (MPI) has become the de facto way of implementing High Performance Computing (HPC) applications as it provides library routines to satisfy virtually all communication patterns. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing performance of our applications based on both these frameworks. The algorithms that the team will be measuring are a complex and O(N^2) complexities. The team needs to make sure they run in an optimal fashion and give us the best results. The other aspect to our project is to develop some sample MPI Java programs.
+       Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. We will evaluate the performance of two deterministically annealed clustering programs. These algorithms are of O(N^2) complexity and part of the study will be to understand configuration options that optimally runs them. In addition to measuring the performance we also focus on developing a set of sample applications, which will benefit the MPI Java community.
 
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
