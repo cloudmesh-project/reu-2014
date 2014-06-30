@@ -50,7 +50,9 @@ Bios
           :height: 100
 
      - Nigel Pugh   nigel.pugh32@gmail.com
-     - Nigel Pugh is a student at Elizabith City State University majoting in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
+     - Nigel Pugh is a student at Elizabith City State University majoring in Computer Science.
+     Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java
+     in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
 
    * -
    
