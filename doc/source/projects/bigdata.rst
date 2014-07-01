@@ -65,7 +65,7 @@ with Ubuntu Desktop 12.04.3
 
 * `Apache Maven Installation Guide <http://cloudmesh.futuregrid.org/reu/MavenGuide.html>`_
 
-*
+* `Apache HBase Installation Guide <http://cloudmesh.futuregrid.org/reu/HBaseGuide.html>`_
 
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
