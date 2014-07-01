@@ -54,16 +54,17 @@ Links
 
 * Sublime Text 2 Installation-http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu
 
-* Chef: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
+* Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
 
-* Chef: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
+* Chef Fundamentals Webinar: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
 
 **Personal Developed Documentation**
 
-The following documentation is crafted with the guide official documentation and personal encounters
+The following developed documentation is comprised with the guide of official documentation along with personal encounters
 with Ubuntu Desktop 12.04.3
 
 * [Coming Soon]
+
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
 
