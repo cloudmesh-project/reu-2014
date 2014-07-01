@@ -102,7 +102,11 @@ Progress & Plans
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
   * [done, Week 3] installation of models, views, and templates
   * [done, Week 3] documentation of models, vies, and templates
-
+  * [done, Week 4] Successful connection to mongodb
+  * [done, Week 4] Creation of demos of models, views, and templates
+  * [done, Week 4] Successful creation of tables in django bootstrap theme
+  
+  
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
     tutorials were buggy according to gregor, possible too difficult
@@ -114,6 +118,8 @@ Progress & Plans
   * [Week 3] had a difficult time understanding examples and documentation
     about django and how to create successful models, views, and templates 
     to be seen with django and had a hard time installing mongodb as a backend.
+*   [Week 4] Making the demos was hard at first.  Creating the tables was also
+    difficult as well.
 
 :Plan: 
   * [Week2] read more django documentation and implement django server 
