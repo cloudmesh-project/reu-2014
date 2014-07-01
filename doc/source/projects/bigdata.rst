@@ -30,7 +30,7 @@ Implementation
 
 Links
 ----------------------------------------------------------------------
-**Open-Source Package Overviews and Descriptions & Additional Sources**
+**Open-Source Package Overviews/Descriptions & Additional Sources**
 
 * Overview of the Apache Software Foundation-http://www.apache.org/foundation/ 
 
