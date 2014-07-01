@@ -56,7 +56,7 @@ Links
 
 * Chef: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
 
-* Chef: Installation (Workstation Setup)-https://www.youtube.com/watch?v=r3mN2M9n51Y
+* Chef: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
 
 **Personal Developed Documentation**
 
