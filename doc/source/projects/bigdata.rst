@@ -63,7 +63,9 @@ Links
 The following developed documentation is comprised with the guide of official documentation along with personal encounters
 with Ubuntu Desktop 12.04.3
 
-* [Coming Soon]
+* `Apache Maven Installation Guide <http://cloudmesh.futuregrid.org/reu/MavenGuide.html>`_
+
+*
 
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
