@@ -64,7 +64,7 @@ Links
 
 **Personal Developed Documentation**
 
-The following developed documentation is comprised with the guide of official documentation along with personal encounters
+The following developed documentation is comprised through the guide of official documentation along with personal encounters
 with Ubuntu Desktop 12.04.3
 
 * `Apache Maven Installation Guide <http://cloudmesh.futuregrid.org/reu/MavenGuide.html>`_
