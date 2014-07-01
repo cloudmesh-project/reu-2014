@@ -4,7 +4,7 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-.. image:: ../images/rsz_1rsz_photo_jeff1.png
+.. image:: ../images/image.png
    :height: 100
 
 
@@ -118,8 +118,8 @@ Progress & Plans
   * [Week 3] had a difficult time understanding examples and documentation
     about django and how to create successful models, views, and templates 
     to be seen with django and had a hard time installing mongodb as a backend.
-*   [Week 4] Making the demos was hard at first.  Creating the tables was also
-    difficult as well.
+  * [Week 4] Working the demos was hard at first.  Creating the tables was also
+    difficult as well. 
 
 :Plan: 
   * [Week2] read more django documentation and implement django server 
