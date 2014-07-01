@@ -1,11 +1,11 @@
 How to install Apache HBase on Ubuntu 12.04.3
 -----------------------------------------------------------
 *The following developed documentation is comprised with the guide
-of official documentation along with personal encounters with Ubuntu Desktop 12.04.3*
+of official documentation along with personal encounters with Ubuntu Desktop 12.04.3.*
 
 *Source: http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/*
 
-**First begin by downloading the hbase-0.94.8.tar.gz file using the link above**
+**First begin by downloading the hbase-0.94.8.tar.gz file using the link above.**
 
 1.	``$ cd Downloads/`` (unzip tar file)
 2.	``$ tar –xvf hbase-0.94.8.tar.gz`` (create directory for HBase)
