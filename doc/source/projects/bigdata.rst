@@ -36,6 +36,8 @@ Links
 
 * Overview of Apache Big Data Stack-http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf
 
+* Overview of Apache HBase-http://hbase.apache.org/
+
 * Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
 
 * Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack-http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack
@@ -43,8 +45,6 @@ Links
 * Cloud infrastructure automation framework-http://docs.opscode.com/
 
 * Chef Introduction-http://www.getchef.com/chef/ 
-
-* Overview of Apache HBase-http://hbase.apache.org/ 
 
 * Mendeley free reference manager-http://www.mendeley.com/ 
 
