@@ -32,9 +32,13 @@ Links
 ----------------------------------------------------------------------
 **Open-Source Package Overviews/Descriptions & Additional Sources**
 
-* Overview of the Apache Software Foundation-http://www.apache.org/foundation/ 
+* Overview of the Apache Software Foundation-http://www.apache.org/foundation/
+
+* Overview of Apache Big Data Stack-http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf
 
 * Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
+
+* Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack-http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack
 
 * Cloud infrastructure automation framework-http://docs.opscode.com/
 
