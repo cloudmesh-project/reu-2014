@@ -10,7 +10,7 @@ of official documentation along with personal encounters with Ubuntu Desktop 12.
 1.	``$ cd Downloads/`` (unzip tar file)
 2.	``$ tar –xvf hbase-0.94.8.tar.gz`` (create directory for HBase)
 3.	``$ sudo mkdir /usr/lib/hbase-0.94.8`` (move file to HBase directory)
-4.	Put in root password password  **this may or may not return an error**
+4.	Put in root password password, **this may or may not return an error**
   If error returned: type ``$ su`` to enter root password
 5.	``$ pwd`` →this will display the directory location
 
