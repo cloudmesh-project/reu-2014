@@ -71,6 +71,8 @@ with Ubuntu Desktop 12.04.3
 
 * `Apache HBase Installation Guide <http://cloudmesh.futuregrid.org/reu/HBaseGuide.html>`_
 
+* `Chef Installation & Workstation Setup Guide <http://cloudmesh.futuregrid.org/reu/ChefGuide.html>`_
+
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
 
