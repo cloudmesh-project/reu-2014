@@ -10,14 +10,14 @@ of official documentation along with personal encounters with Ubuntu Desktop 12.
 1.	Travel to http://www.opscode.com 
 2.	Click "Get Chef" button in upper right-hand corner of page and choose the "Hosted Chef" option 
 3.	While looking at the sign-up page, don’t sign up just yet!
-  a.	On the right hand side, click the link that says "Start with the Chef-client and server installation"
-  b.	Choose Ubuntu for OS, your specified version, and the "x86_64" architecture
-  c.	When prompted choose the Chef version "11.6.2-1"
+  *	On the right hand side, click the link that says "Start with the Chef-client and server installation"
+  *	Choose Ubuntu for OS, your specified version, and the "x86_64" architecture
+  *	When prompted choose the Chef version "11.6.2-1"
 4.	In looking at the "Quick Install Instructions" after opening the terminal:
-  a.	Login to sudo using the command ``$ su`` and insert your password
-  b.	Copy & paste the command given in "Quick Install Instructions" (you may have to type the prompt)
-  c.	Click Enter and the installation process should begin
-  d.	Process will be complete when terminal reads "Thank you for installing Chef!"
+  *	Login to sudo using the command ``$ su`` and insert your password
+  *	Copy & paste the command given in "Quick Install Instructions" (you may have to type the prompt)
+  *	Click Enter and the installation process should begin
+  *	Process will be complete when terminal reads "Thank you for installing Chef!"
   
 *You have just installed Chef, the Ruby language, knife (command line tool for admin), chef-client (Client application),
 ohai (system profiler), and many more*
@@ -27,15 +27,15 @@ ohai (system profiler), and many more*
 1.	Travel to http://opscode.com 
 2.	Click the link that says "Get Chef", you will be signing up for the free trial of Enterprise Chef
 
-  a.	When signing up for an account, make sure your Chef Organization name is "globally unique"
-  b.	Fill out the form and agree to the terms and services agreements
-  c.	Click Get Started
-  d.	Go to Create Organization and create a "globally unique" name/short name
-  e.	Once finished, click link that says "Create Organization" 
+  *	When signing up for an account, make sure your Chef Organization name is "globally unique"
+  *	Fill out the form and agree to the terms and services agreements
+  *	Click Get Started
+  *	Go to Create Organization and create a "globally unique" name/short name
+  *	Once finished, click link that says "Create Organization" 
 3.	On the next screen, download the starter kit –**SAVE** the file, this should automatically save as a .zip file, if not make those adjustments
 
-  a.	Move the folder that reads "chef-starter.zip" somewhere that is convenient 
-  b.	To check the contents of that folder, open the file and you should see the chef-repo directory
+  *	Move the folder that reads "chef-starter.zip" somewhere that is convenient 
+  *	To check the contents of that folder, open the file and you should see the chef-repo directory
   
 **Using knife –the command line tool for the chef data index**
 
@@ -44,18 +44,18 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 
 1.	Inside the terminal type the command ``$ chef-repo``
 2.	Type ``$ dir`` 
-  a.	A list of files in the chef-repo folder should display
+  * A list of files in the chef-repo folder should display
 3.	Type ``$ dir .chef``
-  a.	This should display three files in the .chef directory
-    i.	``knife.rb``, ``organization name-validator.pem``, and ``user.pem``
+  *	This should display three files in the .chef directory
+    * ``knife.rb``, ``organization name-validator.pem``, and ``user.pem``
 4.	Open your text editor, go to File, Open a folder, open the "chef-repo" folder
-  a.	Once clicking the "chef-repo" folder a sidebar menu will display itself on the side of your text editor
-      i.	Under "chef" drop-down, click the "knife.rb" and a file should be displayed in your text editor. 
+  *	Once clicking the "chef-repo" folder a sidebar menu will display itself on the side of your text editor
+      *	Under "chef" drop-down, click the "knife.rb" and a file should be displayed in your text editor. 
       knife.rb will be used to configure your local work station
 *The following step will verify that knife is working correctly and that configuration is accurate*
 
 5.	Type the command ``$ knife –version`` (this will show you that chef is installed and the specific version)
-  a.	Type the command ``$ knife client list`` (this will ensure that your configuration is accurate and is connected to the chef server) – should return ``nameoforganization-validator``
+  *	Type the command ``$ knife client list`` (this will ensure that your configuration is accurate and is connected to the chef server) – should return ``nameoforganization-validator``
 
 **Source Code Repository** (this will track changes over time)
 
@@ -86,14 +86,14 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 *Username, password, hostname, and node name will depend on the node you choose and its particular properties*
 
 4.	Click Enter (wait time will vary) 
-  a.	If problems are encountered, check for correct hostname, username, password, and node name. Also, check
+  *	If problems are encountered, check for correct hostname, username, password, and node name. Also, check
   to verify if a port number is needed based on the node selected. *If necessary check out the Chef Fundamentals
   Webinar link for setting up a node, which can be found on the Apache Big Data Stack page*
-  b.	You will know that the connection is complete when the following is exhibited "Chef Client finished, 0/0 resources updated …"
+  *	You will know that the connection is complete when the following is exhibited "Chef Client finished, 0/0 resources updated …"
   
 5.	Login to Hosted Enterprise Chef
 
 6.	After viewing the Nodes tab, if node is not visible already, refresh the web page and your node should be displayed under "Node Name"
-  a.	Clicking on the node will display further details
-    i.	Take a look at the "Details", "Attributes", and "Permissions" tabs
+  *	Clicking on the node will display further details
+    *	Take a look at the "Details", "Attributes", and "Permissions" tabs
 
