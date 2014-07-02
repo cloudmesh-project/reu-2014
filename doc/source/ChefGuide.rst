@@ -51,37 +51,49 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 4.	Open your text editor, go to File, Open a folder, open the "chef-repo" folder
   a.	Once clicking the "chef-repo" folder a sidebar menu will display itself on the side of your text editor
       i.	Under "chef" drop-down, click the "knife.rb" and a file should be displayed in your text editor. 
-      *knife.rb will be used to configure your local work station*
+      knife.rb will be used to configure your local work station
 *The following step will verify that knife is working correctly and that configuration is accurate*
 
-5.	Type the command ``$ knife –versio``n (this will show you that chef is installed and the specific version)
-  a.	Type the command ``$ knife client list`` (this will ensure that your configuration is accurate and is
-connected to the chef server) – should return ``nameoforganization-validator
+5.	Type the command ``$ knife –version`` (this will show you that chef is installed and the specific version)
+  a.	Type the command ``$ knife client list`` (this will ensure that your configuration is accurate and is connected to the chef server) – should return ``nameoforganization-validator``
 
 **Source Code Repository** (this will track changes over time)
 
 1.	Type the command ``$ git init`` and then ``$ git status`` (this will create an empty Git repository in chef-repo)
+
 2.	Type the command ``$ git add  .`` to add all files to the repository
+
 3.	``$ git status``
-4.	``$ git commit –m "the starter kit from Chef"`` (this adds all the files and commits them to the source
-code repository)
+
+4.	``$ git commit –m "the starter kit from Chef"`` (this adds all the files and commits them to the source code repository)
+
 5.	Run ``$ git status``  to ensure a clean repository 
+
 **Setting Up Organization of Enterprise Chef**
-1.	*If not already logged in to Enterprise Chef* From the opscode homepage (link above), click the Get Chef link,
-and login to Enterprise Chef
+
+1.	*If not already logged in to Enterprise Chef* From the opscode homepage (link above), click the Get Chef link, and login to Enterprise Chef
+
 2.	Browse to "Administration" tab to see the organization listed
+
 **Setting Up a Node using the knife bootstrap command**
+
 1.	First ensure that you are in the chef-repo directory
+
 2.	Type the command ``$ knife bootstrap –help`` (will show options/ways to use chef bootstrap)
+
 3.	In order to bootstrap the target instance, type the following command ``$ knife bootstrap HOSTNAME –sudo –x USERNAME –P PASSWORD –N "target1"``
+
 *Username, password, hostname, and node name will depend on the node you choose and its particular properties*
+
 4.	Click Enter (wait time will vary) 
   a.	If problems are encountered, check for correct hostname, username, password, and node name. Also, check
   to verify if a port number is needed based on the node selected. *If necessary check out the Chef Fundamentals
   Webinar link for setting up a node, which can be found on the Apache Big Data Stack page*
   b.	You will know that the connection is complete when the following is exhibited "Chef Client finished, 0/0 resources updated …"
+  
 5.	Login to Hosted Enterprise Chef
+
 6.	After viewing the Nodes tab, if node is not visible already, refresh the web page and your node should be displayed under "Node Name"
-a.	Clicking on the node will display further details
-i.	Take a look at the "Details", "Attributes", and "Permissions" tabs
+  a.	Clicking on the node will display further details
+    i.	Take a look at the "Details", "Attributes", and "Permissions" tabs
 
