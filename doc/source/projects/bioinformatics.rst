@@ -6,7 +6,7 @@ Team
 Lorander S. Saggu
 lsaggu@indiana.edu
 
-Mentors: Saliya Ekanayake, Yang Ruan
+Saliya Ekanayake, Yang Ruan
 
 Abstract
 ----------------------------------------------------------------------
