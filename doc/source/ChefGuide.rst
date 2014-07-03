@@ -17,7 +17,7 @@ of official documentation along with personal encounters with Ubuntu Desktop 12.
   *	Login to sudo using the command ``$ su`` and insert your password
   *	Copy & paste the command given in "Quick Install Instructions" (you may have to type the prompt)
   *	Click Enter and the installation process should begin
-  *	Process will be complete when terminal reads "Thank you for installing Chef!"
+  *	Process will be complete when terminal reads ``Thank you for installing Chef!``
   
 *You have just installed Chef, the Ruby language, knife (command line tool for admin), chef-client (Client application),
 ohai (system profiler), and many more*
@@ -89,7 +89,7 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 
 4.	Click Enter (wait time will vary) 
   *	If problems are encountered, check for correct hostname, username, password, and node name. Also, check to verify if a port number is needed based on the node selected. *If necessary check out the Chef Fundamentals Webinar link for setting up a node, which can be found on the Apache Big Data Stack page*
-  *	You will know that the connection is complete when the following is exhibited "Chef Client finished, 0/0 resources updated …"
+  *	You will know that the connection is complete when the following is exhibited ``Chef Client finished, 0/0 resources updated …``
   
 5.	Login to Hosted Enterprise Chef
 
