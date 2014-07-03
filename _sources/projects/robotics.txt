@@ -308,7 +308,8 @@ What is Planed For Next Week?
 
 Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-https://github.com/supunkamburugamuva/storm-broker-connectors
-https://github.com/apache/incubator-storm
-http://maven.apache.org/
-https://github.com/rosjava/rosjava_mvn_repo
+
+* https://github.com/supunkamburugamuva/storm-broker-connectors
+* https://github.com/apache/incubator-storm
+* http://maven.apache.org/
+* https://github.com/rosjava/rosjava_mvn_repo
