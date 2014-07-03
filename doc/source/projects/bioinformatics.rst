@@ -54,7 +54,7 @@ ClusterLink: https://github.com/lsaggu/clusterLink
 Week 1: 6/6/2014
 ----------------------------------------------------------------------
 
-Done This Week:
+Done This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Determined what project I will be working on: Studying and processing genomics data, specifically fungi genome sequences, and trying to create an accurate visualization of the relationship between the different sequences.
@@ -71,7 +71,7 @@ Done This Week:
 
 - Began moving forward with the "Twister" pipeline after establishing a FutureGrid account.
 
-Uncompleted This Week:
+Uncompleted This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Run the Smith-Waterman algorithm on the new “D1” data in order to create a genomic distance matrix.
@@ -80,7 +80,7 @@ Uncompleted This Week:
 
 - Solidify end goals of project in terms of what IU-SROC program expects.
 
-Next Week:
+Next Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Complete account creation/general setup if any remains.  
@@ -91,7 +91,7 @@ Next Week:
 Week 2: 6/9 - 6/13
 ----------------------------------------------------------------------
 
-Done This Week:
+Done This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Completed setting up the environment to run Twister in FutureGrid
@@ -107,7 +107,7 @@ Done This Week:
 - Set up Linux machine to work on with Saliya
 
 
-Uncompleted This Week:
+Uncompleted This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Connecting to FutureGrid using jsch in Java portal
@@ -116,7 +116,7 @@ Uncompleted This Week:
 - Downloading appropriate Python libraries for ssh connection and PBS scripting.
 
 
-Next Week:
+Next Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Gain a better understanding of the arguments/commands necessary to run the Twister-Pipeline.
@@ -129,7 +129,7 @@ Next Week:
 
 Week 3 6/16 - 6/20
 ----------------------------------------------------------------------
-Done This Week:
+Done This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Began designing clusterLink.py: uses sh library to connect to grid via command line and submit a PBS script to be run on the cluster
 
@@ -159,14 +159,14 @@ Next Week
 
 Week 4 6/23 - 6/27
 ----------------------------------------------------------------------
-Done This Week:
+Done This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Developed clusterLink.py program
 - Managed to successfully run a script on FutureGrid computer cluster
 - Completed get_status and transfer methods for clusterLink.py which print the status of a job and transfer files to the remote host respectively.
 - Discussed next steps regarding integration of clusterLink.py with Cloudmesh with mentors
 
-Uncompleted This week
+Uncompleted This Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - I left early this week for a leadership development program
 - Need to install Cloudmesh and CMD3
@@ -176,6 +176,27 @@ Next Week
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Install Cloudmesh and CMD3 in order to integrate clusterLink.py into the Cloudmesh framework
 - Develop dynamic script generation with Saliya and Yang
+
+Week 5 6/30 - 7/3
+---------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Set up Ubuntu machine and installed Cloudmesh and CMD3
+- Successfully integrated submit.py (previously clusterLink.py) with CMD3 with Professor Gregor
+- Began processing test genomic data on Quarry nodes
+
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- I did not get around to completely processing the test data using the Quarry nodes
+- Development of information retrieval within submit.py
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Develop a mechanism to run multiple scripts simultaneously
+- Use MongoDB and develop a history and job results retrieval method
+- Finish processing test genomic data and move onto new data
+- Begin developing poster!
+
 
 
 
