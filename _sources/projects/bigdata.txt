@@ -30,36 +30,48 @@ Implementation
 
 Links
 ----------------------------------------------------------------------
+**Open-Source Package Overviews/Descriptions & Additional Sources**
 
-* http://www.apache.org/foundation/
+* Overview of the Apache Software Foundation-http://www.apache.org/foundation/
 
-Overview of the Apache Software Foundation
+* Overview of Apache Big Data Stack-http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf
 
-* http://hpc-abds.org/kaleidoscope/
+* Overview of Apache HBase-http://hbase.apache.org/
 
-Kaleidoscope of Apache Big Data Stack
+* Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
 
-* http://docs.opscode.com/
+* Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack-http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack
 
-* http://www.getchef.com/chef/
+* Cloud infrastructure automation framework-http://docs.opscode.com/
 
-Cloud infrastructure automation framework
+* Chef Introduction-http://www.getchef.com/chef/ 
 
-* http://hbase.apache.org/
+* Mendeley free reference manager-http://www.mendeley.com/ 
 
-Overview of Apache HBase
+* Used to launch node environment-http://cloudshare.com 
 
-* https://www.youtube.com/watch?v=yh9osPQA_-k
+**Documentation**
 
-Chef Webinar Series: Informative Tutorials
+* Apache Maven Installation-http://maven.apache.org/download.cgi
 
-* http://www.mendeley.com/
+* Apache HBase Installation-http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/
 
-Mendeley free reference manager
+* Sublime Text 2 Installation-http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu
 
-* http://cloudshare.com 
+* Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
 
-Used to launch node environment
+* Chef Fundamentals Webinar: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
+
+**Personal Developed Documentation**
+
+The following developed documentation is comprised through the guide of official documentation along with personal encounters
+with Ubuntu Desktop 12.04.3
+
+* `Apache Maven Installation Guide <http://cloudmesh.futuregrid.org/reu/MavenGuide.html>`_
+
+* `Apache HBase Installation Guide <http://cloudmesh.futuregrid.org/reu/HBaseGuide.html>`_
+
+* `Chef Installation & Workstation Setup Guide <http://cloudmesh.futuregrid.org/reu/ChefGuide.html>`_
 
 Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------

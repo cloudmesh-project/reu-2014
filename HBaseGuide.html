@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Mendeley &mdash; Futuregrid REU 0.1 documentation</title>
+    <title>How to install Apache HBase on Ubuntu 12.04.3 &mdash; Futuregrid REU 0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -32,7 +32,6 @@
     <script type="text/javascript" src="_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <link rel="top" title="Futuregrid REU 0.1 documentation" href="index.html" />
-    <link rel="prev" title="SSH Keys" href="ssh.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -249,7 +248,7 @@
 </ul>
 </li>
 </ul>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ssh.html">SSH Keys</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="ssh.html#what-is-ssh">What is SSH?</a></li>
@@ -260,10 +259,10 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Mendeley</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#what-is-mendeley-to-begin-with">What is Mendeley to begin with?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#how-do-i-get-started-with-mendeley">How do I get started with Mendeley?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#but-i-have-more-questions">But, I have more questions...</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mendeley.html">Mendeley</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mendeley.html#what-is-mendeley-to-begin-with">What is Mendeley to begin with?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mendeley.html#how-do-i-get-started-with-mendeley">How do I get started with Mendeley?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mendeley.html#but-i-have-more-questions">But, I have more questions...</a></li>
 </ul>
 </li>
 </ul>
@@ -279,12 +278,7 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Mendeley</a><ul>
-<li><a class="reference internal" href="#what-is-mendeley-to-begin-with">What is Mendeley to begin with?</a></li>
-<li><a class="reference internal" href="#how-do-i-get-started-with-mendeley">How do I get started with Mendeley?</a></li>
-<li><a class="reference internal" href="#but-i-have-more-questions">But, I have more questions...</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#">How to install Apache HBase on Ubuntu 12.04.3</a></li>
 </ul>
 </ul>
 </li>
@@ -293,10 +287,6 @@
             
               
                 
-  <li>
-    <a href="ssh.html" title="Previous Chapter: SSH Keys"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm">&laquo; SSH Keys</span>
-    </a>
-  </li>
               
             
             
@@ -304,7 +294,7 @@
             
               <li class="hidden-sm">
 <div id="sourcelink">
-  <a href="_sources/mendeley.txt"
+  <a href="_sources/HBaseGuide.txt"
      rel="nofollow">Source</a>
 </div></li>
             
@@ -346,10 +336,10 @@
 <li class="toctree-l1"><a class="reference internal" href="projects/plotviz.html">PlotViz: A Bioinformatic Visualization Tool</a></li>
 <li class="toctree-l1"><a class="reference internal" href="projects/robotics.html">IoTCloud2</a></li>
 </ul>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ssh.html">SSH Keys</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Mendeley</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mendeley.html">Mendeley</a></li>
 </ul>
 
 </ul>
@@ -365,61 +355,43 @@
       </div>
     <div class="col-md-9">
       
-  <div class="section" id="mendeley">
-<h1>Mendeley<a class="headerlink" href="#mendeley" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/logo-mendeley.png" src="_images/logo-mendeley.png" />
-<p>Hi! My name is Tatyana Matthews and I am here to provide you with a short and yet informative overview of Mendeley, a tutorial for getting started and additional resources for any help you may need.</p>
-<p>Let’s get started!</p>
-<div class="section" id="what-is-mendeley-to-begin-with">
-<h2>What is Mendeley to begin with?<a class="headerlink" href="#what-is-mendeley-to-begin-with" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li>Mendeley is an open and “free reference manager” as well as “social network” that allows you to “organize research”, work collectively with others, and uncover the latest research as well.</li>
-<li>Mendeley has many great features for its users:<ul>
-<li>Drag &amp; Drop option for research papers<ul>
-<li>Mendeley will extract vital information from papers for you to further your organization i.e. title, journal, author, and keywords</li>
-</ul>
-</li>
-<li>Sync option<ul>
-<li>Use your mobile device and other computing devices to sync your research</li>
-<li>Do everything on the go!</li>
-</ul>
-</li>
-<li>Groups option<ul>
-<li>You can create private groups in which you can share papers only within that private circle</li>
-<li>You can also join public groups to link yourself with research from around the globe</li>
-</ul>
-</li>
-<li>Personal Recommendations option<ul>
-<li>Mendeley will recommend papers for you based on your recent searches, interests and contacts</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+  <div class="section" id="how-to-install-apache-hbase-on-ubuntu-12-04-3">
+<h1>How to install Apache HBase on Ubuntu 12.04.3<a class="headerlink" href="#how-to-install-apache-hbase-on-ubuntu-12-04-3" title="Permalink to this headline">¶</a></h1>
+<p><em>The following developed documentation is comprised with the guide
+of official documentation along with personal encounters with Ubuntu Desktop 12.04.3.</em></p>
+<p><em>Source: http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/</em></p>
+<p><strong>First begin by downloading the hbase-0.94.8.tar.gz file using the link above.</strong></p>
+<ol class="arabic simple">
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">Downloads/</span></tt> (unzip tar file)</li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">tar</span> <span class="pre">–xvf</span> <span class="pre">hbase-0.94.8.tar.gz</span></tt> (create directory for HBase)</li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">mkdir</span> <span class="pre">/usr/lib/hbase-0.94.8</span></tt> (move file to HBase directory)</li>
+<li>Put in root password, <strong>this may or may not return an error</strong></li>
+</ol>
+<blockquote>
+<div>If error returned: type <tt class="docutils literal"><span class="pre">$</span> <span class="pre">su</span></tt> to enter root password</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">pwd</span></tt> →this will display the directory location</li>
+<li>Still in downloads? Type <tt class="docutils literal"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">..</span></tt> and then Enter →this will change the directory to home</li>
+<li>Proceed with <tt class="docutils literal"><span class="pre">$</span> <span class="pre">pwd</span></tt> →now the response should read <tt class="docutils literal"><span class="pre">/home/yourusername</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">mkdir</span> <span class="pre">hbase</span></tt> →create an HBase directory</li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">Downloads</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">mv</span> <span class="pre">hbase-0.94.8</span> <span class="pre">/home/yourusername/hbase</span></tt> → HBase will be moved out of the Downloads directory and into the user directory</li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">..</span></tt> →location of file should be confirmed here</li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">ls</span> <span class="pre">–l</span></tt> →an organized list of files (white) and directories (blue) will be displayed. HBase should be in <strong>blue</strong></li>
+<li><tt class="docutils literal"><span class="pre">$</span> <span class="pre">ls</span> <span class="pre">hbase</span></tt> →a file will be displayed in the HBase directory, <tt class="docutils literal"><span class="pre">hbase-0.94.8</span></tt></li>
+</ol>
 <dl class="docutils">
-<dt>Information courtesy of:</dt>
-<dd><ul class="first last simple">
-<li><a class="reference external" href="http://www.mendeley.com/">http://www.mendeley.com/</a></li>
-</ul>
+<dt><strong>The next steps will concern configuring HBase with Java.</strong></dt>
+<dd><p class="first">If the location of Java Home cannot be recalled, proceed with the following steps:</p>
+<blockquote class="last">
+<div><tt class="docutils literal"><span class="pre">$</span> <span class="pre">readlink</span> <span class="pre">–f</span> <span class="pre">$(which</span> <span class="pre">java)</span></tt> →display will read Java Home location</div></blockquote>
 </dd>
 </dl>
-</div>
-<div class="section" id="how-do-i-get-started-with-mendeley">
-<h2>How do I get started with Mendeley?<a class="headerlink" href="#how-do-i-get-started-with-mendeley" title="Permalink to this headline">¶</a></h2>
-<p>Follow the links below to begin:</p>
-<ul class="simple">
-<li><a class="reference external" href="http://vimeo.com/89704710">http://vimeo.com/89704710</a> (“Getting Started with Mendeley” video)</li>
-<li><a class="reference external" href="http://www.mendeley.com/features/">http://www.mendeley.com/features/</a> (Get started guide)</li>
-<li>Create an account, download Mendeley to your desktop, find out what awesome features they have to offer, and get started of course!</li>
-</ul>
-</div>
-<div class="section" id="but-i-have-more-questions">
-<h2>But, I have more questions...<a class="headerlink" href="#but-i-have-more-questions" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><a class="reference external" href="http://resources.mendeley.com/">http://resources.mendeley.com/</a> (Mendeley resources and guide)</li>
-<li><a class="reference external" href="http://www.mendeley.com/">http://www.mendeley.com/</a> (Mendeley website)</li>
-</ul>
-</div>
+<p>1.      <tt class="docutils literal"><span class="pre">$</span> <span class="pre">export</span> <span class="pre">JAVA_HOME=/usr/lib/jvm/javahomelocation</span></tt> <strong>(drop the /jre/bin/java)</strong> →this step will set the path to the
+Java installed in your system</p>
+<p>2.      <tt class="docutils literal"><span class="pre">$</span> <span class="pre">echo</span> <span class="pre">$JAVA_HOME</span></tt> →this will confirm the configuration (PLEASE NOTE: <tt class="docutils literal"><span class="pre">$</span></tt> is used in front of the variable when
+referenced, but not when a value is assigned to it)</p>
+<p>The response ought to be what was inserted in step (13) <tt class="docutils literal"><span class="pre">/usr/lib/jvm/java-…+</span></tt></p>
 </div>
 
 
