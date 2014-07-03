@@ -37,10 +37,10 @@ ohai (system profiler), and many more*
   *	Move the folder that reads "chef-starter.zip" somewhere that is convenient 
   *	To check the contents of that folder, open the file and you should see the chef-repo directory
   
-**Using knife –the command line tool for the chef data index**
+**Using knife –the command line tool for configuring the local work station**
 
 *If you have no text editor, I recommend using Sublime Text 2 or Notepad++, which can be downloaded
-and found via searching the web. There is a link on the Apache Big Data Stack page*
+and found via the link on the Apache Big Data Stack page*
 
 1.	Inside the terminal type the command ``$ chef-repo``
 2.	Type ``$ dir`` 
@@ -50,8 +50,8 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
     * ``knife.rb``, ``organization name-validator.pem``, and ``user.pem``
 4.	Open your text editor, go to File, Open a folder, open the "chef-repo" folder
   *	Once clicking the "chef-repo" folder a sidebar menu will display itself on the side of your text editor
-      *	Under "chef" drop-down, click the "knife.rb" and a file should be displayed in your text editor. 
-      knife.rb will be used to configure your local work station
+      *	Under "chef" drop-down, click the "knife.rb" and a file should be displayed in your text editor.
+      
 *The following step will verify that knife is working correctly and that configuration is accurate*
 
 5.	Type the command ``$ knife –version`` (this will show you that chef is installed and the specific version)
@@ -79,7 +79,7 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 
 **Setting Up a Node using the knife bootstrap command**
 
-1.	First ensure that you are in the chef-repo directory
+1.	First ensure that you are in the chef-repo directory, if not ``cd chef-repo``
 
 2.	Type the command ``$ knife bootstrap –help`` (will show options/ways to use chef bootstrap)
 
@@ -97,3 +97,4 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
   *	Clicking on the node will display further details
     *	Take a look at the "Details", "Attributes", and "Permissions" tabs
 
+Congratulations! You have installed Chef Enterprise in addition to other tools, created an organization, set up a node, and connected your node to the Chef Server!
