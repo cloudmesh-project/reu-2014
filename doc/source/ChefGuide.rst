@@ -73,7 +73,7 @@ and found via the link on the Apache Big Data Stack page*
 
 *If not already logged in to Enterprise Chef* 
 
-1. From the opscode homepage (link above), click the "Get Chef link", and login to Enterprise Chef
+1. From the opscode homepage (link above), click the "Get Chef" link, and login to Enterprise Chef
 
 2.	Browse to "Administration" tab to see the organization listed
 
