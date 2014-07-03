@@ -69,7 +69,7 @@ and found via searching the web. There is a link on the Apache Big Data Stack pa
 
 5.	Run ``$ git status``  to ensure a clean repository 
 
-**Setting Up Organization of Enterprise Chef**
+**Confirming Organization for Enterprise Chef**
 
 *If not already logged in to Enterprise Chef* 
 
