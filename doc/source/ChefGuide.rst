@@ -73,7 +73,7 @@ and found via the link on the Apache Big Data Stack page*
 
 *If not already logged in to Enterprise Chef* 
 
-1. From the opscode homepage (link above), click the Get Chef link, and login to Enterprise Chef
+1. From the opscode homepage (link above), click the "Get Chef link", and login to Enterprise Chef
 
 2.	Browse to "Administration" tab to see the organization listed
 
@@ -88,7 +88,7 @@ and found via the link on the Apache Big Data Stack page*
 *Username, password, hostname, and node name will depend on the node you choose and its particular properties*
 
 4.	Click Enter (wait time will vary) 
-  *	If problems are encountered, check for correct hostname, username, password, and node name. Also, check to verify if a port number is needed based on the node selected. *If necessary check out the Chef Fundamentals Webinar link for setting up a node, which can be found on the Apache Big Data Stack page*
+  *	If problems are encountered, check for correct hostname, username, password, and node name. Also, check to verify if a port number is needed based on the node selected. If necessary check out the Chef Fundamentals Webinar link for setting up a node, which can be found on the Apache Big Data Stack page
   *	You will know that the connection is complete when the following is exhibited ``Chef Client finished, 0/0 resources updated …``
   
 5.	Login to Hosted Enterprise Chef
