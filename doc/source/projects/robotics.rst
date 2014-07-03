@@ -226,7 +226,7 @@ What Has Been Done This Week
 * wrote new versions of SendFrame.java and RecvFrame.java implementing a new compression algorithm on top of JZlib (algorithm taken from paper below)
 
   * increased compression time from ~19 ms to ~10 ms
-  * increased compression ration from ~5:1 to ~12:1
+  * increased compression ration from ~5:1 to ~10:1
   * achieved a compression of 50 kb per frame
 
 What Has Not Been Achieved This Week?
@@ -251,3 +251,64 @@ What is Planed For Next Week?
 Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * http://research.microsoft.com/pubs/153971/depthcode-final.pdf
+
+Week 5
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* improved SendFrame_new.java
+
+  * implemented a table look up for the inversion algorithm
+  * fixed compression error by increasing buffer size
+  * implemented prediction algorithm (did not improve compression time, will not be used)
+
+* installed IoTCloud2 on my personal computer
+
+  * configured ROS settings to allow for communication between ROS nodes on multiple computers
+  * solved connectivity problem between my personal computer and the Turtlebot laptop; connected personal computer to ethernet since wireless did not work
+  * installed maven 3
+  * solved maven compiler plugin error, pom files needed to be updated to use a newer java version
+  
+* researched an RLE compression algorith using the Golomb-Rice coding technique
+* deployed the Turtlebot sensor in IoTCloud2
+
+  * installed storm-incubator
+  * installed storm-broker-connenctors
+  * updated the rosjava used with the turtlebot from electric to hydro
+  * fixed errors in pom.xml dependencies and the same compiler version error as IoTCloud2
+  * added new dependcies from the rosjava maven repository to pom.xml files (rosjava_core, rosjava_messages, rosjava_bootstrap)
+  
+* got the Turtlebot up and running on my personal computer
+
+  * added rabbitmq.config file allowing the Turtlebot computer to access the rabbitmq server run on my personal computer
+  * manually linked IoTCloud2 libraries to the Turtlebot project on my personal computer
+  * removed a line of code calling for a command line argument in TurtleController.java
+  
+* worked on improving the follow me code
+
+  * implemented the SendFrame_new compression, SendFrame compression was used previously
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* dynamic buffer allocation for compression
+
+  * I was unable to use the JZlib methods designed for this end (ZOutputStream, ZInputStream) 
+
+* full functionality of follow me with the new compression
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* finish both turtlebot demo programs
+* get turtlebot running with cloud processing on my personal computer
+* begin writing a paper/making a poster 
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://github.com/supunkamburugamuva/storm-broker-connectors
+https://github.com/apache/incubator-storm
+http://maven.apache.org/
+https://github.com/rosjava/rosjava_mvn_repo
