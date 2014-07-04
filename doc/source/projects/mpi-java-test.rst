@@ -50,7 +50,7 @@ Links
 
 [2] http://kb.iu.edu/data/bcqt.html
 
-[3]http://dictionary.reference.com/browse/Message%20Passing%20Interface
+[3] http://dictionary.reference.com/browse/Message%20Passing%20Interface
 
 [4] https://www.youtube.com/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28
 
@@ -66,6 +66,9 @@ Links
 
 [10] http://www.dotnetperls.com/arraylist-java
 
+[11] http://www.tutorialspoint.com/java/java_loop_control.htm
+
+[12] http://java2novice.com/java-collections-and-util/arraylist/remove-all-elements/
 
 
 Week 1
@@ -134,3 +137,21 @@ Next Week:
  * Start on the MPI verion of the K-Means progeam
  * K-Means program in  MPI
  
+Week 5
+---------------------------------------------------------------------------
+Done This Week:
+
+  * The K-Means program is finished
+ 
+Incompleted This Week:
+
+  * Everything was completed 
+ 
+Next Week:
+
+  * Project was alter:
+  * Use Ohio Micro-Benchmark
+  * To work on all gather mrogram
+  * Change it from MPI C to MPI Java
+  * To test the performance of the two programs
+  
