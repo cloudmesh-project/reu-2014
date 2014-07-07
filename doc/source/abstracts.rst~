@@ -60,7 +60,7 @@ Project Abstracts
        **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
-       .. image:: images/rsz_1rsz_photo_jeff1.png
+       .. image:: images/image.png
           :height: 100
 
      - Jefferson Ridgeway
@@ -72,18 +72,25 @@ Project Abstracts
        .. image:: images/elizabeth_city_logo.png
      - **Django For Cloudmesh**
 
-       The cloud computing system Cloudmesh currently uses flask,
-       however because of the low usage of the web
-       framework. Installation of django, a similar framework has
-       proven to be more productive, efficient, and easier to use and
-       apply than flask. The purpose of this project is to develop a
+       The cloud computing system Cloudmesh currently uses flask
+       as a backend. Even though flask is easier to use than django, 
+       django has become favored  web framework to use 
+       in the cloud computing community as of recently.    
+       The purpose of this project is to develop a
        prototype django server that will have sets of functions that
-       will make Cloudmesh easier for user to interact with. This
-       includes attaching bootstrap theme to the django server and
-       list of virtual machines on various clouds that currently use
-       Cloudmesh databases.  
+       will make Cloudmesh as applicable using django than to use flask. 
+       The documentation on django is varied and comprehensive and in 
+       achieving the purpose of the project, simple guides and examples will
+       be conducted for future use by the cloudmesh team to shift or clone
+       the flask framework to django. These examples will incorporate
+       how to develop concerte views and models using the database 
+       known as mongodb to reflect the data from the database. This framework will also include 
+       attaching the bootstrap theme to the django server and list of 
+       virtual machines on various clouds that currently use Cloudmesh databases.
+       
+       
 
-       **Keywords:** Cloudmesh, django, bootstrap theme, flask
+       **Keywords:** Cloudmesh, django, bootstrap theme, flask, views, models
        
    * - 
    
@@ -159,6 +166,9 @@ Project Abstracts
      - Nigel Pugh
 
        Mentor: Saliya Ekanayake
+       
+       University: Elizabeth City State University
+       
      - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
 
        Message Passing Interface (MPI) has become the de facto way of implementing High Performance Computing (HPC) applications as it provides library routines to satisfy virtually all communication patterns. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. The team will be testing performance of our applications based on both these frameworks. The algorithms that the team will be measuring are a complex and O(N^2) complexities. The team needs to make sure they run in an optimal fashion and give us the best results. The other aspect to our project is to develop some sample MPI Java programs.

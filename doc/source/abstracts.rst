@@ -60,7 +60,7 @@ Project Abstracts
        **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
-       .. image:: images/rsz_1rsz_photo_jeff1.png
+       .. image:: images/rsz_1rsz_photo_jeff1.png.png
           :height: 100
 
      - Jefferson Ridgeway
@@ -74,16 +74,23 @@ Project Abstracts
 
        The cloud computing system Cloudmesh currently uses flask
        as a backend. Even though flask is easier to use than django, 
-       django has become very favored in the cloud computing community as 
-       of recently. 
+       django has become favored  web framework to use 
+       in the cloud computing community as of recently.    
        The purpose of this project is to develop a
        prototype django server that will have sets of functions that
-       will make Cloudmesh easier for user to interact with. This
-       includes attaching bootstrap theme to the django server and
-       list of virtual machines on various clouds that currently use
-       Cloudmesh databases.  
+       will make Cloudmesh as applicable using django than to use flask. 
+       The documentation on django is varied and comprehensive and in 
+       achieving the purpose of the project, simple guides and examples will
+       be conducted for future use by the cloudmesh team to shift or clone
+       the flask framework to django. These examples will incorporate
+       how to develop concerte views and models using the database 
+       known as mongodb to reflect the data from the database. This framework will also include 
+       attaching the bootstrap theme to the django server and list of 
+       virtual machines on various clouds that currently use Cloudmesh databases.
+       
+       
 
-       **Keywords:** Cloudmesh, django, bootstrap theme, flask
+       **Keywords:** Cloudmesh, django, bootstrap theme, flask, views, models
        
    * - 
    
