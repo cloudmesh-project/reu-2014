@@ -21,35 +21,34 @@ Links
 Problem
 ----------------------------------------------------------------------
 
-Cloudmesh is a project that allows the management of virtual machines
-in a federated fasion. It can be run in two modes. One is a standalone
-mode whare the users runs cloudmesh on the local machines. Another
-mode is a hosted mode where multiple users share a web server through
-which the virtual machines are managed. One of the important tasks is
-to integrate users into cloudmesh. As we work closely with FutureGrid
-we need to make sure that users are imported into cloudmesh. This is
-currently achieved with an integration to the FutureGrid LDAP
-server. However it assumes that users and projects are already in that
-server. The FuturGrid portal provides such an interface. However it is
-based on an older version of drupal and it is desirable to reimplement
-the user and project management functionality in cloudmesh. This
-project will explore (a) how we can design a data model in mongoengine to
-represent users and projects, (b) identify how we can leverage either
-django or flask to manage such projects. To address (b) we will first
-evaluate if we can get a django web application started and identify
-how to use it. If this turns out to be to difficult, we will fall back
-to flask. 
+Cloudmesh is a project that allows the management of virtual machines 
+in a federated fashion. It can be run in two modes. One is a standalone 
+mode where the users run cloudmesh on the local machines. The second 
+mode is a hosted mode where multiple users share a web server through 
+which the virtual machines are managed. One of the important tasks, 
+on this project, is to integrate users into cloudmesh. Hence, as we 
+work closely with FutureGrid, we need to make sure that users are 
+imported into cloudmesh. This is currently achieved via an integration 
+to the FutureGrid LDAP server. Nevertheless, it is assumed that the 
+users and projects are already in that server, as the FutureGrid portal 
+provides such an interface. However, it is based on an older version of 
+drupal and it is desirable to re-implement the user and project 
+management functionality in cloudmesh.
 
-As part of the management we need to implement a queue in which users
-are queued for approval, a project queue in which projects are queued
-and approved by a comittee. A simple backend system written in python
-will support this task provide an abstraction that is outside of the
-web interface.
+This project will explore how we can design a data model in mongoengine 
+to represent users and projects, and, also, identify how we can leverage 
+either django or flask to manage such projects. To address the later, 
+we will first evaluate if we can get a django web application started 
+and identify how to use it. If this turns out to be too difficult, we 
+will fall back to flask. As part of the management, we need to implement 
+a queue in which users are queued for approval, and a project queue whereby 
+projects are queued and approved by a committee. A simple backend system 
+written in python will support this task and provide an abstraction that 
+is outside of the web interface.
 
 Plan of action:
-
-* Week 1: learn tools such as python, git, set up the computer, learn
-  mongo
+----------------------------------------------------------------------
+* Week 1: learn tools such as python, git, set up the computer, learn mongo
 * Week 2: Evaluate if django is a viable technology for the project
 * Week 3: Develop the data abstractions and create simple programs to
   interact with the database
@@ -83,43 +82,45 @@ Implementation
 
 
 
-Week 1:
+Progree	Problems Plans:
 ----------------------------------------------------------------------
 
-Progress:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+:Progress:
+  * [done, Week 1] Installed ubuntu, mongodb, mongoengine, pip and virtualenv to the machine.
+  * [done, Week 1] learned how to use github and its commands
+  * [done, Week 1] learned python
+  * [done, Week 1] created a "Users" database independent from but similar to that of futuregrid portal.
+  * [done, Week 1] created test, management and form python files to help complete the above task.
+  * [in progress, Week 1] acquiring more knowledge on how to access the database using mongoengine.
+  * [done, Week 2] learned and documented how to pull request
+  * [done, Week 2] created a random user generator on test.py
+  * [done, Week 2] created a delete function on test.py
+  * [done, Week 2] updated the cm_account.py file
+  * [done, Week 2] created the user_dict.py file that contains dict for the users attributes
+  * [done, Week 2] wrote a program that reads from the reservation database
+  * [in progress, Week 2] started studying how to use docopt to create commands
+  * [done, Week 3] uderstood a good deal of how to write docopt based commands
+  * [done, Week 3] created sample programs that uses docopt based commands.
+  * [done, Week 3] modified test.py to generate both random and specific number of users
+  * [done, Week 3] modified test.py to delete either all or specific users.
+  * [done, Week 3] modified test.py to find all or specific users
+  * [done, Week 3] used docopt based command to perform all functions in test.py
+  * [done, Week 3] updated the management.py to use the json table format
+  * [done, Week 3] updated the user_dict.py with lists with cities, institution and phone numbers
+  * [in progress, Week 3] trying the best way to refine and add more functions to test.py
 
-* installed softwares needed:
+:Problems:
+  * [Week 1] took a while to install the different softwares need for this project. This 
+    is as many errors were made and some documentations found online were not up to date. Finally,
+    I dould not understand most of the documentations found till after studying it for a while.
+  * [Week 2] could not figure out how to use django with mongodb.
+  * [Week 3] had to create different test and management python files in order to get the 
+    most efficient functions. Hence, the code continues to be refined
+    if better ways come up.
 
-  * ubuntu
-  * mongoDb
-  * mongoengine
-  * aptana
-
-* Learnt how to use github and its' commands
-* Learnt python
-* Leant and stil learning how to access/create/use a database 
-  (mongoDB). 
-
-  * Created a database to develop a data structure for users based on
-    what is on the Futuregrid portal.
-		 
-  * Started writing python codes that will help achieve.
-    this task:
-
-    * Management.py:
-    * test.py
-    * form.py: Dictionary for sections in portal
-		
-* Learnt and still learning how to use mongoengine to manage
-  my database
-
-Next week Plans:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* Create a random user generator function.
-* Update the program to be able to print a table of the users.
-* Figure how to use doc_opt to perform different actions.
-* Create a dump of all the address in a dictionary form.
-* Create functions that will help analize different info.
-* Read on flask, esp wtf forms
-* Create a gui account for user account 
+:Plans:
+  * [Week 4] create another a web UI for projects to be linked to the users
+  * [Week 5] implement an approval mechnism for users and projects.
+  * [Week 6] evaluate what is missing and continue the implementation tasks
+  * [Week 8] complete the 2 page paper, cleanup the program, make sure the
+    user documentation and code documentation are done.

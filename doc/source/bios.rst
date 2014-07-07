@@ -15,10 +15,10 @@ Bios
           :height: 100
 
      - Ifeanyi Rowland Onyenweaku
-     - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior, and is presently working in Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
+     - Ifeanyi Rowland Onyenweaku is an international student from Abia, Nigeria. He is a student at Mississippi Valley State University double majoring in Computer Science and Mathematics. Ifeanyi is a rising junior and is presently working at Indiana University, Bloomington, with Dr. Gregor Von Laszewski on Cloudmesh Project and Account Management Framework.
 
    * -
-      .. image:: images/tatyfinal.png
+      .. image:: images/taty_fixed.png
           :height: 100
 
      - Tatyana Matthews    matthews.tatyana17@gmail.com
@@ -26,7 +26,7 @@ Bios
      
    * -
    
-      .. image:: images/photo_leif.png
+      .. image:: images/photo.JPG
           :height: 100
 
      - Leif Christiansen
@@ -50,7 +50,7 @@ Bios
           :height: 100
 
      - Nigel Pugh   nigel.pugh32@gmail.com
-     - Nigel is a student at Elizabith City State University majoting in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Java in FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
+     - Nigel Pugh is a student at Elizabith City State University majoring in Computer Science. Nigel is from Ahoskie, North Carolina. Nigel is currently working on Evaluating the Performance of MPI Javain FutureGrid and Big Red2 with mentor Saliya Ekanayake. 
 
    * -
    
@@ -67,4 +67,12 @@ Bios
           :height: 100
 
      - Natiele Bohn    nattibohn@gmail.com
-     - Natiele Bohn is an international student from Brazil. She is a junior in Computer Science major currently studing at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently work programming in Python, developing a reservation application to reserve resources in cloud.
+     - Natiele Bohn is an international student from Brazil. She is a junior majoring in Computer Science currently studying at Dillard University, New Orleans. Her home university in Brazil is Universidade do Vale do Rio dos Sinos - Unisinos. She is currently programming in Python, developing a reservation application to reserve resources in the cloud.
+
+   * - 
+   
+      .. image:: images/rsz_1rsz_photo_jeff1.png
+          :height: 100
+          
+     - Jefferson Ridgeway    jdridgeway4@gmail.com
+     - Jefferson is a student currently attending Elizabeth City State University in Elizabeth City, NC.  Jefferson has completed his freshman year at Elizabeth City State and is a Computer Science Major with a minor in Mathematics.  Jefferson is currently working on django for cloudmesh under Gregor von Laszewski at Indiana University. 

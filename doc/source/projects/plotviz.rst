@@ -1,16 +1,12 @@
-PlotViz: Bioinformatic Genomic Sequence Data
+PlotViz: A Bioinformatic Visualization Tool
 ======================================================================
 
 Team
 ----------------------------------------------------------------------
-- Khaliq Satchell (Me)
+- Khaliq Satchell
 
   ksatchel@indiana.edu
 
-
-- Loran Saggu
-
-  lsaggu@indiana.edu
 
 - Geoffrey Fox (Mentor)
 
@@ -65,16 +61,20 @@ Progress:
 - [done, Week 1] Learned about the functions of PlotViz3
 - [done, Week 1] Read previous research papers
 - [done, Week 1] Downloaded PlotViz3
-- [in progress, Week 2] Built the libraries for PlotViz3
+- [in progress, Week 4] Learning how to implement a C++ parallel version of matrix multiplication
+- [in progress, Week 4] Built the libraries for PlotViz3
 
 Problems:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - [Week 1] Couldn't access salsadev svn repository
 - [Week 2] Constantly getting errors while trying to build libraries for PlotViz3
+- [Week 3] My computer's hard disk drive is failing so I was unable to complete any work
 
 Plans:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - [Week 2] Finish building libraries for PlotViz3
 - [Week 2] Learn how to use PlotViz3
+- [Week 3] Finish building libraries for PlotViz3
+- [Week 4] Have laptop fixed so that I may once again try to build the libraries for PlotViz3

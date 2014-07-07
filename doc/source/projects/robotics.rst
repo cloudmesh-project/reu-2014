@@ -7,17 +7,16 @@ Leif Christiansen grindvald@gmail.com
 
 Supun Kamburugamuva supun06@gmail.com
 
-Problem
+Abstract
 ----------------------------------------------------------------------
 
-Perform real time parallel computing on Kinect sensor data recieved from
-large numbers of simulated turtlebots so that they may avoid objects.
-The goal of the project is to improve upon the efficiency of Supun
-Kamburugamuva's previous implementation so that a larger number of 
-robots may be operated simultaneously.
-
-Design
-----------------------------------------------------------------------
+Kinect sensors provide a cheap and effective tool for 3 dimensional imaging. Currently, many open source project are being developed utilizing the Kinect sensor in a variety of areas. One such area is robotics. 
+The Kinect sensor may be used to create an accurate 3 dimensional model of an environment allowing a robot to navigate effectively. 
+Supun Kamburugamuva has worked previously with a Kinect based robot and software suite, the Turtlebot and accompanying open-source software produced by Robot Operating Systems (ROS). 
+Supun's previous work, IoTCloud, focused on performing all necessary computations pertaining to object avoidance on the cloud. 
+But the ROS software requires considerable overhead, lessening the efficiency with which these calculations may be made. 
+Our new project will utilize the OpenKinect Java library to perform more efficient retrieval and transmission of depth data from the Kinect. 
+Faster processing will allow for the operation of numerous robots simultaneously with real-time parallel computing deployed on the cloud.
 
 
 Implementation
@@ -96,6 +95,7 @@ Links
 * http://www.processing.org/
 * http://shiffman.net/p5/kinect/reference/org/openkinect/processing/Kinect.html
 * http://code.google.com/p/simple-openni/
+
 Week 2
 ----------------------------------------------------------------------
 
@@ -133,6 +133,7 @@ What Has Been Done This Week
   * points are colored red, yellow, or blue depending on the distance from the sensor
 
 * found two compression techniques shown to be useful in handling Kinect depth data, LZ4 and RLECodec
+
   * found a Java library implementing LZ4 compression that has been shown to be useful with Kinect depth data  
 
 * wrote a program that recieves Kinect depth data, compresses the data using LZ4, prints the uncompressed and compressed data to two text files, decompresses the data, and displays the colored distance data in a JFrame
@@ -174,7 +175,9 @@ What Has Been Done This Week
   * Jzlib, a Java implementation of Zlib; Jzlib offers greater compression and will be used
   
 * improved my depth display program to color depth points with a smooth gradient ranging through several colors
+
  .. image:: ../images/ScrnShot.png
+
 * implemented a more accurate depth calculation algorithm as a table look-up
 * wrote a program that performs basic object detection using the kinect
 
@@ -206,3 +209,108 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * http://www.jcraft.com/jzlib/
 * http://www.rabbitmq.com/
+
+Week 4
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* had meetings with Supun to evaluate our current project and determine how best to move forward
+* fixed my computer, it was unusable for a day and a half
+* wrote code that Supun used in a bolt that detects whether there are any object in front of the turtlebot past a certian threshold
+* wrote a rough draft of a project abstract
+* resolved bug in RecvFrame.java program that was crashing the program
+* found code that allows the Kinect distance information to be converted into a point cloud
+* wrote a Bash script that allows the user to configure and run SendFrame.java and RecvFrame.java simultaneously
+* wrote new versions of SendFrame.java and RecvFrame.java implementing a new compression algorithm on top of JZlib (algorithm taken from paper below)
+
+  * increased compression time from ~19 ms to ~10 ms
+  * increased compression ration from ~5:1 to ~10:1
+  * achieved a compression of 50 kb per frame
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* resolution of bug in SendFrame.java that causes the program to crash and requires a full reset of hardware
+* a smooth color gradient in the new RecvFrame.java program
+* sending frames at 500 kb/s (currently at 750 kb/s)
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* continue to optimize depth transmission 
+* add color gradient to the new RecvFrame.java program
+* complete two turtlebot demo programs
+
+  * the turtlebot will follow a person at a set distance
+  * the turtlebot will recieve user input but refuse to drive past a certain closeness to detected objects
+
+* demo turtlebot functionality for Dr.Fox
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* http://research.microsoft.com/pubs/153971/depthcode-final.pdf
+
+Week 5
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* improved SendFrame_new.java
+
+  * implemented a table look up for the inversion algorithm
+  * fixed compression error by increasing buffer size
+  * implemented prediction algorithm (did not improve compression time, will not be used)
+
+* installed IoTCloud2 on my personal computer
+
+  * configured ROS settings to allow for communication between ROS nodes on multiple computers
+  * solved connectivity problem between my personal computer and the Turtlebot laptop; connected personal computer to ethernet since wireless did not work
+  * installed maven 3
+  * solved maven compiler plugin error, pom files needed to be updated to use a newer java version
+  
+* researched an RLE compression algorith using the Golomb-Rice coding technique
+* deployed the Turtlebot sensor in IoTCloud2
+
+  * installed storm-incubator
+  * installed storm-broker-connenctors
+  * updated the rosjava used with the turtlebot from electric to hydro
+  * fixed errors in pom.xml dependencies and the same compiler version error as IoTCloud2
+  * added new dependcies from the rosjava maven repository to pom.xml files (rosjava_core, rosjava_messages, rosjava_bootstrap)
+  
+* got the Turtlebot up and running on my personal computer
+
+  * added rabbitmq.config file allowing the Turtlebot computer to access the rabbitmq server run on my personal computer
+  * manually linked IoTCloud2 libraries to the Turtlebot project on my personal computer
+  * removed a line of code calling for a command line argument in TurtleController.java
+  
+* worked on improving the follow me code
+
+  * implemented the SendFrame_new compression, SendFrame compression was used previously
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* dynamic buffer allocation for compression
+
+  * I was unable to use the JZlib methods designed for this end (ZOutputStream, ZInputStream) 
+
+* full functionality of follow me with the new compression
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* finish both turtlebot demo programs
+* get turtlebot running with cloud processing on my personal computer
+* begin writing a paper/making a poster 
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://github.com/supunkamburugamuva/storm-broker-connectors
+* https://github.com/apache/incubator-storm
+* http://maven.apache.org/
+* https://github.com/rosjava/rosjava_mvn_repo
+* https://github.com/turtlebot

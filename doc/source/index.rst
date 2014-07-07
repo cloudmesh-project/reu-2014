@@ -31,3 +31,7 @@ Community
    community
    ssh
    mendeley
+
+This website is published at...
+   
+* http://cloudmesh.github.io/reu

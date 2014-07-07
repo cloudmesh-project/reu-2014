@@ -3,10 +3,11 @@ Apache Big Data Stack
 
 Team
 ----------------------------------------------------------------------
-.. image:: ../images/tatyfinal.png
+.. image:: ../images/taty_fixed.png
    :height: 200
 
 * Tatyana Matthews, matthews.tatyana17@gmail.com
+
 * Advisor: Scott McCaulay, scottmccaulay@gmail.com
 
 Problem
@@ -29,34 +30,50 @@ Implementation
 
 Links
 ----------------------------------------------------------------------
+**Open-Source Package Overviews/Descriptions & Additional Sources**
 
-* http://www.apache.org/foundation/
+* Overview of the Apache Software Foundation-http://www.apache.org/foundation/
 
-Overview of the Apache Software Foundation
+* Overview of Apache Big Data Stack-http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf
 
-* http://hpc-abds.org/kaleidoscope/
+* Overview of Apache HBase-http://hbase.apache.org/
 
-Kaleidoscope of Apache Big Data Stack
+* Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
 
-* http://docs.opscode.com/
+* Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack-http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack
 
-* http://www.getchef.com/chef/
+* Cloud infrastructure automation framework-http://docs.opscode.com/
 
-Cloud infrastructure automation framework
+* Chef Introduction-http://www.getchef.com/chef/ 
 
-* http://hbase.apache.org/
+* Mendeley free reference manager-http://www.mendeley.com/ 
 
-Overview of Apache HBase
+* Used to launch node environment-http://cloudshare.com 
 
-* https://www.youtube.com/watch?v=yh9osPQA_-k
+**Documentation**
 
-Chef Webinar Series: Informative Tutorials
+* Apache Maven Installation-http://maven.apache.org/download.cgi
 
-* http://www.mendeley.com/
+* Apache HBase Installation-http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/
 
-Mendeley free reference manager
+* Sublime Text 2 Installation-http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu
 
-Weekly Project Updates (Week 3 June 16-20)
+* Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
+
+* Chef Fundamentals Webinar: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
+
+**Personal Developed Documentation**
+
+The following developed documentation is comprised through the guide of official documentation along with personal encounters
+with Ubuntu Desktop 12.04.3
+
+* `Apache Maven Installation Guide <http://cloudmesh.futuregrid.org/reu/MavenGuide.html>`_
+
+* `Apache HBase Installation Guide <http://cloudmesh.futuregrid.org/reu/HBaseGuide.html>`_
+
+* `Chef Installation & Workstation Setup Guide <http://cloudmesh.futuregrid.org/reu/ChefGuide.html>`_
+
+Weekly Project Updates (Week 4 June 23-27)
 ----------------------------------------------------------------------
 
 Progress:
@@ -75,7 +92,7 @@ Progress:
 
 * [done, Week 1] Crafted procedural list of how to install Apache Maven on Ubuntu
 
-* [done, Week 2] Successfully installed Apache HBase onto Ubuntu & Windows 7 on VMware Player
+* [done, Week 2] Successfully installed Apache HBase on Ubuntu
 
 * [done, Week 2] Crafted procedural list of how to install Apache HBase on Ubuntu
 
@@ -91,30 +108,45 @@ Progress:
 
 * [done, Week 3] Completed Chef Webinar series
 
-* [in progress, Week 3] Learning basic syntax & shortcuts for Ruby
+* [done, Week 3] Learned basic syntax & shortcuts for Ruby
+
+* [done, Week 4] Installed Chef and Sublime Text 2 in Ubuntu
+
+* [done, Week 4] Successfully created a cookbook and recipe
+
+* [done, Week 4] Crafted guide for installing Chef on Ubuntu based on personal installation experience
+
+* [done, Week 4] Set up/managed a node
+
+* [done, Week 4] Set up a Chef Training Lab environment using cloudshare
+
+* [done, Week 4] Used ‘knife bootstrap’ to install all Chef dependencies via CentOS
 
 Plans:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 4] Reproduce all installations in Windows 7
+* [Week 5] Launch a web server using Chef
 
-* [Week 4] Install Chef in Ubuntu and Windows 7
+* [Week 5] Fix error regarding apache recipe, so that it can be uploaded to the Chef server
 
-* [Week 4] Successfully create a cookbook, recipe, and *possible web server using Chef (*discuss with mentor) 
+* [Week 5] Update GitHub
 
-* [Week 4] Create guide for installing Chef on Ubuntu based on personal installation experience
+* [Week 5] Meet with ABDS team to discuss progress, timeline, team member roles, and team goals
 
-* [Week 4] Update GitHub
+* [Week 5] Discuss and develop with mentor a personal goal for the project design and implementation
 
-* [Week 4] Meet with Apache Big Data Stack team to discuss progress, timeline, team member roles, and team goals
+* [Week 5] Begin process of writing research paper, 1-2 pages complete upon conclusion of week
 
-* [Week 4] Discuss and develop with mentor a personal goal for the project, design, and implementation
+* [Week 5] Search examples of computer science research papers
+
+* [Week 5] Continue documenting research journey through screenshots and properly citing sources
+
 
 Problems:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* [Week 3] What will be required in order for all installations thus far to be reproduced in Windows 7?
+* [Week 4] What in Sublime code for apache recipe must be changed in order for ‘sudo chef-client’ to run successfully with the Chef server?
 
-* [Week 3] In what ways can I create an efficient, understandable, and relatable procedure for installing Chef?
+* [Week 4] With the tasks completed thus far, what are the steps for writing a research paper?
 
-* [Week 3] How can I make such a procedure accessible, so that it can be utilized and searchable?
+* [Week 4] What aspects will be needed in addition to sources, screenshots, scholarly references, etc to write the research paper?
