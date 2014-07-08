@@ -71,6 +71,7 @@ Project Abstracts
           
        .. image:: images/unisinos.png
           :height: 100
+          
      - **Cloudmesh Resource Reservation**
 
        Cloudmesh Resource Reservation is being developed to create and
@@ -100,7 +101,7 @@ Project Abstracts
        **Keywords:** Python, docopt, Mongodb, mongoengine, Cloudmesh
    * - 
 
-       .. image:: images/rsz_1rsz_photo_jeff1.png.png
+       .. image:: images/rsz_1rsz_photo_jeff1.png
           :height: 100
 
      - Jefferson Ridgeway
@@ -110,11 +111,16 @@ Project Abstracts
        University: Elizabeth City State University 
        
        .. image:: images/elizabeth_city_logo.png
+<<<<<<< HEAD
      - **Cloudmesh Project and Account Management Framework: Django**
+=======
+          :height: 100
+     
+     - **Django For Cloudmesh**
+>>>>>>> bdf09f568a800f6cb361916ababb3a13c48f1c70
 
        The cloud computing system Cloudmesh currently uses flask
        as a backend. Even though flask is easier to use than django, 
-<<<<<<< HEAD
        django has become favored  web framework to use 
        in the cloud computing community as of recently.    
        The purpose of this project is to develop a
@@ -128,27 +134,10 @@ Project Abstracts
        known as mongodb to reflect the data from the database. This framework will also include 
        attaching the bootstrap theme to the django server and list of 
        virtual machines on various clouds that currently use Cloudmesh databases.
-       
-       
-=======
-       django has become very favored in the cloud computing community as 
-       of recently. The purpose of this project is to develop a
-       prototype django server that will have sets of functions that
-       will make Cloudmesh as applicable usind django than to use flask. 
-       The documentation on django is varied and comprehensive and in 
-       achieving the purpose of the project, simple guides and examples will
-       be conducted for future use by the cloudmesh team to shift or clone the 
-       flask framework to django.  These examples will incorporate how to develop
-       concrete views and models using the database known as mongodb to reflect from 
-       the database. This framework will also include attaching bootstrap theme 
-       to the django server and list of virtual machines on various clouds that currently use
-       Cloudmesh databases.  
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 
        **Keywords:** Cloudmesh, django, bootstrap theme, flask, views, models
        
    * - 
-   
        .. image:: images/photo.JPG
           :height: 100
 
@@ -159,6 +148,7 @@ Project Abstracts
        Lewis & Clark College
        
        .. image:: images/LC.jpg
+          :height: 100
        
      - **IoTCloud2**
 
@@ -203,7 +193,7 @@ Project Abstracts
  
    * -
   
-	.. image:: images/photo_tori.png
+       .. image:: images/photo_tori.png
           :height: 100
 
      - Tori Wilbon
@@ -223,7 +213,7 @@ Project Abstracts
 
    * -
    
-	.. image:: images/photo_nigel.png
+       .. image:: images/photo_nigel.png
           :height: 100
 
      - Nigel Pugh
@@ -253,7 +243,7 @@ Project Abstracts
 
    * -
    
-	.. image:: images/taty_fixed.png
+       .. image:: images/taty_fixed.png
           :height: 100
 
      - Tatyana Matthews
