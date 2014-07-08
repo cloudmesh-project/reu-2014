@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -165,6 +164,8 @@
 <li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#week-ii">Week II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#week-iii">Week III</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#week-iv">Week IV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#week-v">Week V</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#week-vi">Week VI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cm_reservation.html#links">Links</a></li>
 </ul>
 </li>
@@ -378,7 +379,21 @@
 <h1>Cloudmesh Django<a class="headerlink" href="#cloudmesh-django" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="team">
 <h2>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h2>
-<img alt="projects/../images/image.png" src="projects/../images/image.png" style="height: 100px;" />
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+.. image:: image/image.png
+=======
+.. image:: ../images/image.png</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">height:</th><td class="field-body">100</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; af79d74e2e4d6ca1ceac55399bff2586c68e0133</p>
 <ul class="simple">
 <li>Jeff Ridgeway, <a class="reference external" href="mailto:jdridgeway4&#37;&#52;&#48;gmail&#46;com">jdridgeway4<span>&#64;</span>gmail<span>&#46;</span>com</a></li>
 <li>Gregor von Laszewski, <a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gimail&#46;com">laszewski<span>&#64;</span>gimail<span>&#46;</span>com</a></li>
@@ -386,19 +401,19 @@
 </div>
 <div class="section" id="problem">
 <h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
-<p>Cloudmesh contains a webserver that uses flask as a backend. Although
-flask is very powerful and easy to use, django is more comonly used in
-the cloud community. This also includes Openstack Horizon that uses
-flask. This project will explore how to use django instead of flask
-for the development of cloudmesh. As such we need an easy install and
-usage documentation that will be developed as part of this
-project. The django documentation is quite extensive and the main task
-will include the development of simple guides and examples that can be
-reused by the cloudmesh team to transition or clone the flask
-framework to django. The examples will develop concrete views and
-models utilizing mongodb to visualize contents form the
-database. Simple guides will be developed that tell others ow to do
-this.</p>
+<p>The cloud computing system Cloudmesh currently uses flask as a backend.
+Even though flask is easier to use than django, django has become very favored
+in the cloud computing community as of recently.  The purpose of this project is
+to develop a prototype django server that will have sets of functions that will
+make Cloudmesh as applicable using django than to use flask.  The documentation
+on django is varied and comprehensive and in achieving the purpose of the project,
+simple gudies and examples will be conducted for future use by the cloudmesh team
+to shift or clone the flask framework to django.  These examples will incorporate
+how to develop concrete views and models using the database known as mongodb to
+reflect from the database.  This framework will also include attaching a
+bootstrap theme to the django server and list of virtual machines on various
+clouds that currently use Cloudmesh databases.</p>
+<p><strong>Keywords:</strong> Cloudmesh, django, bootstrap theme, flask, views, models</p>
 <p>Plan of Action:</p>
 <ul class="simple">
 <li>Week 1: Learn basic tools: python, git , django</li>
@@ -436,11 +451,13 @@ flask and change our deliverables slightly.</li>
 </div>
 <div class="section" id="design">
 <h2>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h2>
-<p>Algorithms in Python</p>
+<p>Python programming
+Django Configuration files
+Bootstrap Templates</p>
 </div>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
-<p>Work through Django server</p>
+<p>Development through Django server</p>
 </div>
 <div class="section" id="links">
 <h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
@@ -450,6 +467,7 @@ flask and change our deliverables slightly.</li>
 <li>Git: <a class="reference external" href="http://git-scm.com/docs/gittutorial">http://git-scm.com/docs/gittutorial</a></li>
 <li>Hitchhiker&#8217;s Guide to Python: <a class="reference external" href="http://docs.python-guide.org/en/latest/">http://docs.python-guide.org/en/latest/</a></li>
 <li>Software Carpentry: <a class="reference external" href="http://ivory.idyll.org/articles/advanced-swc/">http://ivory.idyll.org/articles/advanced-swc/</a></li>
+<li>The Django Book, Chapter 4: Templates: <a class="reference external" href="http://www.djangobook.com/en/2.0/chapter04.html">http://www.djangobook.com/en/2.0/chapter04.html</a></li>
 </ul>
 </div>
 <div class="section" id="progress-plans">
@@ -458,26 +476,45 @@ flask and change our deliverables slightly.</li>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Progress:</th><td class="field-body"><ul class="first simple">
+<tr class="field-odd field"><th class="field-name">Progress:</th><td class="field-body"><ul class="first last simple">
 <li>[done, Week 1] learned python language and syntax,</li>
 <li>[done, Week 1] installed django &amp; python on a ubuntu machine</li>
 <li>[done, Week 1] learned git</li>
 <li>[done, Week 1] learned virtualenv</li>
 <li>[done, Week 1] learned pip</li>
 <li>[in progress, Week1] read a portion of django documentation</li>
-<li>[done, Week 2] the simple django server is checke into github</li>
+<li>[done, Week 2] the simple django server is checked into github</li>
 <li>[done, Week 2] the bootstrap based simple server is in github</li>
 <li>[done, Week 2] Successfully learned how to create a model and view in github</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt>
+<dd><ul class="first last simple">
 <li>[done, Week 2] documentation of how to get a django-bootstrapped theme server up and running</li>
-<li>[done, Week 3] installation of models, views, and templates</li>
+<li>[done, Week 3] install models, views, and templates</li>
+<li>[done, Week 3] documentation of models, views, and templates</li>
+<li>[done, Week 4] Successful connection to mongodb</li>
+<li>[done, Week 4] Creation of demos of models, views, and templates</li>
+<li>[done, Week 4] Successful creation of tables in django bootstrap theme</li>
+</ul>
+</dd>
+</dl>
+<blockquote>
+<div><ul class="simple">
 <li>[done, Week 3] documentation of models, vies, and templates</li>
 <li>[done, Week 4] Successful connection to mongodb</li>
 <li>[done, Week 4] Creation of demos of models, views, and templates</li>
 <li>[done, Week 4] Successful creation of tables in django bootstrap theme</li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Problems:</th><td class="field-body"><ul class="first simple">
+</div></blockquote>
+<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; af79d74e2e4d6ca1ceac55399bff2586c68e0133
+:Problems:</p>
+<blockquote>
+<div><ul class="simple">
 <li>[Week 2] cloud not get the mongo base django to work, existing
 tutorials were buggy according to gregor, possible too difficult
 task. Reasignment of next task, instead of using mongo for
@@ -485,14 +522,32 @@ authentication we just use it for visualization of an existing
 dataset via django.  users are managed through sql we will in wee
 3 use the reservation database and than test how to develop views
 and templates. we start with reading up on views and templates.</li>
-<li>[Week 3] had a difficult time understanding examples and documentation
-about django and how to create successful models, views, and templates
-to be seen with django and had a hard time installing mongodb as a backend.</li>
-<li>[Week 4] Working the demos was hard at first.  Creating the tables was also
-difficult as well.</li>
+<li>[Week 3] had a difficult time understanding examples and documentation</li>
 </ul>
-</td>
-</tr>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt>
+<dd><blockquote class="first">
+<div>about django and how to create successful models, views, and templates
+to be seen as django and had a hard time install mongodb as a backend</div></blockquote>
+<ul class="last simple">
+<li>[Week 4] Making the demos was hard at first.  Creating the tables was also</li>
+</ul>
+</dd>
+</dl>
+<blockquote>
+<div><ul class="simple">
+<li>[Week 4] Working the demos was hard at first.  Creating the tables was also</li>
+</ul>
+</div></blockquote>
+<dl class="docutils">
+<dt>&gt;&gt;&gt;&gt;&gt;&gt;&gt; af79d74e2e4d6ca1ceac55399bff2586c68e0133</dt>
+<dd>difficult as well.</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Plan:</th><td class="field-body"><ul class="first last simple">
 <li>[Week2] read more django documentation and implement django server</li>
 <li>[Week2] develop a django sever with mongodb as backend</li>
@@ -520,7 +575,7 @@ difficult as well.</li>
     </p>
     <p>
         &copy; Copyright 2014, FutureGrid.<br/>
-      Last updated on Jul 07, 2014 at 12:38:43 ET.<br/>
+      Last updated on Jul 08, 2014 at 11:37:52 ET.<br/>
     </p>
   </div>
 </footer>

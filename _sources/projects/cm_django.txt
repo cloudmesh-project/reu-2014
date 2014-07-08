@@ -4,8 +4,12 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
+<<<<<<< HEAD
+.. image:: image/image.png
+=======
 .. image:: ../images/image.png
    :height: 100
+>>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
@@ -14,19 +18,20 @@ Team
 Problem
 ----------------------------------------------------------------------
 
-Cloudmesh contains a webserver that uses flask as a backend. Although
-flask is very powerful and easy to use, django is more comonly used in
-the cloud community. This also includes Openstack Horizon that uses
-flask. This project will explore how to use django instead of flask
-for the development of cloudmesh. As such we need an easy install and
-usage documentation that will be developed as part of this
-project. The django documentation is quite extensive and the main task
-will include the development of simple guides and examples that can be
-reused by the cloudmesh team to transition or clone the flask
-framework to django. The examples will develop concrete views and
-models utilizing mongodb to visualize contents form the
-database. Simple guides will be developed that tell others ow to do
-this.
+The cloud computing system Cloudmesh currently uses flask as a backend.
+Even though flask is easier to use than django, django has become very favored
+in the cloud computing community as of recently.  The purpose of this project is
+to develop a prototype django server that will have sets of functions that will 
+make Cloudmesh as applicable using django than to use flask.  The documentation
+on django is varied and comprehensive and in achieving the purpose of the project, 
+simple gudies and examples will be conducted for future use by the cloudmesh team
+to shift or clone the flask framework to django.  These examples will incorporate
+how to develop concrete views and models using the database known as mongodb to
+reflect from the database.  This framework will also include attaching a
+bootstrap theme to the django server and list of virtual machines on various 
+clouds that currently use Cloudmesh databases.
+
+**Keywords:** Cloudmesh, django, bootstrap theme, flask, views, models
 
 Plan of Action:
 
@@ -69,20 +74,22 @@ Mitigation strategy:
 
 Design
 ----------------------------------------------------------------------
-Algorithms in Python
+Python programming
+Django Configuration files
+Bootstrap Templates
 
 Implementation
 ----------------------------------------------------------------------
-Work through Django server
+Development through Django server
 
 Links
 ----------------------------------------------------------------------
-
 * Django: https://www.djangoproject.com
 * Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
 * Git: http://git-scm.com/docs/gittutorial
 * Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
 * Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
+* The Django Book, Chapter 4: Templates: http://www.djangobook.com/en/2.0/chapter04.html
 
 
 Progress & Plans
@@ -96,9 +103,18 @@ Progress & Plans
   * [done, Week 1] learned virtualenv
   * [done, Week 1] learned pip
   * [in progress, Week1] read a portion of django documentation
-  * [done, Week 2] the simple django server is checke into github
+  * [done, Week 2] the simple django server is checked into github
   * [done, Week 2] the bootstrap based simple server is in github
   * [done, Week 2] Successfully learned how to create a model and view in github
+<<<<<<< HEAD
+  * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running
+  * [done, Week 3] install models, views, and templates
+  * [done, Week 3] documentation of models, views, and templates
+  * [done, Week 4] Successful connection to mongodb
+  * [done, Week 4] Creation of demos of models, views, and templates
+  * [done, Week 4] Successful creation of tables in django bootstrap theme
+
+=======
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
   * [done, Week 3] installation of models, views, and templates
   * [done, Week 3] documentation of models, vies, and templates
@@ -107,6 +123,7 @@ Progress & Plans
   * [done, Week 4] Successful creation of tables in django bootstrap theme
   
   
+>>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
     tutorials were buggy according to gregor, possible too difficult
@@ -116,9 +133,15 @@ Progress & Plans
     3 use the reservation database and than test how to develop views
     and templates. we start with reading up on views and templates.
   * [Week 3] had a difficult time understanding examples and documentation
+<<<<<<< HEAD
+    about django and how to create successful models, views, and templates
+    to be seen as django and had a hard time install mongodb as a backend 
+  * [Week 4] Making the demos was hard at first.  Creating the tables was also
+=======
     about django and how to create successful models, views, and templates 
     to be seen with django and had a hard time installing mongodb as a backend.
   * [Week 4] Working the demos was hard at first.  Creating the tables was also
+>>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
     difficult as well. 
 
 :Plan: 

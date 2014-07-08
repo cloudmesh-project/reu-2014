@@ -11,7 +11,8 @@ Team
 Github webpage
 ----------------------------------------------------------------------
 
-Code: https://github.com/cloudmesh/reservation
+Code: https://www.github.com/cloudmesh/reservation
+Contributors: https://www.github.com/cloudmesh/reservation/graphs/contributors
 
 Problem
 ----------------------------------------------------------------------
@@ -106,6 +107,23 @@ the second week of work:
 * Created a form to add reservations using the flask interface
 * Still working to create a better function update on model.py (this function should update a reservation that is already created.)
 
+Week V
+----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+the second week of work:
+
+* Continued to work on the flask functions / Bootstrap
+* Create forms
+* Separate example code to production code
+
+Week VI
+----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+the second week of work:
+
+* Better form views
+* Usage of Restful instead of Flask
+
 Links
 ----------------------------------------------------------------------
 
@@ -116,5 +134,6 @@ Some documentation that I read can be found at these webpages:
 * http://www.flask.pocoo.org/docs/tutorial/
 * http://www.docopt.org/
 * http://www.w3.org/TR/html-aapi/
-
+* http://www.blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+* http://www.flask-restful.readthedocs.org/en/latest/quickstart.html#full-example
 
