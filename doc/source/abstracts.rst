@@ -110,7 +110,7 @@ Project Abstracts
        University: Elizabeth City State University 
        
        .. image:: images/elizabeth_city_logo.png
-     - **Django For Cloudmesh**
+     - **Cloudmesh Project and Account Management Framework: Django**
 
        The cloud computing system Cloudmesh currently uses flask
        as a backend. Even though flask is easier to use than django, 
