@@ -286,7 +286,7 @@ What Has Been Done This Week
   * manually linked IoTCloud2 libraries to the Turtlebot project on my personal computer
   * removed a line of code calling for a command line argument in TurtleController.java
   
-* worked on improving the follow me code
+* worked on improving the follower code
 
   * implemented the SendFrame_new compression, SendFrame compression was used previously
 
@@ -314,3 +314,47 @@ Links
 * http://maven.apache.org/
 * https://github.com/rosjava/rosjava_mvn_repo
 * https://github.com/turtlebot
+
+Week 6
+----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* continued to improve the follower code
+
+  * fine tuned constants
+  * planned possibly solutions to allow the turtlebot to find users that have stepped out of frame
+  
+* ran the turtlebot using storm on my personal computer
+
+  * deployed the turtlebot sensor in IoTCloud2
+  * deployed the storm topology
+  * hardcoded my personal ip
+  * corrected naming errors 
+  * corrected typos in documentation
+  
+* began work on a write-up of my contributions to the project
+
+  * rewrote a proper abstract
+  * researched compression and message sending techniques employed
+  
+* modularized the compression and decompression as a seperate class, Compressor
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* final improvements to the follower program
+* measure latency and message rates of the system when using the cloud
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* fine tune the follower program
+* test the scalability of the system using simulated sensors
+* finish writing a paper
+
+Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* http://storm.incubator.apache.org/
