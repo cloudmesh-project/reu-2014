@@ -76,6 +76,8 @@ Links
 
 [12] http://java2novice.com/java-collections-and-util/arraylist/remove-all-elements/
 
+[13] http://mvapich.cse.ohio-state.edu/benchmarks/
+
 
 Week 1
 ----------------------------------------------------------------------
@@ -156,8 +158,23 @@ Incompleted This Week:
 Next Week:
 
   * Project was alter:
-  * Use Ohio Micro-Benchmark
-  * To work on all gather mrogram
+  * Use Ohio State University Micro-Benchmark
+  * To work on all gather program
   * Change it from MPI C to MPI Java
   * To test the performance of the two programs
   
+Week 6
+-------------------------------------------------------------------------------
+Done This Week:
+
+  * Converted OSU Micro-Benchmark from MPI C to MPI Java
+  * Got the results of the performance of the all gather program in MPI C and MPI Java
+  
+Incompleted This Week:
+
+  * Finishing the poster
+  
+Next Week:
+
+  * Create Graphs for the FastMPJ performance test of the benchmarks
+  * Finish the poster
