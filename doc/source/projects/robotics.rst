@@ -160,8 +160,9 @@ What is Planed For Next Week?
 
 Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-http://thebytekitchen.com/2014/03/24/data-compression-for-the-kinect/
-https://github.com/jpountz/lz4-java
+
+* http://thebytekitchen.com/2014/03/24/data-compression-for-the-kinect/
+* https://github.com/jpountz/lz4-java
 
 Week 3
 ----------------------------------------------------------------------
