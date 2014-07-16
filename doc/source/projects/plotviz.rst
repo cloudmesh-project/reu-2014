@@ -20,7 +20,7 @@ Problem
 I will be working to develop parallelization support for multithreading PlotViz3 in order to speed up it's processes.
 
 
-How To Build The Libraries In Windows 7 Ultimate SP1 64 Bit
+How To Build The Libraries In Windows 7 Ultimate 64 Bit
 ----------------------------------------------------------------------
 
 1.  Download and install Microsoft Visual Studio 2010, CMAKE, and NSIS.
