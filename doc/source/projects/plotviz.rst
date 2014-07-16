@@ -48,8 +48,8 @@ How To Build The Libraries In Windows 7 Ultimate 64 Bit
 5.  In System, click on Advanced System Settings.
 6.  In the Advanced tab click on Environment Variables.
 7.  Click New located under User Variables for (Username).
-8.  Add "PVIZ3DEV_HOME" for variable name and "C:\pviz3dev" for variable value and click OK.
-9.  Add "PVIZ3_SRC" for variable name and "C:\pviz3" for variable value and click OK.
+8.  Add "PVIZ3DEV_HOME" for variable name and "C:"\"pviz3dev" for variable value and click OK.
+9.  Add "PVIZ3_SRC" for variable name and "C:"\"pviz3" for variable value and click OK.
 10. Add "PVIZ3DEV_WORKSPACE" for variable name and "C:\pviz3dev\workspace" for variable value and click OK.
 11. Click OK to exit out of Environment Variables and exit out of Advanced System Settings.
 12. Logout of computer and log back in to set changes.
