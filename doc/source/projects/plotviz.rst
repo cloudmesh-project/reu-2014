@@ -50,16 +50,16 @@ How To Build The Libraries In Windows 7 Ultimate 64 Bit
 7.  Click New located under User Variables for (Username).
 8.  Add "PVIZ3DEV_HOME" for variable name and "C:\\pviz3dev" for variable value and click OK.
 9.  Add "PVIZ3_SRC" for variable name and "C:\\pviz3" for variable value and click OK.
-10. Add "PVIZ3DEV_WORKSPACE" for variable name and "C:\pviz3dev\workspace" for variable value and click OK.
+10. Add "PVIZ3DEV_WORKSPACE" for variable name and "C:\\pviz3dev\\workspace" for variable value and click OK.
 11. Click OK to exit out of Environment Variables and exit out of Advanced System Settings.
 12. Logout of computer and log back in to set changes.
 13. Open Visual Studio x64 Win64 Command Prompt (2010) by opening the start menu and going to All Programs.
 14. In All Programs, click on Microsoft Visual Studio 2010.
 15. In Microsoft Visual Studio 2010, click on Visual Studio Tools and then click on Visual Studio x64 Win64 Command Prompt (2010).
 16. In the command prompt, type "cd %PVIZ3_SRC%\build" and press enter.
-17. Type in "%PVIZ3_SRC%\config.bat".
+17. Type in "%PVIZ3_SRC%\\config.bat".
 18. After the operation is complete, type "nmake" and press enter.
-19. A solution file called PVIZ3(PVIZ3.sln) will be created for Visual Studio 2010 in this location: C:\pviz3\build-vs.
+19. A solution file called PVIZ3(PVIZ3.sln) will be created for Visual Studio 2010 in this location: C:\\pviz3\\build-vs.
 20. Open the solution file and build PACKAGE and INSTALL.
 21. After they both succeed you are free to change the code.
 	
