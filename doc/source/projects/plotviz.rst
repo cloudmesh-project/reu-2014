@@ -25,10 +25,10 @@ Team
 Problem
 ----------------------------------------------------------------------
 
-I will be working to develop visualization support for multithreading PlotViz3 in order to speed up its processes.
+I will be working to develop parallelization support for multithreading PlotViz3 in order to speed up it's processes.
 
 
-How to Build the Libraries in Windows 7 Ultimate SP1 64 Bit
+How To Build The Libraries In Windows 7 Ultimate SP1 64 Bit
 ----------------------------------------------------------------------
 
 1.  Download and install Microsoft Visual Studio 2010, CMAKE, and NSIS.
@@ -56,9 +56,10 @@ How to Build the Libraries in Windows 7 Ultimate SP1 64 Bit
 Implementation
 ----------------------------------------------------------------------
 
-PlotViz3
-
-Microsoft Visual Studio 2010
+1. Build the environment.
+2. Read the code in Microsoft Visual Studio 2010.
+3. Make changes in the code.
+4. Test the new code in PlotViz3.
 	
 
 Links
@@ -82,8 +83,10 @@ Progress:
 - [done, Week 1] Learned about the functions of PlotViz3
 - [done, Week 1] Read previous research papers
 - [done, Week 1] Downloaded PlotViz3
-- [in progress, Week 4] Learning how to implement a C++ parallel version of matrix multiplication
-- [in progress, Week 4] Built the libraries for PlotViz3
+- [done, Week 4] Learning how to implement a C++ parallel version of matrix multiplication
+- [done, Week 6] Built the environment
+- [in progress, Week 7] Learn how to multithread code in C++
+- [in progress, Week 7] Read the code and make changes
 
 Problems:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -91,11 +94,17 @@ Problems:
 - [Week 1] Couldn't access salsadev svn repository
 - [Week 2] Constantly getting errors while trying to build libraries for PlotViz3
 - [Week 3] My computer's hard disk drive is failing so I was unable to complete any work
+- [Week 4] Still having computer problems
+- [Week 5] A few errors while trying to build the libraries
+- [Week 6] The code is slightly hard to understand
 
 Plans:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- [Week 2] Finish building libraries for PlotViz3
+- [Week 2] Finish building the libraries
 - [Week 2] Learn how to use PlotViz3
-- [Week 3] Finish building libraries for PlotViz3
+- [Week 3] Finish building the libraries
 - [Week 4] Have laptop fixed so that I may once again try to build the libraries for PlotViz3
+- [Week 5] Build the environment
+- [Week 6] Start reading the code
+- [Week 7] Finish reading the code and start making changes
