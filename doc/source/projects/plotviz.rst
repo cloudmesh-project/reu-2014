@@ -1,4 +1,4 @@
-PlotViz: A Bioinformatic Visualization Tool
+PlotViz3: A Bioinformatic Visualization Tool
 ======================================================================
 
 Team
@@ -27,6 +27,17 @@ Implementation
 3. Make changes in the code.
 4. Test the new code in PlotViz3.
 
+Links
+----------------------------------------------------------------------
+
+http://salsahpc.indiana.edu/pviz3/#developers
+
+- Where you can find the download links for CMAKE and NSIS
+
+http://salsahpc.indiana.edu/pviz3/#downloads
+
+- Where you can download PlotViz3
+
 How To Build The Libraries In Windows 7 Ultimate 64 Bit
 ----------------------------------------------------------------------
 
@@ -52,17 +63,6 @@ How To Build The Libraries In Windows 7 Ultimate 64 Bit
 20. Open the solution file and build PACKAGE and INSTALL.
 21. After they both succeed you are free to change the code.
 	
-Links
-----------------------------------------------------------------------
-
-http://salsahpc.indiana.edu/pviz3/#developers
-
-- Where you can learn how to build the libraries for PlotViz3
-
-http://salsahpc.indiana.edu/pviz3/#downloads
-
-- Where you can download PlotViz3
-
 Progress Report
 ----------------------------------------------------------------------
 
