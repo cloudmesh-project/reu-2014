@@ -3,20 +3,16 @@ PlotViz: A Bioinformatic Visualization Tool
 
 Team
 ----------------------------------------------------------------------
-- Khaliq Satchell
-ksatchel@indiana.edu
+- Khaliq Satchell ksatchel@indiana.edu
 
 
-- Geoffrey Fox (Mentor)
-gcfexchange@gmail.com
+- Geoffrey Fox (Mentor) gcfexchange@gmail.com
 
 
-- Yang Ruan (Mentor)
-yangruan@indiana.edu
+- Yang Ruan (Mentor) yangruan@indiana.edu
 
 
-- Saliya Ekanayake (Mentor)
-esaliya@gmail.com
+- Saliya Ekanayake (Mentor) esaliya@gmail.com
 
 Problem
 ----------------------------------------------------------------------
