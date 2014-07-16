@@ -19,6 +19,13 @@ Problem
 
 I will be working to develop parallelization support for multithreading PlotViz3 in order to speed up it's processes.
 
+Implementation
+----------------------------------------------------------------------
+
+1. Build the environment.
+2. Read the code in Microsoft Visual Studio 2010.
+3. Make changes in the code.
+4. Test the new code in PlotViz3.
 
 How To Build The Libraries In Windows 7 Ultimate 64 Bit
 ----------------------------------------------------------------------
@@ -44,16 +51,7 @@ How To Build The Libraries In Windows 7 Ultimate 64 Bit
 19. A solution file called PVIZ3(PVIZ3.sln) will be created for Visual Studio 2010 in this location: C:\pviz3\build-vs.
 20. Open the solution file and build PACKAGE and INSTALL.
 21. After they both succeed you are free to change the code.
-
-Implementation
-----------------------------------------------------------------------
-
-1. Build the environment.
-2. Read the code in Microsoft Visual Studio 2010.
-3. Make changes in the code.
-4. Test the new code in PlotViz3.
 	
-
 Links
 ----------------------------------------------------------------------
 
