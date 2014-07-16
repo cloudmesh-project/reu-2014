@@ -9,10 +9,10 @@ Team
 - Geoffrey Fox (Mentor) gcfexchange@gmail.com
 
 
-- Yang Ruan (Mentor) yang.ruan.3545@gmail.com
+- Yang Ruan (Grad Student/Mentor) yang.ruan.3545@gmail.com
 
 
-- Saliya Ekanayake (Mentor) esaliya@gmail.com
+- Saliya Ekanayake (Grad Student/Mentor) esaliya@gmail.com
 
 Problem
 ----------------------------------------------------------------------
