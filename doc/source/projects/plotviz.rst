@@ -17,7 +17,7 @@ Team
 Problem
 ----------------------------------------------------------------------
 
-I will be working to develop parallelization support for multithreading PlotViz3 in order to speed up it's processes.
+The purpose of this project is to add parallelization support to the code for multithreading PlotViz3. The code in the software uses the C++ programming language  In doing so will speed up the virtualization process in the software and make it less time consuming when looking for results quickly and effeciently.
 
 Implementation
 ----------------------------------------------------------------------
