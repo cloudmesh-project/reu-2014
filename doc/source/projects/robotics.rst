@@ -363,7 +363,30 @@ Links
 Week 7
 -----------------------------------------------------------------------
 
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Made a poster for presenting my research
+* Fixed errors with the new modularized compression (Compressor.java)
+* Gave a presentation of my research to peers in Indianapolis
+* Explored options for simulating multiple Kinects
+  * looked at generating random files with same type of information as Kinect frames (will not be used)
+  * started working with the fakenect library, a libfreenect offshoot for streaming pre-recorded Kinect frames (will be used)
+  * simulated numerous (~10) sample programs with the fakenect
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* using simulated Kinects with SendFrame.java
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* finish writing my paper
+* get SendFrame.java working with fakenect 
+* present my findings
+
 Links
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * http://www.ipso-alliance.org/wp-content/media/why_ip.pdf
