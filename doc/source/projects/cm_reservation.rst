@@ -90,7 +90,7 @@ the second week of work:
 Week III
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
-the second week of work:
+the third week of work:
 
 * Create functions add, update and delete to model.py
 * Create commandlines using DOCOPTS
@@ -100,7 +100,7 @@ the second week of work:
 Week IV
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
-the second week of work:
+the fourth week of work:
 
 * Added functions on flask interface
 * Improve the flask to a better view
@@ -110,7 +110,7 @@ the second week of work:
 Week V
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
-the second week of work:
+this week of work:
 
 * Continued to work on the flask functions / Bootstrap
 * Create forms
@@ -119,7 +119,7 @@ the second week of work:
 Week VI
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
-the second week of work:
+this week of work:
 
 * Better form views
 * Usage of Restful instead of Flask
@@ -127,7 +127,7 @@ the second week of work:
 Week VII
 ----------------------------------------------------------------------
 The follow information are some of the tasks already done on
-the second week of work:
+this week of work:
 
 * Focused on a paper requested by von Laszewiski and the poster requested by REU Program.
 * Oral presentation of the project in Indianapolis, IUPUI campus.
