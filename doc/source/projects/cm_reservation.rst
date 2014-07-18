@@ -124,6 +124,14 @@ the second week of work:
 * Better form views
 * Usage of Restful instead of Flask
 
+Week VII
+----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+the second week of work:
+
+* Focused on a paper requested by von Laszewiski and the poster requested by REU Program.
+* Oral presentation of the project in Indianapolis, IUPUI campus.
+
 Links
 ----------------------------------------------------------------------
 
