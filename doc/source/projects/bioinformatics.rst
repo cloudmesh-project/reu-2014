@@ -218,7 +218,25 @@ Next Week
 - Add results of sequence processing to poster
 - Print completed poster
 
+Week 7 7/14 - 7/18
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Made significant progress on poster
+- Added MongoDB and MongoEngine to submit.py
+- Continued processing 57K genomic sequences
 
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- 57K genomic sequence processing - hopefully will finish over weekend
+- Project Documentation
+- Poster
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Finish poster with final touches
+- Thoroughly document project and progress
+- Prepare for final poster presentation
 
 
 
