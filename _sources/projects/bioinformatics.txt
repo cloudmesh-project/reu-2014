@@ -197,6 +197,46 @@ Next Week
 - Finish processing test genomic data and move onto new data
 - Begin developing poster!
 
+Week 6 7/7 - 7/11
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Began processing 57K genomic sequences
+- Worked on developing poster text and graphics
+- Installed MongoDB and MongoEngine
+- Began developing system for stack trace with MongoDB/MongoEngine
+
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Developing history trace system for job submissions
+- Processing of 57 K sequences
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Complete processing of 57k sequences
+- Finish history trace setup
+- Add results of sequence processing to poster
+- Print completed poster
+
+Week 7 7/14 - 7/18
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Made significant progress on poster
+- Added MongoDB and MongoEngine to submit.py
+- Continued processing 57K genomic sequences
+
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- 57K genomic sequence processing - hopefully will finish over weekend
+- Project Documentation
+- Poster
+
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Finish poster with final touches
+- Thoroughly document project and progress
+- Prepare for final poster presentation
 
 
 
