@@ -26,6 +26,12 @@ Poster
 
 * https://github.com/cloudmesh/reu/blob/master/doc/source/posters/KinectPoster.pdf
 
+Project GitHub
+----------------------------------------------------------------------
+
+* `Source Code <https://github.com/supunkamburugamuva/iotrobots>`_
+* `Contributors <https://github.com/iotcloud/iotrobots/graphs/contributors?from=2014-05-20&to=2014-07-21&type=c>`_
+
 Implementation
 ----------------------------------------------------------------------
 
