@@ -11,9 +11,6 @@ Team
 
 - Yang Ruan (Grad Student/Mentor) yang.ruan.3545@gmail.com
 
-
-- Saliya Ekanayake (Grad Student/Mentor) esaliya@gmail.com
-
 Problem
 ----------------------------------------------------------------------
 
