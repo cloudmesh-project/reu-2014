@@ -290,8 +290,8 @@ Project Abstracts
        
      - **The Use Of Parallelization Support To Speed Up PlotViz3**
 
-	In biology there is a scientific field that develops methods and software tools for organizing and 
-	analyzing biological data. That field is bioinformatics and it combines computer science with other 
+        In biology there is a scientific field that develops methods and software tools for organizing and 
+        analyzing biological data. That field is bioinformatics and it combines computer science with other 
 	fields in order to study biological data and processes which in turn can provide meaningful information 
 	on genomic sequences. Currently, there is a software called PlotViz3, a three-dimensional data point 
 	browser, which can be helpful for scientists in the field of bioinformatics. PlotViz3 can be used to 
