@@ -292,19 +292,19 @@ Project Abstracts
 
         In biology there is a scientific field that develops methods and software tools for organizing and 
         analyzing biological data. That field is bioinformatics and it combines computer science with other 
-	fields in order to study biological data and processes which in turn can provide meaningful information 
-	on genomic sequences. Currently, there is a software called PlotViz3, a three-dimensional data point 
-	browser, which can be helpful for scientists in the field of bioinformatics. PlotViz3 can be used to 
-	interactively discover intrinsic structures efficiently of which are high-dimensional and contain large 
-	volumes of data. This means that scientists will be able to find the correlations between the DNA
-	sequence clusters that they have data for more effectively than their previous methods such as phylogenetic 
-	trees. This software should be accessible to every scientist working in bioinformatics but has yet to be 
-	put out there for them because the process is not easily done. Once it is basic enough for simple execution 
-	then scientist will have a new and more efficient tool for analyzing organism's genomic sequences. The
-	purpose of this project is to add parallelization support to the code for multithreading PlotViz3. The code 
-	in the software uses the C++ programming language which is what I shall be using to make improvements. In 
-	the end, adding this support will speed up the virtualization process in the software and make it less time 
-	consuming when looking for results quickly and efficiently.
+        fields in order to study biological data and processes which in turn can provide meaningful information 
+        on genomic sequences. Currently, there is a software called PlotViz3, a three-dimensional data point 
+        browser, which can be helpful for scientists in the field of bioinformatics. PlotViz3 can be used to 
+        interactively discover intrinsic structures efficiently of which are high-dimensional and contain large 
+        volumes of data. This means that scientists will be able to find the correlations between the DNA
+        sequence clusters that they have data for more effectively than their previous methods such as phylogenetic 
+        trees. This software should be accessible to every scientist working in bioinformatics but has yet to be 
+        put out there for them because the process is not easily done. Once it is basic enough for simple execution 
+        then scientist will have a new and more efficient tool for analyzing organism's genomic sequences. The
+        purpose of this project is to add parallelization support to the code for multithreading PlotViz3. The code 
+        in the software uses the C++ programming language which is what I shall be using to make improvements. In 
+        the end, adding this support will speed up the virtualization process in the software and make it less time 
+        consuming when looking for results quickly and efficiently.
 
 
        **Keywords:** Bioinformatics, Genomic Sequences, PlotViz3, Phylogenetic Trees, Multithreading, Parallelization, C++
