@@ -21,6 +21,10 @@ relatively low 35 ms, which we believe will respond well when scaled. Further wo
 processing groups of sensors simultaneously so that scalability may be tested. Ultimately, the cloud offers a promising
 solution to real-time processing and control of sensors.
 
+Poster
+---------------------------------------------------------------------
+
+* https://github.com/cloudmesh/reu/blob/master/doc/source/posters/KinectPoster.pdf
 
 Implementation
 ----------------------------------------------------------------------
