@@ -24,7 +24,7 @@ solution to real-time processing and control of sensors.
 Poster
 ---------------------------------------------------------------------
 
-* https://github.com/cloudmesh/reu/blob/master/doc/source/posters/KinectPoster.pdf
+* `Building a Cloud Control Framework for the TurtleBot <https://github.com/cloudmesh/reu/blob/master/doc/source/posters/KinectPoster.pdf>`_
 
 Project GitHub
 ----------------------------------------------------------------------
