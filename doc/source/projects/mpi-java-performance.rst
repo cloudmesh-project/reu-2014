@@ -69,113 +69,125 @@ Week 1
 ----------------------------------------------------------------------
 Done This Week:
 
- * Learned Linux command-line
+ * Learned Linux command line terminal
  * Learned Java
  * Learned the purpose and importance of our projects
 
 Incompleted This Week:
 
- * All Work was done
+ * All Work was completed
 
 Next Week:
 
- * To begin installing and running the MPI program and other programs
+ * Set up MPI framework in local machine
+ * Run a sample MPI Program in local machine
  
 Week 2
 ---------------------------------------------------------------------
 Done This Week:
 
  * Installed MPI 
- * Did MPI Sample
- * Wrote Abstract
- * Made FutureGRID account
+ * Ran Sample MPI Program
+
 
 Incompleted This Week:
 
- * All work was done
+ * All work was completed
  
 Next Week:
 
  * Create Sample MPI program
+ * Create FutureGrid Acccount
+ 
 
 Week 3
 -------------------------------------------------------------------------
 Done This Week:
 
- * Worked on Java programs 
- * Programmed a MPI program
- 
+ * Created FutureGrid account
+ * Created BigRed2 account
+ * Created a git repository for java programs
+ * Worked on Creating FutureGrid and BigRed2 tutorials
+
 Incompleted This Week:
 
- * Could not compile and run MPI program on Putty
- 
+ * All work was completed
 Next Week:
 
- * Continue the Java program like K-Means
- * Make the K-Means program in  MPI
+ * Run a sample MPI program on FutureGrid and gather results
  
 Week 4
 ---------------------------------------------------------------------------
 Done This Week:
 
- * Got a full understanding of K-Means program while working on it
+ * Install MPi and FutureGrid
+ * Ran a sample MPI program on FutureGrid using different differnt 
+ * Obtained results of performance of AllReduce benchmark
  
 Incompleted This Week:
  
- * Finishing the K-Means program.
- * Making a MPI program with it.
+ * Did not install MPI on BigRed 2
+ * Did not install run a sample program on FutureGrid
  
 Next Week:
 
- * Finish the K-Means program at the beginning of the week
- * Start on the MPI verion of the K-Means progeam
- * K-Means program in  MPI
- 
+ * Obtain performance  results for osu.broadcast benchmark
 Week 5
 ---------------------------------------------------------------------------
 Done This Week:
 
-  * The K-Means program is finished
- 
+  * Reviewed over MPI
+  * Created REU Documentation documents
+  * Installed JDK, OpenMPI, and Macen on local macine
+  * Created a sample graph of performance of allreduce benchmark
 Incompleted This Week:
 
-  * Everything was completed 
+  * Obtaining performance results of osu.broadcast benchmark
  
 Next Week:
 
-  * Project was alter:
-  * Use Ohio State University Micro-Benchmark
-  * To work on all gather program
-  * Change it from MPI C to MPI Java
-  * To test the performance of the two programs
-  
+  * Convert MPI C program to MPI Java and measure results of osu.broadcast benchmark
 Week 6
 -------------------------------------------------------------------------------
-Done This Week:
+Work Completed This Week:
 
-  * Converted OSU Micro-Benchmark from MPI C to MPI Java
-  * Got the results of the performance of the all gather program in MPI C and MPI Java
+  * Tested and received results for osu.broadcast benchmark.
+  * Started working on poster
   
 Incompleted This Week:
 
-  * Finishing the poster
+  * Completing poster
+  * Creating performance graphs
   
 Next Week:
 
-  * Create Graphs for the FastMPJ performance test of the benchmarks
-  * Finish the poster
+  * Create performance graphs for benchmarks
+  * Finish Poster
 
 Week 7
 ---------------------------------------------------------------------------------
-Done This Week:
+Work Completed This Week:
 
-  * Completed Poster
+  * Worked on poster
+  * Completed performance results
+  
   
 Incompleted This Week:
   
-  * Everything completed
+  * Completing poster
+  
 
 Next Week:
 
+  * Completing poster
   * Prepare for research poster presentation 
+  
+Week 8
+---------------------------------------------------------------------------------  
+Work Completed This Week:
+
+ * Completed Poster
+ * Perparing for research poster presentation
+  
+  
   
