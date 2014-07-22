@@ -49,139 +49,168 @@ from the standard Ohio MicroBenchmark suite from Ohio State University.
 
 Implementation
 ----------------------------------------------------------------------
-
+Linux , MPI, Maven, Java, Ohio Micro Benchmark, OpenMPI, Microsoft Excel
 
 Links
 ----------------------------------------------------------------------
 
 
-Progress Report:
+[1] https://kb.iu.edu/data/ayzv.html
+
+[2] http://kb.iu.edu/data/bcqt.html
+
+[3] http://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html
+
+[4] http://www.java2s.com/Code/Java/Collections-Data-Structure/Multiplytwomatrices.htm
+
+[5] http://stackoverflow.com/questions/8779659/convert-a-number-to-2-decimal-places-in-java
+
+[6] http://www.java-samples.com/showtutorial.php?tutorialid=234
+
+[7] http://stackoverflow.com/questions/7436838/can-i-assign-java-values-from-an-arraylist-to-different-variables-without-hardco
+
+[8] http://www.dotnetperls.com/arraylist-java
+
+[9] http://www.tutorialspoint.com/java/java_loop_control.htm
+
+[10] http://java2novice.com/java-collections-and-util/arraylist/remove-all-elements/
+
+[11] http://mvapich.cse.ohio-state.edu/benchmarks/
+
+[12] https://redhoop.com/udemy-java-for-complete-beginners-189-2.html#.U49Eq_ldWXw
+
+[13] http://www.java-examples.com/
+
+[14]  http://www.java2s.com/Tutorials/Java/Java_Language/Class/Java_Tutorial_Java_Class.htm
+
+
+Link to java programs:
 
 https://github.com/nigelp32/code
 
-Progress:
+Weekly Progress:
 ---------------------------------------------------------------------- 
 
-Week 1
+Week I: 6/2/14 - 6/6/14
 ----------------------------------------------------------------------
-Done This Week:
+Progress This Week:
 
  * Learned Linux command line terminal
  * Learned Java
  * Learned the purpose and importance of our projects
 
-Incompleted This Week:
+ Uncompleted This Week:
 
  * All Work was completed
 
-Next Week:
+Goals For Next Week:
 
  * Set up MPI framework in local machine
  * Run a sample MPI Program in local machine
  
-Week 2
+Week II: 6/9/14 - 6/13/14
 ---------------------------------------------------------------------
-Done This Week:
+Progress This Week:
 
  * Installed MPI 
  * Ran Sample MPI Program
 
 
-Incompleted This Week:
+Uncompleted This Week:
 
  * All work was completed
  
-Next Week:
+Goals For Next Week:
 
  * Create Sample MPI program
  * Create FutureGrid Acccount
  
 
-Week 3
+Week III: 6/16/14 - 6/20/14
 -------------------------------------------------------------------------
-Done This Week:
+Progress This Week:
 
  * Created FutureGrid account
  * Created BigRed2 account
  * Created a git repository for java programs
  * Worked on Creating FutureGrid and BigRed2 tutorials
 
-Incompleted This Week:
+Uncompleted This Week:
 
  * All work was completed
-Next Week:
+Goals For Next Week:
 
  * Run a sample MPI program on FutureGrid and gather results
  
-Week 4
+Week IV: 6/23/14 - 6/27/14
 ---------------------------------------------------------------------------
-Done This Week:
+Progress This Week:
 
  * Install MPi and FutureGrid
  * Ran a sample MPI program on FutureGrid using different differnt 
  * Obtained results of performance of AllReduce benchmark
  
-Incompleted This Week:
+Uncompleted This Week:
  
  * Did not install MPI on BigRed 2
  * Did not install run a sample program on FutureGrid
  
-Next Week:
+Goals For Next Week:
 
  * Obtain performance  results for osu.broadcast benchmark
-Week 5
+Week V: 6/30/14 - 7/4/14
 ---------------------------------------------------------------------------
-Done This Week:
+Progress This Week:
 
   * Reviewed over MPI
   * Created REU Documentation documents
   * Installed JDK, OpenMPI, and Macen on local macine
   * Created a sample graph of performance of allreduce benchmark
-Incompleted This Week:
+Uncompleted This Week:
 
   * Obtaining performance results of osu.broadcast benchmark
  
-Next Week:
+Goals for Next Week:
 
   * Convert MPI C program to MPI Java and measure results of osu.broadcast benchmark
-Week 6
+Week VI: 7/7/14 - 7/11/14
 -------------------------------------------------------------------------------
-Work Completed This Week:
+Progress This Week:
 
   * Tested and received results for osu.broadcast benchmark.
   * Started working on poster
   
-Incompleted This Week:
+Uncompleted This Week:
 
   * Completing poster
   * Creating performance graphs
   
-Next Week:
+Goals For Next Week:
 
   * Create performance graphs for benchmarks
   * Finish Poster
 
-Week 7
+Week VII: 7/14/14 - 7/18/14
 ---------------------------------------------------------------------------------
-Work Completed This Week:
+Progress This Week:
 
   * Worked on poster
   * Completed performance results
   
   
-Incompleted This Week:
+Uncompleted This Week:
   
   * Completing poster
   
 
-Next Week:
+Goals For Next Week:
 
   * Completing poster
   * Prepare for research poster presentation 
   
-Week 8
+Week VIII: 7/21/14 - 7/25/14
 ---------------------------------------------------------------------------------  
-Work Completed This Week:
+Completed This Week:
 
  * Completed Poster
  * Perparing for research poster presentation
