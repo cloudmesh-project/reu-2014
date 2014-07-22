@@ -39,7 +39,9 @@ nigel.pugh32@gmail.com
 Problem
 ----------------------------------------------------------------------
 
-a) Testing Performance of MPI Program
+The recent advancement in processing big data, however, has brought attention towards Java. Effort has also been put on Java's support
+for HPC with flavors of MPI such as OpenMPI Java and FastMPJ. We evaluate these against native C based MPI on a set of micro-benchmarks
+from the standard Ohio MicroBenchmark suite from Ohio State University.
 
 
 
