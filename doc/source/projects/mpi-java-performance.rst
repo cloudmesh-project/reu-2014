@@ -64,42 +64,118 @@ https://github.com/nigelp32/code
 
 Progress:
 ---------------------------------------------------------------------- 
-[done, Week 1] Learned java programming language
 
-[done, Week 1] Learned about Linux and command line terminal
-
-[done, Week 1] Obtained an understanding of what my project is about.
-
-[done, Week 2] Install MPI program on local machine.
-
-[done, Week 2] Ran a sample MPI program
-
-[done, Week 2] Updated abstracts and bios on github.
-
-[done, Week 2] Created ssh keys for FutureGrid.
-
-[done, Week 3] Created Future Grid account.
-
-[done, Week 3] Created Big Red 2 account.
-
-[done, Week 3] Created a git repository for java programs.
-
-[done, Week 3] Working on FutureGrid and Big Red 2 tutorials.
-
-[done, Week 4] Installed MPI on Future Grid
-
-Problems:
+Week 1
 ----------------------------------------------------------------------
-All goals and plans were met.
+Done This Week:
 
-Plan:
+ * Learned Linux command-line
+ * Learned Java
+ * Learned the purpose and importance of our projects
 
-[done, Week 1] Setup MPI framework in local machine
+Incompleted This Week:
 
-[done, Week 1] Run a sample MPI program local machine
+ * All Work was done
 
-[done, Week 1] Do 1 and 2 in a cluster instead of local machine
+Next Week:
 
-[done, Week 2] Install MPI on FutureGrid.
+ * To begin installing and running the MPI program and other programs
+ 
+Week 2
+---------------------------------------------------------------------
+Done This Week:
 
-[done, Week 2] Run program on MPI on FutureGrid
+ * Installed MPI 
+ * Did MPI Sample
+ * Wrote Abstract
+ * Made FutureGRID account
+
+Incompleted This Week:
+
+ * All work was done
+ 
+Next Week:
+
+ * Create Sample MPI program
+
+Week 3
+-------------------------------------------------------------------------
+Done This Week:
+
+ * Worked on Java programs 
+ * Programmed a MPI program
+ 
+Incompleted This Week:
+
+ * Could not compile and run MPI program on Putty
+ 
+Next Week:
+
+ * Continue the Java program like K-Means
+ * Make the K-Means program in  MPI
+ 
+Week 4
+---------------------------------------------------------------------------
+Done This Week:
+
+ * Got a full understanding of K-Means program while working on it
+ 
+Incompleted This Week:
+ 
+ * Finishing the K-Means program.
+ * Making a MPI program with it.
+ 
+Next Week:
+
+ * Finish the K-Means program at the beginning of the week
+ * Start on the MPI verion of the K-Means progeam
+ * K-Means program in  MPI
+ 
+Week 5
+---------------------------------------------------------------------------
+Done This Week:
+
+  * The K-Means program is finished
+ 
+Incompleted This Week:
+
+  * Everything was completed 
+ 
+Next Week:
+
+  * Project was alter:
+  * Use Ohio State University Micro-Benchmark
+  * To work on all gather program
+  * Change it from MPI C to MPI Java
+  * To test the performance of the two programs
+  
+Week 6
+-------------------------------------------------------------------------------
+Done This Week:
+
+  * Converted OSU Micro-Benchmark from MPI C to MPI Java
+  * Got the results of the performance of the all gather program in MPI C and MPI Java
+  
+Incompleted This Week:
+
+  * Finishing the poster
+  
+Next Week:
+
+  * Create Graphs for the FastMPJ performance test of the benchmarks
+  * Finish the poster
+
+Week 7
+---------------------------------------------------------------------------------
+Done This Week:
+
+  * Completed Poster
+  
+Incompleted This Week:
+  
+  * Everything completed
+
+Next Week:
+
+  * Prepare for research poster presentation 
+  
