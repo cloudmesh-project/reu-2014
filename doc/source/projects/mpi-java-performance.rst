@@ -103,7 +103,7 @@ Progress This Week:
  * Learned Java
  * Learned the purpose and importance of our projects
 
- Uncompleted This Week:
+Uncompleted This Week:
 
  * All Work was completed
 
