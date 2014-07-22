@@ -20,14 +20,15 @@ made attainable utilizing the beneficial platform named Chef?
 Ultimately, how can such a process and course of action contribute to
 the evolution of innovation in the big data field?
 
-Design
+Abstract
 ----------------------------------------------------------------------
 
-
-Implementation
+Paper
 ----------------------------------------------------------------------
 
-
+Poster
+----------------------------------------------------------------------
+'Research Poster <http://cloudmesh.futuregrid.org/reu/doc/source/posters/ABDSPoster.html>`_
 Links
 ----------------------------------------------------------------------
 **Open-Source Package Overviews/Descriptions & Additional Sources**
