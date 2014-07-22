@@ -62,7 +62,7 @@ https://github.com/nigelp32/code
 Weekly Progress:
 ---------------------------------------------------------------------- 
 
-Week 1
+Week I
 ----------------------------------------------------------------------
 Progress This Week:
 
@@ -79,7 +79,7 @@ Goals For Next Week:
  * Set up MPI framework in local machine
  * Run a sample MPI Program in local machine
  
-Week 2
+Week II
 ---------------------------------------------------------------------
 Progress This Week:
 
@@ -97,7 +97,7 @@ Goals For Next Week:
  * Create FutureGrid Acccount
  
 
-Week 3
+Week III
 -------------------------------------------------------------------------
 Progress This Week:
 
@@ -113,7 +113,7 @@ Goals For Next Week:
 
  * Run a sample MPI program on FutureGrid and gather results
  
-Week 4
+Week IV
 ---------------------------------------------------------------------------
 Progress This Week:
 
@@ -129,7 +129,7 @@ Uncompleted This Week:
 Goals For Next Week:
 
  * Obtain performance  results for osu.broadcast benchmark
-Week 5
+Week V
 ---------------------------------------------------------------------------
 Progress This Week:
 
@@ -144,7 +144,7 @@ Uncompleted This Week:
 Goals for Next Week:
 
   * Convert MPI C program to MPI Java and measure results of osu.broadcast benchmark
-Week 6
+Week VI
 -------------------------------------------------------------------------------
 Progress This Week:
 
@@ -161,7 +161,7 @@ Goals For Next Week:
   * Create performance graphs for benchmarks
   * Finish Poster
 
-Week 7
+Week VII
 ---------------------------------------------------------------------------------
 Progress This Week:
 
@@ -179,7 +179,7 @@ Goals For Next Week:
   * Completing poster
   * Prepare for research poster presentation 
   
-Week 8
+Week VIII
 ---------------------------------------------------------------------------------  
 Completed This Week:
 
