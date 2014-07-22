@@ -60,7 +60,7 @@ Links
 
 * Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
 
-* Chef Fundamentals Webinar: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
+* `Chef Fundamentals Webinar: Installation/Workstation Setup <https://www.youtube.com/watch?v=r3mN2M9n51Y>`_
 
 **Personal Developed Documentation**
 
