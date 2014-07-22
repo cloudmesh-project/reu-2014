@@ -1,4 +1,4 @@
-Evaluating the Performance of MPI Java in FutureGrid and Big Red2
+Evaluating the Performance of MPI Java in FutureGrid 
 ======================================================================
 
 Abstract
