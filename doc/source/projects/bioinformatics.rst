@@ -50,7 +50,10 @@ Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree
 Links
 ----------------------------------------------------------------------
 submit.py: https://github.com/cloudmesh/pbs
+
 Poster: https://github.com/cloudmesh/reu/blob/master/doc/source/posters/GenomicSequenceAnalysis.pdf
+
+Paper: https://github.com/cloudmesh/reu/blob/master/doc/source/papers/GenomicSequenceAnalysis.docx
 
 Week 1: 6/6/2014
 ----------------------------------------------------------------------
