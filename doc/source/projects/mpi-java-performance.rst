@@ -62,7 +62,7 @@ https://github.com/nigelp32/code
 Weekly Progress:
 ---------------------------------------------------------------------- 
 
-Week I
+Week I: 6/2/14 - 6/6/14
 ----------------------------------------------------------------------
 Progress This Week:
 
@@ -79,7 +79,7 @@ Goals For Next Week:
  * Set up MPI framework in local machine
  * Run a sample MPI Program in local machine
  
-Week II
+Week II: 6/9/14 - 6/13/14
 ---------------------------------------------------------------------
 Progress This Week:
 
@@ -97,7 +97,7 @@ Goals For Next Week:
  * Create FutureGrid Acccount
  
 
-Week III
+Week III: 6/16/14 - 6/20/14
 -------------------------------------------------------------------------
 Progress This Week:
 
@@ -113,7 +113,7 @@ Goals For Next Week:
 
  * Run a sample MPI program on FutureGrid and gather results
  
-Week IV
+Week IV: 6/23/14 - 6/27/14
 ---------------------------------------------------------------------------
 Progress This Week:
 
@@ -129,7 +129,7 @@ Uncompleted This Week:
 Goals For Next Week:
 
  * Obtain performance  results for osu.broadcast benchmark
-Week V
+Week V: 6/30/14 - 7/4/14
 ---------------------------------------------------------------------------
 Progress This Week:
 
@@ -144,7 +144,7 @@ Uncompleted This Week:
 Goals for Next Week:
 
   * Convert MPI C program to MPI Java and measure results of osu.broadcast benchmark
-Week VI
+Week VI: 7/7/14 - 7/11/14
 -------------------------------------------------------------------------------
 Progress This Week:
 
@@ -161,7 +161,7 @@ Goals For Next Week:
   * Create performance graphs for benchmarks
   * Finish Poster
 
-Week VII
+Week VII: 7/14/14 - 7/18/14
 ---------------------------------------------------------------------------------
 Progress This Week:
 
@@ -179,7 +179,7 @@ Goals For Next Week:
   * Completing poster
   * Prepare for research poster presentation 
   
-Week VIII
+Week VIII: 7/21/14 - 7/25/14
 ---------------------------------------------------------------------------------  
 Completed This Week:
 
