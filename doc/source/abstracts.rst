@@ -166,6 +166,10 @@ Project Abstracts
        simultaneously with real-time parallel computing deployed on the 
        cloud.
        
+       
+       
+       
+       
        **Keywords:** depth camera, laser scanning, cloud computing, point cloud, real-time
 	   
    * -
