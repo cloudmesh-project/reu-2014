@@ -229,7 +229,7 @@ Project Abstracts
 
        Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications and the majority of such applications are based on either C, C++ or Fortran. The recent advancement in processing big data, however, has brought attention towards Java. Effort has also been put on Java's support for HPC with flavors of MPI such as OpenMPI Java and FastMPJ. We evaluate these against native C based MPI on a set of micro-benchmarks from the standard Ohio MicroBenchmark suite from Ohio State University. The results show a promising future with Java and MPI for HPC applications.
 
-       **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
+       **Keywords:** MPI , HPC, OpenMPI, FastMPJ, benchmark
 
 
 
