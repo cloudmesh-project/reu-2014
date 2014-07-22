@@ -28,7 +28,7 @@ Paper
 
 Poster
 ----------------------------------------------------------------------
-'Research Poster <http://cloudmesh.futuregrid.org/reu/doc/source/posters/ABDSPoster.pdf.html>`_
+`Research Poster <http://cloudmesh.futuregrid.org/reu/doc/source/posters.html>`_
 
 Links
 ----------------------------------------------------------------------
