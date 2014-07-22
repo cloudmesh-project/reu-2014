@@ -55,6 +55,28 @@ Links
 ----------------------------------------------------------------------
 
 
+[1] https://kb.iu.edu/data/ayzv.html
+
+[2] http://kb.iu.edu/data/bcqt.html
+
+[3] http://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html
+
+[4] http://www.java2s.com/Code/Java/Collections-Data-Structure/Multiplytwomatrices.htm
+
+[5] http://stackoverflow.com/questions/8779659/convert-a-number-to-2-decimal-places-in-java
+
+[6] http://www.java-samples.com/showtutorial.php?tutorialid=234
+
+[7] http://stackoverflow.com/questions/7436838/can-i-assign-java-values-from-an-arraylist-to-different-variables-without-hardco
+
+[8] http://www.dotnetperls.com/arraylist-java
+
+[9] http://www.tutorialspoint.com/java/java_loop_control.htm
+
+[10] http://java2novice.com/java-collections-and-util/arraylist/remove-all-elements/
+
+[11] http://mvapich.cse.ohio-state.edu/benchmarks/
+
 Link to java programs:
 
 https://github.com/nigelp32/code
