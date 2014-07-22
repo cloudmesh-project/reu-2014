@@ -32,35 +32,35 @@ Links
 ----------------------------------------------------------------------
 **Open-Source Package Overviews/Descriptions & Additional Sources**
 
-* Overview of the Apache Software Foundation-http://www.apache.org/foundation/
+* `Overview of the Apache Software Foundation <http://www.apache.org/foundation/>`_
 
-* Overview of Apache Big Data Stack-http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf
+* `Overview of Apache Big Data Stack <http://grids.ucs.indiana.edu/ptliupages/publications/survey_apache_big_data_stack.pdf>`_
 
-* Overview of Apache HBase-http://hbase.apache.org/
+* `Overview of Apache HBase <http://hbase.apache.org/>`_
 
-* Kaleidoscope of Apache Big Data Stack-http://hpc-abds.org/kaleidoscope/ 
+* `Kaleidoscope of Apache Big Data Stack <http://hpc-abds.org/kaleidoscope/>`_
 
-* Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack-http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack
+* `Slide deck created by Dr. Fox used to describe overall vision of implementing the software stack <http://www.slideshare.net/Foxsden/multifaceted-classification-of-big-data-uses-and-proposed-architecture-integrating-high-performance-computing-and-the-apache-stack>`_
 
-* Cloud infrastructure automation framework-http://docs.opscode.com/
+* `Cloud infrastructure automation framework <http://docs.opscode.com/>`_
 
-* Chef Introduction-http://www.getchef.com/chef/ 
+* `Chef Introduction <http://www.getchef.com/chef/>`_
 
-* Mendeley free reference manager-http://www.mendeley.com/ 
+* `Mendeley free reference manager <http://www.mendeley.com/>`_
 
-* Used to launch node environment-http://cloudshare.com 
+* `Launch node environment <http://cloudshare.com>`_
 
 **Documentation**
 
-* Apache Maven Installation-http://maven.apache.org/download.cgi
+* `Apache Maven Installation <http://maven.apache.org/download.cgi>`_
 
-* Apache HBase Installation-http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/
+* `Apache HBase Installation <http://archanaschangale.wordpress.com/2013/08/29/installing-apache-hbase-on-ubuntu-for-standalone-mode/comment-page-1/>`_
 
-* Sublime Text 2 Installation-http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu
+* `Sublime Text 2 Installation <http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-install-sublime-text-2-ubuntu>`_
 
-* Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook-https://www.youtube.com/watch?v=71Cq4bCxgDk
+* `Chef Fundamentals Webinar: Setting Up a Node Using Cloudshare/Writing a Cookbook <https://www.youtube.com/watch?v=71Cq4bCxgDk>`_
 
-* Chef Fundamentals Webinar: Installation/Workstation Setup-https://www.youtube.com/watch?v=r3mN2M9n51Y
+* `Chef Fundamentals Webinar: Installation/Workstation Setup <https://www.youtube.com/watch?v=r3mN2M9n51Y>`_
 
 **Personal Developed Documentation**
 

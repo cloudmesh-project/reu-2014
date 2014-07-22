@@ -166,6 +166,10 @@ Project Abstracts
        simultaneously with real-time parallel computing deployed on the 
        cloud.
        
+       
+       
+       
+       
        **Keywords:** depth camera, laser scanning, cloud computing, point cloud, real-time
 	   
    * -
@@ -201,10 +205,9 @@ Project Abstracts
        .. image:: images/elizabeth_city_logo.png
           :height: 100
           
-     - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
+     - **Evaluating the Performance of MPI Java in FutureGrid and BigRed2**
 
-       Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications. The goal of our research is to understand performance characteristics of parallel programs written in Java versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. We will evaluate the performance of two deterministically annealed clustering programs. These algorithms are of O(N^2) complexity and part of the study will be to understand configuration options that optimally runs them. In addition to measuring the performance we also focus on developing a set of sample applications, which will benefit the MPI Java community.
-
+       Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications and the majority of such applications are based on either C, C++ or Fortran. The recent advancement in processing big data, however, has brought attention towards Java. Effort has also been put on Java's support for HPC with flavors of MPI such as OpenMPI Java and FastMPJ. We evaluate these against native C based MPI on a set of micro-benchmarks from the standard Ohio MicroBenchmark suite from Ohio State University. The results show a promising future with Java and MPI for HPC applications
        **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
 
    * -
@@ -222,20 +225,13 @@ Project Abstracts
           :height: 100
           
        
-     - **Evaluating the Performance of MPI JAVA in FutureGrid and BigRed2**
-     
-       Message Passage Interface (MPI) has been the common choice among developers when developing
-       tightly coupled parallel High Performance Computing (HPC) applications. The goal of our research
-       is to understand performance characteristics of parallel programs written in Java versions of MPI.
-       Two such MPI libraries exist, i.e. OpenMPI and FastMPJ. We will evaluate the performance
-       of two deterministically annealed clustering programs. These algorithms are of O(N^2) complexity
-       and part of the study will be to understand configuration options that optimally runs them. 
-       In addition to measuring the performance we also focus on developing a set of sample applications,
-       which will benefit the MPI Java community.
+     - **Evaluating the Performance of MPI Java in FutureGrid**
 
-     
-     
-       **Keywords:** MPI Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
+       Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications and the majority of such applications are based on either C, C++ or Fortran. The recent advancement in processing big data, however, has brought attention towards Java. Effort has also been put on Java's support for HPC with flavors of MPI such as OpenMPI Java and FastMPJ. We evaluate these against native C based MPI on a set of micro-benchmarks from the standard Ohio MicroBenchmark suite from Ohio State University. The results show a promising future with Java and MPI for HPC applications.
+
+       **Keywords:** MPI , HPC, OpenMPI, FastMPJ, benchmark
+
+
 
    * -
    
@@ -253,24 +249,18 @@ Project Abstracts
        
      - **Apache Big Data Stack**
 
-       The Apache Big Data Stack is representative of a large spectrum of numerous
-       open-source software programs provided through Apache projects. The term Apache
-       refers to the Apache Software Foundation (ASF), which provides support for
-       open-source software projects and attracts a large community of users. This mass
-       group of users is what ultimately generates enormous amounts of data ---Big Data. Accordingly,
-       this enormous digital volume consists of data that cannot be captured and organized by
-       traditional tools, thus presenting an obstacle. It is vital to utilize computing power
-       and storage in order to organize such data; however, this presents economical concerns
-       due to costly effects. The Apache Big Data Stack and the product Chef will be investigated
-       and applied to resolve such an issue. Research will involve installing and testing as many
-       open-source software packages as possible on FutureGrid machines and later making them accessible
-       utilizing Chef. In order to accomplish this, software packages deriving from the Apache Big Data
-       Stack spectrum will be installed on to a virtual machine to create application packages. The
-       packages will be built into projects and from that point on Chef will be used to transform the
-       infrastructure of each project’s code. Furthermore, that code will be brought to life so that it
-       can be made accessible through a network of servers. Finally, research will demonstrate how use
-       of the Apache Big Data Stack and Chef can be applied to contribute to the evolution of innovation
-       in the Big Data field.
+       As the amount of data generated around the world continues to accelerate by the second, the more the
+       term Big Data finds its way into scientific conversation. Because of this tremendous surge, it has become
+       imperative that such mass data use “computing power and space” for it to be processed, analyzed, and
+       serve other purposes [1]. Hence, in order to meet head-on the enormous challenges rendered by Big Data, open
+       source software from the Apache Foundation is evaluated as a “Big Data Stack” to support scientific computing.
+       The approach to handling the complications surrounding Big Data involve installing and testing as many open-source
+       software packages from the Apache Big Data Stack as possible on FutureGrid machines and later making those
+       packages accessible utilizing Chef. The packages will be built into projects and from that point Chef will
+       be used to transform the infrastructure of each project’s code, making it agile and accessible through a network
+       of servers [2]. Essentially, this research will demonstrate how the Apache Big Data Stack can be used and applied
+       to solve complex problems regarding Big Data.
+
 
        **Keywords:** Apache Big Data Stack, Chef, FutureGrid, Big Data
 
