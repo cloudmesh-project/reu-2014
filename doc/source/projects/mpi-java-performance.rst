@@ -49,7 +49,7 @@ from the standard Ohio MicroBenchmark suite from Ohio State University.
 
 Implementation
 ----------------------------------------------------------------------
-
+Linux , MPI, Maven, Java, Ohio Micro Benchmark, OpenMPI, Microsoft Excel
 
 Links
 ----------------------------------------------------------------------
