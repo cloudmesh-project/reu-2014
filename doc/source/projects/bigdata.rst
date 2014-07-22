@@ -22,9 +22,19 @@ the evolution of innovation in the big data field?
 
 Abstract
 ----------------------------------------------------------------------
-
-Paper
-----------------------------------------------------------------------
+As the amount of data generated around the world continues to accelerate by the second,
+the more the term Big Data finds its way into scientific conversation. Because of this
+tremendous surge, it has become imperative that such mass data use “computing power and
+space” for it to be processed, analyzed, and serve other purposes [1]. Hence, in order
+to meet head-on the enormous challenges rendered by Big Data, open source software from
+the Apache Foundation is evaluated as a “Big Data Stack” to support scientific computing.
+The approach to handling the complications surrounding Big Data involve installing and testing
+as many open-source software packages from the Apache Big Data Stack as possible on FutureGrid
+machines and later making those packages accessible utilizing Chef. The packages will be built
+into projects and from that point Chef will be used to transform the infrastructure of each
+project’s code, making it agile and accessible through a network of servers [2]. Essentially,
+this research will demonstrate how the Apache Big Data Stack can be used and applied to solve
+complex problems regarding Big Data.
 
 Poster
 ----------------------------------------------------------------------
