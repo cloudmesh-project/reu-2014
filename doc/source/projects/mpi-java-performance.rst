@@ -77,6 +77,13 @@ Links
 
 [11] http://mvapich.cse.ohio-state.edu/benchmarks/
 
+[12] https://redhoop.com/udemy-java-for-complete-beginners-189-2.html#.U49Eq_ldWXw
+
+[13] http://www.java-examples.com/
+
+[14]  http://www.java2s.com/Tutorials/Java/Java_Language/Class/Java_Tutorial_Java_Class.htm
+
+
 Link to java programs:
 
 https://github.com/nigelp32/code
