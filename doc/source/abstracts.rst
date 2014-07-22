@@ -234,8 +234,6 @@ Project Abstracts
 
 
 
-      **Keywords:** MPI , HPC, OpenMPI, FastMPJ, benchmark
-
    * -
    
        .. image:: images/taty_fixed.png
