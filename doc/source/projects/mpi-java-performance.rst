@@ -47,11 +47,6 @@ from the standard Ohio MicroBenchmark suite from Ohio State University.
 
 
 
-Design 
-----------------------------------------------------------------------
-
-The purpose of my project is to measure the preformance of MPI Java and record the results. We want to make sure that the programs are running in optimal fashion and giving the best results possible
-
 Implementation
 ----------------------------------------------------------------------
 
