@@ -76,3 +76,11 @@ Bios
           
      - Jefferson Ridgeway    jdridgeway4@gmail.com
      - Jefferson is a student currently attending Elizabeth City State University in Elizabeth City, NC.  Jefferson has completed his freshman year at Elizabeth City State and is a Computer Science Major with a minor in Mathematics.  Jefferson is currently working on django for cloudmesh under Gregor von Laszewski at Indiana University. 
+
+   * - 
+   
+      .. image:: images/kjs.png
+          :height: 100
+          
+     - Khaliq Satchell    khaliqjalilsatchell@gmail.com
+     - Khaliq is a rising sophmore currently attending Elizabeth City State University in Elizabeth City, NC.  He is majoring in Computer Science with a Scientific Concentration and a minor in physics.  Khaliq is currently working on adding parallelization support for multithreading the visualization tool PlotViz3 in order to speed up it's processes under the tutelage of Dr. Geoffrey Fox and Yang Ruan. 
