@@ -108,6 +108,9 @@ Progress & Plans
   * [done, Week 4] Successful connection to mongodb
   * [done, Week 4] Creation of demos of models, views, and templates
   * [done, Week 4] Successful creation of tables in django bootstrap theme
+  * [done, Week 5] Create a MongoDb connection with Django
+  * [done, Week 5] Documented MongoDb connection with Django
+  * [done, Week 5] 
 
 
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
