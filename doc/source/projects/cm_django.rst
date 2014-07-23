@@ -4,12 +4,8 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-<<<<<<< HEAD
-.. image:: image/image.png
-=======
 .. image:: ../images/image.png
    :height: 100
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
@@ -106,7 +102,6 @@ Progress & Plans
   * [done, Week 2] the simple django server is checked into github
   * [done, Week 2] the bootstrap based simple server is in github
   * [done, Week 2] Successfully learned how to create a model and view in github
-<<<<<<< HEAD
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running
   * [done, Week 3] install models, views, and templates
   * [done, Week 3] documentation of models, views, and templates
@@ -114,7 +109,7 @@ Progress & Plans
   * [done, Week 4] Creation of demos of models, views, and templates
   * [done, Week 4] Successful creation of tables in django bootstrap theme
 
-=======
+
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
   * [done, Week 3] installation of models, views, and templates
   * [done, Week 3] documentation of models, vies, and templates
@@ -123,7 +118,6 @@ Progress & Plans
   * [done, Week 4] Successful creation of tables in django bootstrap theme
   
   
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
     tutorials were buggy according to gregor, possible too difficult
@@ -133,15 +127,12 @@ Progress & Plans
     3 use the reservation database and than test how to develop views
     and templates. we start with reading up on views and templates.
   * [Week 3] had a difficult time understanding examples and documentation
-<<<<<<< HEAD
     about django and how to create successful models, views, and templates
     to be seen as django and had a hard time install mongodb as a backend 
   * [Week 4] Making the demos was hard at first.  Creating the tables was also
-=======
     about django and how to create successful models, views, and templates 
     to be seen with django and had a hard time installing mongodb as a backend.
   * [Week 4] Working the demos was hard at first.  Creating the tables was also
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
     difficult as well. 
 
 :Plan: 
