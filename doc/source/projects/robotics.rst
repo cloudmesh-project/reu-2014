@@ -38,12 +38,11 @@ Implementation
 * `Robot Operating System (ROS) <http://www.ros.org/>`_
 * `OpenKinect driver <http://openkinect.org/wiki/Main_Page>`_
 
-Links
+Links to Pertinent GitHub Repositories
 ----------------------------------------------------------------------
 
 * https://github.com/iotcloud/reu
 * https://github.com/supunkamburugamuva/iotcloud2
-* https://github.com/supunkamburugamuva/sensorstream
 * https://github.com/supunkamburugamuva/iotrobots
 
 
