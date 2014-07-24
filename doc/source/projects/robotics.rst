@@ -383,6 +383,7 @@ What Has Been Done This Week
 * Fixed errors with the new modularized compression (Compressor.java)
 * Gave a presentation of my research to peers in Indianapolis
 * Explored options for simulating multiple Kinects
+
   * looked at generating random files with same type of information as Kinect frames (will not be used)
   * started working with the fakenect library, a libfreenect offshoot for streaming pre-recorded Kinect frames (will be used)
   * simulated numerous (~10) sample programs with the fakenect
@@ -404,3 +405,36 @@ Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * http://www.ipso-alliance.org/wp-content/media/why_ip.pdf
+
+Week 8
+-----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Organized formatting fixes for the cloudmesh/reu github
+* Tested using a new compression library
+
+  * JZlib: 9:1 in 10ms 
+  * Snappy: 17:1 in 5 ms
+  
+* Got the TurtleBot running with Storm and the new code
+
+  * Reformatted necessary files to reflect changes in IoTCloud and Tsensor
+
+* Tested the latency of the system using JZlib
+
+  * Changed the TurtleBot processor code to print latencies to a text file
+  * Wrote a program to read the text file and put the latencies in a spreadsheet
+
+* Switched out JZlib for Snappy in the project
+* Tested the latency of the system using Snappy
+
+  * Same process as JZlib
+  
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* using simulated Kinects with SendFrame.java
+
+
