@@ -1,4 +1,4 @@
-Developing Sample Test programs for MPI Java in FutureGRID and BIG RED2
+Developing Sample Test programs for MPI Java in FutureGRID
 ======================================================================
 
 Team
@@ -9,18 +9,7 @@ toriwilbon@gmail.com
 
 Abstract
 ----------------------------------------------------------------------
-Message Passage Interface (MPI) has been the common choice among 
-developers when developing tightly coupled parallel High Performance 
-Computing (HPC) applications. The goal of our research is to understand
-performance characteristics of parallel programs written in Java 
-versions of MPI. Two such MPI libraries exist, i.e. OpenMPI and FastMPJ.
-We will evaluate the performance of two deterministically annealed 
-clustering programs. These algorithms are of O(N^2) complexity and part 
-of the study will be to understand configuration options that optimally 
-runs them. In addition to measuring the performance we also focus on 
-developing a set of sample applications, which will benefit the MPI Java
-community.
-
+Message Passage Interface (MPI) has been the common choice among developers when developing tightly coupled parallel High Performance Computing (HPC) applications and the majority of such applications are based on either C, C++ or Fortran. The recent advancement in processing big data, however, has brought attention towards Java. Effort has also been put on Java's support for HPC with flavors of MPI such as OpenMPI Java and FastMPJ. We evaluate these against native C based MPI on a set of micro-benchmarks from the standard Ohio MicroBenchmark suite from Ohio State University. The results show a promising future with Java and MPI for HPC applications.
 
 Problem
 ----------------------------------------------------------------------
@@ -33,7 +22,9 @@ Design
 ----------------------------------------------------------------------
 This project will be done in the Linux Command-Line and the sample
 programs will be done in MPI Java.  The results will be done in a 
-Microsoft Excel sheet to display the results and charts.
+Microsoft Excel sheet to display the results and charts.  I have also
+written Sample code that have not been finished but will be a future 
+work.
 
 Implementation
 ----------------------------------------------------------------------
@@ -47,7 +38,7 @@ Microsoft Excel
 
 Keywords:
 -----------------------------------------------------------------------
-MPI, Java, Linux, Pairwise Cluster, FutureGRID, BIG RED2
+MPI , HPC, OpenMPI, FastMPJ, benchmark
 
 
 Links
