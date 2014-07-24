@@ -85,7 +85,7 @@ with Ubuntu Desktop 12.04.3
 
 * `Chef Installation & Workstation Setup Guide <http://cloudmesh.futuregrid.org/reu/ChefGuide.html>`_
 
-Weekly Project Updates (Week 4 June 23-27)
+Weekly Project Updates
 ----------------------------------------------------------------------
 
 Progress Week 1 June 2-6:
