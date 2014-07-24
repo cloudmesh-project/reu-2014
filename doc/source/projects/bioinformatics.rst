@@ -242,5 +242,20 @@ Next Week
 - Thoroughly document project and progress
 - Prepare for final poster presentation
 
+Week 8 7/21 - 7/25
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Completed Paper and Poster
+- Finished processing 57K sequences through Twister Pipeline
+- Created improved documentation for submit.py and PBS script creation
+- Wrapped up project with advisors, mentors, and lab team
+- Presented final Poster on Friday 7/25
+
+Uncompleted This Week / Future Work
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Integrate submit.py with Cloudmesh Graphical User Interface
+- Create a daemon script to check job status and report back to user
+	- This script would be started by submit.py when a job is submitted
 
 
