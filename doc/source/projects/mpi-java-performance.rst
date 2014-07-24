@@ -3,7 +3,7 @@ Evaluating the Performance of MPI Java in FutureGrid
 
 Abstract
 ---------------------------------------------------------------------
-Evaluating the Performance of MPi Java in FutureGrid and Big Red2
+Evaluating the Performance of MPI Java in FutureGrid and Big Red2
 
 Mentor:  Saliya Ekanayake
 
@@ -177,6 +177,7 @@ Uncompleted This Week:
 Goals for Next Week:
 
   * Convert MPI C program to MPI Java and measure results of osu.broadcast benchmark
+
 Week VI: 7/7/14 - 7/11/14
 -------------------------------------------------------------------------------
 Progress This Week:
@@ -219,6 +220,7 @@ Completed This Week:
 
  * Completed Poster
  * Perparing for research poster presentation
+ * Final update of GitHub page
   
   
   
