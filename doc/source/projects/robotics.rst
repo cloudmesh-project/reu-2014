@@ -10,14 +10,27 @@ Supun Kamburugamuva supun06@gmail.com
 Abstract
 ----------------------------------------------------------------------
 
-Kinect sensors provide a cheap and effective tool for 3 dimensional imaging. Currently, many open source project are being developed utilizing the Kinect sensor in a variety of areas. One such area is robotics. 
-The Kinect sensor may be used to create an accurate 3 dimensional model of an environment allowing a robot to navigate effectively. 
-Supun Kamburugamuva has worked previously with a Kinect based robot and software suite, the Turtlebot and accompanying open-source software produced by Robot Operating Systems (ROS). 
-Supun's previous work, IoTCloud, focused on performing all necessary computations pertaining to object avoidance on the cloud. 
-But the ROS software requires considerable overhead, lessening the efficiency with which these calculations may be made. 
-Our new project will utilize the OpenKinect Java library to perform more efficient retrieval and transmission of depth data from the Kinect. 
-Faster processing will allow for the operation of numerous robots simultaneously with real-time parallel computing deployed on the cloud.
+There now exists an enormous network of geographically distributed devices equipped with sensors and connected to the 
+Internet. These multitudinous sensors produce a huge amount of data, presenting an acute computational problem. In our 
+project we demonstrate the effectiveness of cloud processing in handling such a data set, using the Microsoft Kinect 
+depth camera based TurtleBot as a test case. We discuss compression and message passing techniques requisite for efficient
+transmission of IR camera frames, a simple cloud processing topology using Apache Storm, and conclude with an analysis
+of measurable factors within our command chain. A two-stage compression process is utilized resulting in a consistently
+high compression ratio of 10:1 for depth frames in a time of 10 ms. In addition, the latency per frame is kept to a 
+relatively low 35 ms, which we believe will respond well when scaled. Further work is currently underway to simulate 
+processing groups of sensors simultaneously so that scalability may be tested. Ultimately, the cloud offers a promising
+solution to real-time processing and control of sensors.
 
+Poster
+---------------------------------------------------------------------
+
+* `Building a Cloud Control Framework for the TurtleBot <https://github.com/cloudmesh/reu/blob/master/doc/source/posters/KinectPoster.pdf>`_
+
+Project GitHub
+----------------------------------------------------------------------
+
+* `Source Code <https://github.com/supunkamburugamuva/iotrobots>`_
+* `Contributors <https://github.com/iotcloud/iotrobots/graphs/contributors?from=2014-05-20&to=2014-07-21&type=c>`_
 
 Implementation
 ----------------------------------------------------------------------
@@ -25,12 +38,11 @@ Implementation
 * `Robot Operating System (ROS) <http://www.ros.org/>`_
 * `OpenKinect driver <http://openkinect.org/wiki/Main_Page>`_
 
-Links
+Links to Pertinent GitHub Repositories
 ----------------------------------------------------------------------
 
 * https://github.com/iotcloud/reu
 * https://github.com/supunkamburugamuva/iotcloud2
-* https://github.com/supunkamburugamuva/sensorstream
 * https://github.com/supunkamburugamuva/iotrobots
 
 
@@ -363,7 +375,65 @@ Links
 Week 7
 -----------------------------------------------------------------------
 
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Made a poster for presenting my research
+* Fixed errors with the new modularized compression (Compressor.java)
+* Gave a presentation of my research to peers in Indianapolis
+* Explored options for simulating multiple Kinects
+
+  * looked at generating random files with same type of information as Kinect frames (will not be used)
+  * started working with the fakenect library, a libfreenect offshoot for streaming pre-recorded Kinect frames (will be used)
+  * simulated numerous (~10) sample programs with the fakenect
+
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* using simulated Kinects with SendFrame.java
+
+What is Planed For Next Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* finish writing my paper
+* get SendFrame.java working with fakenect 
+* create full documentation of my work on the github page for my project
+* present my findings
+
 Links
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * http://www.ipso-alliance.org/wp-content/media/why_ip.pdf
+
+Week 8
+-----------------------------------------------------------------------
+
+What Has Been Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Organized formatting fixes for the cloudmesh/reu github
+* Tested using a new compression library
+
+  * JZlib: 9:1 in 10ms 
+  * Snappy: 17:1 in 5 ms
+  
+* Got the TurtleBot running with Storm and the new code
+
+  * Reformatted necessary files to reflect changes in IoTCloud and Tsensor
+
+* Tested the latency of the system using JZlib
+
+  * Changed the TurtleBot processor code to print latencies to a text file
+  * Wrote a program to read the text file and put the latencies in a spreadsheet
+
+* Switched out JZlib for Snappy in the project
+* Tested the latency of the system using Snappy
+
+  * Same process as JZlib
+  
+What Has Not Been Achieved This Week?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* using simulated Kinects with SendFrame.java
+
+

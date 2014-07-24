@@ -4,12 +4,8 @@ Cloudmesh Django
 Team
 ----------------------------------------------------------------------
 
-<<<<<<< HEAD
-.. image:: image/image.png
-=======
-.. image:: ../images/image.png
+.. image:: ../images/image.jpg
    :height: 100
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 
 
 * Jeff Ridgeway, jdridgeway4@gmail.com
@@ -85,12 +81,7 @@ Development through Django server
 Links
 ----------------------------------------------------------------------
 * Django: https://www.djangoproject.com
-* Python Idioms: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-* Git: http://git-scm.com/docs/gittutorial
-* Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
-* Software Carpentry: http://ivory.idyll.org/articles/advanced-swc/
-* The Django Book, Chapter 4: Templates: http://www.djangobook.com/en/2.0/chapter04.html
-
+* Project Page:  https://github.com/cloudmesh/management
 
 Progress & Plans
 ------------------------------------------------------------------------
@@ -106,24 +97,23 @@ Progress & Plans
   * [done, Week 2] the simple django server is checked into github
   * [done, Week 2] the bootstrap based simple server is in github
   * [done, Week 2] Successfully learned how to create a model and view in github
-<<<<<<< HEAD
   * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running
   * [done, Week 3] install models, views, and templates
   * [done, Week 3] documentation of models, views, and templates
   * [done, Week 4] Successful connection to mongodb
   * [done, Week 4] Creation of demos of models, views, and templates
   * [done, Week 4] Successful creation of tables in django bootstrap theme
-
-=======
-  * [done, Week 2] documentation of how to get a django-bootstrapped theme server up and running 
-  * [done, Week 3] installation of models, views, and templates
-  * [done, Week 3] documentation of models, vies, and templates
-  * [done, Week 4] Successful connection to mongodb
-  * [done, Week 4] Creation of demos of models, views, and templates
-  * [done, Week 4] Successful creation of tables in django bootstrap theme
+  * [done, Week 5] Create a MongoDb connection with Django
+  * [done, Week 5] Documented MongoDb connection with Django
+  * [done, Week 5] Work through Django REST Framework 
+  * [done, Week 6] Continue to Work on Django REST Framework 
+  * [done, Week 6] Work on Poster Presentation
+  * [done, Week 6] Finish Poster Presentation
+  * [done, Week 7] Finish Paper
+  * [done, Week 8] Edit Poster Presentation
+  * [done, Week 8] Create a new Homepage for Project Management with Bootstrap Theme
   
   
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
 :Problems: 
   * [Week 2] cloud not get the mongo base django to work, existing
     tutorials were buggy according to gregor, possible too difficult
@@ -133,16 +123,19 @@ Progress & Plans
     3 use the reservation database and than test how to develop views
     and templates. we start with reading up on views and templates.
   * [Week 3] had a difficult time understanding examples and documentation
-<<<<<<< HEAD
     about django and how to create successful models, views, and templates
     to be seen as django and had a hard time install mongodb as a backend 
   * [Week 4] Making the demos was hard at first.  Creating the tables was also
-=======
     about django and how to create successful models, views, and templates 
     to be seen with django and had a hard time installing mongodb as a backend.
   * [Week 4] Working the demos was hard at first.  Creating the tables was also
->>>>>>> af79d74e2e4d6ca1ceac55399bff2586c68e0133
-    difficult as well. 
+    difficult as well.
+  * [Week 5] Learning Django REST framework and serializers and deserializers was 
+    difficult as well 
+  * [Week 6] Difficulty was met when displaying data from MongoDb on the Django
+    REST framework 
+  * [Week 7] Figuring out to display information on the poster at first was difficult
+  * [Week 8] Giving the appropriate function to the Editing button 
 
 :Plan: 
   * [Week2] read more django documentation and implement django server 

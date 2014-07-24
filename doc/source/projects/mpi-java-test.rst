@@ -78,6 +78,9 @@ Links
 
 [13] http://mvapich.cse.ohio-state.edu/benchmarks/
 
+Link to codes:
+
+[14] https://github.com/esaliya/OpenMPI-Java-OMB
 
 Week 1
 ----------------------------------------------------------------------
@@ -178,3 +181,18 @@ Next Week:
 
   * Create Graphs for the FastMPJ performance test of the benchmarks
   * Finish the poster
+
+Week 7
+---------------------------------------------------------------------------------
+Done This Week:
+
+  * Completed Poster
+  
+Incompleted This Week:
+  
+  * Everything completed
+
+Next Week:
+
+  * Prepare for research poster presentation 
+  

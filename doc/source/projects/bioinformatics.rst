@@ -49,7 +49,11 @@ Bioinformatics, Clusters, Distance-Matrix, Genomics, Map-Reduce, Phylogenic Tree
 
 Links
 ----------------------------------------------------------------------
-ClusterLink: https://github.com/lsaggu/clusterLink
+submit.py: https://github.com/cloudmesh/pbs
+
+Poster: https://github.com/cloudmesh/reu/blob/master/doc/source/posters/GenomicSequenceAnalysis.pdf
+
+Paper: https://github.com/cloudmesh/reu/blob/master/doc/source/papers/GenomicSequenceAnalysis.docx
 
 Week 1: 6/6/2014
 ----------------------------------------------------------------------
@@ -218,7 +222,40 @@ Next Week
 - Add results of sequence processing to poster
 - Print completed poster
 
+Week 7 7/14 - 7/18
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Made significant progress on poster
+- Added MongoDB and MongoEngine to submit.py
+- Continued processing 57K genomic sequences
 
+Uncompleted This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- 57K genomic sequence processing - hopefully will finish over weekend
+- Project Documentation
+- Poster
 
+Next Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Finish poster with final touches
+- Thoroughly document project and progress
+- Prepare for final poster presentation
+
+Week 8 7/21 - 7/25
+----------------------------------------------------------------------
+Done This Week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Completed Paper and Poster
+- Finished processing 57K sequences through Twister Pipeline
+- Created improved documentation for submit.py and PBS script creation
+- Wrapped up project with advisors, mentors, and lab team
+- Presented final Poster on Friday 7/25
+
+Uncompleted This Week / Future Work
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Integrate submit.py with Cloudmesh Graphical User Interface
+- Create a daemon script to check job status and report back to user
+	- This script would be started by submit.py when a job is submitted
 
 
