@@ -132,6 +132,14 @@ this week of work:
 * Focused on a paper requested by von Laszewiski and the poster requested by REU Program.
 * Oral presentation of the project in Indianapolis, IUPUI campus.
 
+Week VIII
+----------------------------------------------------------------------
+The follow information are some of the tasks already done on
+this week of work:
+
+* Focused on a paper requested by von Laszewiski and the poster requested by REU Program.
+* Preparation to the last presentation at Indiana University Bloomington campus.
+
 Links
 ----------------------------------------------------------------------
 
