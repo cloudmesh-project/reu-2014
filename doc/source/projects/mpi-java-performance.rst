@@ -211,6 +211,7 @@ Goals For Next Week:
 
   * Completing poster
   * Prepare for research poster presentation 
+  * Update GitHub page
   
 Week VIII: 7/21/14 - 7/25/14
 ---------------------------------------------------------------------------------  
