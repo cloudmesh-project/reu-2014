@@ -82,6 +82,7 @@ Links
 ----------------------------------------------------------------------
 * Django: https://www.djangoproject.com
 * Project Page:  https://github.com/cloudmesh/management
+* Poster Page: https://github.com/cloudmesh/reu/tree/master/doc/source/posters
 
 Progress & Plans
 ------------------------------------------------------------------------
