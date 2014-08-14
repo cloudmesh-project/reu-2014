@@ -15,8 +15,10 @@ Links
 
 * Issues: https://github.com/cloudmesh/management/issues
 * Code: https://github.com/cloudmesh/management
-* Contributors:
-  https://github.com/cloudmesh/management/graphs/contributors
+* Contributors: https://github.com/cloudmesh/management/graphs/contributors
+* Poster: https://github.com/cloudmesh/reu/blob/master/doc/source/posters/final-poster-management.pptx     
+* Paper: https://github.com/cloudmesh/reu/blob/master/doc/source/papers/cloudmesh-management1.pdf
+
 
 Problem
 ----------------------------------------------------------------------

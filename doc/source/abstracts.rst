@@ -55,6 +55,13 @@ Project Abstracts
        interface.
 
        **Keywords:** Cloudmesh; FutureGrid; Django; Mongoengine; Mongodb
+       
+       **Links:** 
+       
+       Poster: https://github.com/cloudmesh/reu/blob/master/doc/source/posters/final-poster-management.pptx
+       
+       Paper: https://github.com/cloudmesh/reu/blob/master/doc/source/papers/cloudmesh-management1.pdf
+       
    * - 
 
        .. image:: images/photo_natiele.png
