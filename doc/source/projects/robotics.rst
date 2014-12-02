@@ -10,16 +10,16 @@ Supun Kamburugamuva supun06@gmail.com
 Abstract
 ----------------------------------------------------------------------
 
-There now exists an enormous network of geographically distributed devices equipped with sensors and connected to the 
-Internet. These multitudinous sensors produce a huge amount of data, presenting an acute computational problem. In our 
-project we demonstrate the effectiveness of cloud processing in handling such a data set, using the Microsoft Kinect 
-depth camera based TurtleBot as a test case. We discuss compression and message passing techniques requisite for efficient
-transmission of IR camera frames, a simple cloud processing topology using Apache Storm, and conclude with an analysis
-of measurable factors within our command chain. A two-stage compression process is utilized resulting in a consistently
-high compression ratio of 10:1 for depth frames in a time of 10 ms. In addition, the latency per frame is kept to a 
-relatively low 35 ms, which we believe will respond well when scaled. Further work is currently underway to simulate 
-processing groups of sensors simultaneously so that scalability may be tested. Ultimately, the cloud offers a promising
-solution to real-time processing and control of sensors.
+Abstract: In this paper we describe IoTCloud; a platform to connect smart devices to cloud services 
+for real time data processing and control. A connected device to IoTCloud can communicate with the real 
+time data processing framework running in the cloud via messaging. The platform design is scalable in 
+connecting devices, transferring data and processing data. A user can develop real time data processing 
+algorithms in an abstract framework without concerning about underlying details of how the data is distributed 
+and transferred. As applications to this platform we primarily consider real time robotics applications 
+such as autonomous robot navigation, where there are strict requirements on processing latency and demands 
+scalable processing. To demonstrate the feasibility of the system, a robotic application is developed on top 
+of the framework. The system and the robotics application characteristics are measured to show that processing 
+in central data centers can be used for real time robotics applications.
 
 Poster
 ---------------------------------------------------------------------
